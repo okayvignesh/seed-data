@@ -1,0 +1,1056 @@
+[{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d99a"
+  },
+  "name": "SUM()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "SUM(number1, [number2], ...)",
+    "details": "Adds the given numbers together.",
+    "example": "=SUM(10, 20, 30) returns 60.",
+    "parameters": [
+      {
+        "keyName": "number1",
+        "value": "Numeric arguments to sum."
+      },
+      {
+        "keyName": "number2",
+        "value": "Numeric arguments to sum."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d99b"
+  },
+  "name": "SUBTRACT()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "SUBTRACT(number1, [number2], ...)",
+    "details": " Subtract the given numbers together.",
+    "example": " =SUBTRACT(30,20) returns 10.",
+    "parameters": [
+      {
+        "keyName": "number1",
+        "value": "Numeric arguments to subtract."
+      },
+      {
+        "keyName": "number2",
+        "value": "Numeric arguments to subtract."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d99c"
+  },
+  "name": "MULTIPLY()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "MULTIPLY(number1, [number2], ...)",
+    "details": "This function multiplies all the numbers provided as parameters.",
+    "example": "MULTIPLY(1, 2, 3) returns the product as 6",
+    "parameters": [
+      {
+        "keyName": "number1",
+        "value": "The first number or range to be multiplied."
+      },
+      {
+        "keyName": "[number2]",
+        "value": "Additional numbers or ranges to be multiplied."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d99d"
+  },
+  "name": "AVERAGE()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "AVERAGE(number1, [number2], ...)",
+    "details": "Calculates the average of the given numbers.",
+    "example": "AVERAGE(10, 20, 30) returns 20.",
+    "parameters": [
+      {
+        "keyName": "number1",
+        "value": "Numeric arguments for which you want the average."
+      },
+      {
+        "keyName": "number2",
+        "value": "Numeric arguments for which you want the average."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d99e"
+  },
+  "name": "MODULUS()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "MODULUS(number, divisor)",
+    "details": "Returns the remainder after dividing one number by another. It is often used to determine if a number is even or odd, or to perform cyclic operations.",
+    "example": "=MOD(10, 3) returns 1, because when 10 is divided by 3, the remainder is 1.",
+    "parameters": [
+      {
+        "keyName": "number",
+        "value": "The number to be divided (the dividend)."
+      },
+      {
+        "keyName": "divisor",
+        "value": "The number by which to divide (the divisor)."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d99f"
+  },
+  "name": "CONCATENATE()",
+  "type": "DEFAULT",
+  "description": {
+    "name": " CONCATENATE(\"text1\", [text2], ...)",
+    "details": "Joins several text strings into one.",
+    "example": "CONCATENATE(\"Hello\", \" \", \"World\")",
+    "parameters": [
+      {
+        "keyName": "text1",
+        "value": "text1, text2… are strings to be joined into a single string"
+      },
+      {
+        "keyName": "text2",
+        "value": "text1, text2… are strings to be joined into a single string."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a0"
+  },
+  "name": "LEFT()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "LEFT(text, [num_chars])",
+    "details": "Returns the first character(s) from a text string, starting from the left.",
+    "example": "LEFT(\"Hello World\", 5) returns \"Hello\". If num_chars is not specified, =LEFT(\"Hello World\") returns \"H\".",
+    "parameters": [
+      {
+        "keyName": "text",
+        "value": "The text string from which to extract the characters."
+      },
+      {
+        "keyName": "[num_chars]:",
+        "value": "(Optional) The number of characters to extract from the left side of the text. If omitted, it defaults to 1."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a1"
+  },
+  "name": "RIGHT()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "RIGHT(text, [num_chars])",
+    "details": "Returns the specified number of characters from the end of a text string.",
+    "example": "=RIGHT(\"Hello World\", 5) returns \"World\".",
+    "parameters": [
+      {
+        "keyName": "text1",
+        "value": "The string from which you want to extract the characters."
+      },
+      {
+        "keyName": "start_num",
+        "value": "(Optional) The number of characters to extract from the end. Default is 1."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a2"
+  },
+  "name": "MID()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "MID(text, start_num, num_chars)",
+    "details": " Extracts a substring from a text string, starting at a specified position.",
+    "example": "=MID(\"Hello World\", 7, 5) returns \"World\".",
+    "parameters": [
+      {
+        "keyName": "text1",
+        "value": "The string from which you want to extract the characters."
+      },
+      {
+        "keyName": "start_num",
+        "value": "The position of the first character to extract (1-based)."
+      },
+      {
+        "keyName": "num_chars",
+        "value": "The number of characters to return from text."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a3"
+  },
+  "name": "UPPER()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "UPPER(text)",
+    "details": "Converts a text string to uppercase.",
+    "example": "UPPER(\"Hello World\") returns \"HELLO WORLD\".",
+    "parameters": [
+      {
+        "keyName": "text",
+        "value": "The text string which you want to convert text to uppercase."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a4"
+  },
+  "name": "LOWER()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "LOWER(text)",
+    "details": "Converts a text string to lowercase.",
+    "example": "LOWER(\"Hello World\") returns \"hello world\".",
+    "parameters": [
+      {
+        "keyName": "text",
+        "value": "The text string which you want to convert text to lowercase."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a5"
+  },
+  "name": "PROPER()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "PROPER(text)",
+    "details": "Capitalizes the first letter of each word in a text string.",
+    "example": "PROPER(\"hello world\") returns \"Hello World\".",
+    "parameters": [
+      {
+        "keyName": "text",
+        "value": "The text string in which you want to capitalize the first letter in each word."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a6"
+  },
+  "name": "TODAY()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "TODAY()",
+    "details": "Returns the current date as per local system date format.",
+    "example": "TODAY() might return 08/08/2024 if today's date is 8th August 2024.",
+    "parameters": [
+      {
+        "keyName": "",
+        "value": ""
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a7"
+  },
+  "name": "NOW()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "NOW()",
+    "details": "Returns the current date and time based on your system's date & time format.",
+    "example": "NOW() might return 08/23/2024 12:20 pm based on your system's date time format",
+    "parameters": [
+      {
+        "keyName": "",
+        "value": ""
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a8"
+  },
+  "name": "DAY()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "DAY()",
+    "details": "Returns the day part from a given date.",
+    "example": "DAY(\"01/08/2024\") returns 1.",
+    "parameters": [
+      {
+        "keyName": "date",
+        "value": "Input date from which the day will be extracted"
+      },
+      {
+        "keyName": "format",
+        "value": "Desired output format.(Optional- If parameters are not specified, then, the current date will be used.)"
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9a9"
+  },
+  "name": "MONTH()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "MONTH()",
+    "details": "Returns the month part from a given date.",
+    "example": "=MONTH(\"01/08/2024\") returns 8.",
+    "parameters": [
+      {
+        "keyName": "date",
+        "value": "Input date from which the month will be extracted"
+      },
+      {
+        "keyName": "format",
+        "value": "Desired output format.(Optional- If parameters are not specified, then, the current date will be used.)"
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9aa"
+  },
+  "name": "YEAR()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "YEAR()",
+    "details": "Returns the year from a date.",
+    "example": "=YEAR(\"01/08/2024\") returns 2024.",
+    "parameters": [
+      {
+        "keyName": "date",
+        "value": "Input date from which the year will be extracted"
+      },
+      {
+        "keyName": "format",
+        "value": "Desired output format.(Optional- If parameters are not specified, then, the current date will be used.)"
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9ab"
+  },
+  "name": "HOUR()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "HOUR()",
+    "details": "Returns the hour from a given time string.",
+    "example": "=HOUR(\"12:30:45 PM\") returns 12.",
+    "parameters": [
+      {
+        "keyName": "time",
+        "value": "Input time string (Optional – If parameter is not specified, then, the current time will be used.)"
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9ac"
+  },
+  "name": "MINUTE()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "MINUTE()",
+    "details": "Returns the minute from a given time string.",
+    "example": "=MINUTE(\"12:30:45 PM\") returns 30.",
+    "parameters": [
+      {
+        "keyName": "time",
+        "value": "Input time string (Optional – If parameter is not specified, then, the current time will be used.)"
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9ad"
+  },
+  "name": "SECOND()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "SECOND()",
+    "details": "Returns the second  from a given time string.",
+    "example": "=SECOND(\"12:30:45 PM\") returns 45.",
+    "parameters": [
+      {
+        "keyName": "time",
+        "value": "Input time string (Optional – If parameter is not specified, then, the current time will be used.)"
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9ae"
+  },
+  "name": "SPLIT()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "SPLIT(text,delimiter,index)",
+    "details": "Splits a string using the specified delimiter and returns the value at the given index (0-based).",
+    "example": "SPLIT(\"Hello,World,Excel\", \",\",1) splits the text \"Hello,World,Excel\" into three parts: \"Hello\", \"World\", and \"Excel\",and will return \"world\"",
+    "parameters": [
+      {
+        "keyName": "text",
+        "value": "The text string to split."
+      },
+      {
+        "keyName": "delimiter",
+        "value": "The character or string used to divide the text."
+      },
+      {
+        "keyName": "index",
+        "value": "The position of the part to return (1-based). For example, 1 returns the first part, 2 returns the second part, and so on."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9af"
+  },
+  "name": "CREDIT_CARD_CVV()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "CREDIT_CARD_CVV(\"Country name\")",
+    "details": "Generates a credit card CVV code based on the specified country.",
+    "example": "=CREDIT_CARD_CVV(\"US\") might return \"123\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The country code for which to generate the CVV code."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b0"
+  },
+  "name": "CREDIT_CARD_NUMBER()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "CREDIT_CARD_NUMBER(\"Country Name)",
+    "details": "Generates a credit card number based on the specified country.",
+    "example": "=CREDIT_CARD_NUMBER(\"US\") might return \"123\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The country code for which to generate the card number."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b1"
+  },
+  "name": "CURRENCY_CODE()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "CURRENCY_CODE(\"country name\")",
+    "details": "Returns the currency code for the specified country.",
+    "example": "=CURRENCY_CODE(\"United States\") returns \"USD\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the currency code."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b2"
+  },
+  "name": "CURRENCY_NAME()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "CURRENCY_NAME(\"country name\")",
+    "details": "Returns the currency name for the specified country.",
+    "example": "CURRENCY_NAME(\"United States\") returns \"Dollar\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the currency code."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b3"
+  },
+  "name": "CURRENCY_SYMBOL()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "CURRENCY_SYMBOL(\"country name\")",
+    "details": "Returns the currency symbol for the specified country.",
+    "example": "=CURRENCY_SYMBOL(\"United States\") returns \"$\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the currency code."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b4"
+  },
+  "name": "COUNTRY_NAME()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "COUNTRY_NAME()",
+    "details": "Returns a random country name.",
+    "example": "=COUNTRY(\"Asia) might return \"India\".",
+    "parameters": [
+      {
+        "keyName": "Continent",
+        "value": "Continent Name based on which the country name will be retrieved.(Optional - if parameter not specified, then random country name will be returned)"
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b5"
+  },
+  "name": "COUNTRY_CODE()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "COUNTRY_CODE(\"country name\")",
+    "details": "Returns the country code for the specified country.",
+    "example": "COUNTRY_CODE(\"United States\") might return\"123\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the country code."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b6"
+  },
+  "name": "CITY()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "CITY(\"state name\")",
+    "details": "Returns a name of a city randomly based on the entered country name. Parameter: country name - The name of the country for which you want to retrieve city information",
+    "example": "city(\"france\") might return the value as Paris",
+    "parameters": [
+      {
+        "keyName": "State",
+        "value": "State name based on which City name would be returned.(Optional- If parameter not specified, then, a random city will be returned.)"
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b7"
+  },
+  "name": "FIRST_NAME()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "FIRST_NAME(country name,sex,min,max)",
+    "details": "Generates a first name based on the specified country and sex.",
+    "example": "=FIRST_NAME(\"United States\", \"Male\", 3, 10) might return \"John\".",
+    "parameters": [
+      {
+        "keyName": "country name:",
+        "value": "The name of the country."
+      },
+      {
+        "keyName": "sex:",
+        "value": "The gender for the name (\"Male\" or \"Female\")."
+      },
+      {
+        "keyName": "min:",
+        "value": "The minimum length of the name."
+      },
+      {
+        "keyName": "max:",
+        "value": "The maximum length of the name."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b8"
+  },
+  "name": "LAST_NAME()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "LAST_NAME(country name,sex,min,max)",
+    "details": "Generates a last name based on the specified country and sex.",
+    "example": "=LAST_NAME(\"United States\", \"Male\", 3, 10) might return \"Smith\".",
+    "parameters": [
+      {
+        "keyName": "country name:",
+        "value": "The name of the country."
+      },
+      {
+        "keyName": "sex:",
+        "value": "The gender for the name (\"Male\" or \"Female\")."
+      },
+      {
+        "keyName": "min:",
+        "value": "The minimum length of the name."
+      },
+      {
+        "keyName": "max:",
+        "value": "The maximum length of the name."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9b9"
+  },
+  "name": "FULL_NAME()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "FULL_NAME(country name,sex,min,max)",
+    "details": "Generates a full name based on the specified country and sex.",
+    "example": "=FULL_NAME(\"United States\", \"Male\", 3, 10) might return \"Smith\".",
+    "parameters": [
+      {
+        "keyName": "country name:",
+        "value": "The name of the country."
+      },
+      {
+        "keyName": "sex:",
+        "value": "The gender for the name (\"Male\" or \"Female\")."
+      },
+      {
+        "keyName": "min:",
+        "value": "The minimum length of the name."
+      },
+      {
+        "keyName": "max:",
+        "value": "The maximum length of the name."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9ba"
+  },
+  "name": "MIDDLE_NAME()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "MIDDLE_NAME(country name,sex,min,max)",
+    "details": "Generates a middle name based on the specified country and sex.",
+    "example": "=MIDDLE_NAME(\"United States\", \"Male\", 3, 10) might return \"Smith\".",
+    "parameters": [
+      {
+        "keyName": "country name:",
+        "value": "The name of the country."
+      },
+      {
+        "keyName": "sex:",
+        "value": "The gender for the name (\"Male\" or \"Female\")."
+      },
+      {
+        "keyName": "min:",
+        "value": "The minimum length of the name."
+      },
+      {
+        "keyName": "max:",
+        "value": "The maximum length of the name."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9bb"
+  },
+  "name": "PREFIX()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "PREFIX(sex)",
+    "details": "Returns a prefix (Mr., Mrs., etc.) based on the specified sex.",
+    "example": "=PREFIX(\"Male\") returns \"Mr.\".",
+    "parameters": [
+      {
+        "keyName": "sex",
+        "value": "The gender for which to get the prefix (\"Male\" or \"Female\")."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9bc"
+  },
+  "name": "PHONE_NUMBER()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "PHONE_NUMBER(\"country name\")",
+    "details": "Generates a phone number based on the specified country.",
+    "example": "=PHONE_NUMBER(\"United States\") might return \"+1-555-555-5555\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the phone number."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9bd"
+  },
+  "name": "TIMEZONE()",
+  "type": "DEFAULT",
+  "description": {
+    "name": " TIMEZONE(\"country name\")",
+    "details": "Returns the time zone for the specified country.",
+    "example": "=TIME_ZONE(\"United States\") might return \"Central Standard Time\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the timezone."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9be"
+  },
+  "name": "STREET()",
+  "type": "DEFAULT",
+  "description": {
+    "name": " STREET(\"country name\")",
+    "details": "Returns a street address for the specified country.",
+    "example": "=STREET(\"United States\") might return \"123 Main St\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the street."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9bf"
+  },
+  "name": "ADDRESS()",
+  "type": "DEFAULT",
+  "description": {
+    "name": " ADDRESS(\"country name\")",
+    "details": "Returns a complete address for the specified country.",
+    "example": "=ADDRESS(\"United States\") might return \"123 Main St, Springfield, IL, 62701\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the full address."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9c0"
+  },
+  "name": "STATE()",
+  "type": "DEFAULT",
+  "description": {
+    "name": " STATE(\"country name\")",
+    "details": "Returns a postal code for the specified country.",
+    "example": "=STATE(\"United States\") might return \"California\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the state."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9c1"
+  },
+  "name": "ZIPCODE()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "ZIPCODE(\"country name\")",
+    "details": "Returns a state/province for the specified country.",
+    "example": "=ZIPCODE(\"United States\") might return \"62701\".",
+    "parameters": [
+      {
+        "keyName": "Country Name",
+        "value": "The name of the country for which to get the zipcode."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9c2"
+  },
+  "name": "DATE_OF_BIRTH()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "Date of Birth - DOB(dd/mm/yyyy, start, end)",
+    "details": "Generates a date of birth based on the given format and age range.",
+    "example": "DOB(\"dd/mm/yyyy\", 5, 25) might return \"15/06/1985\".",
+    "parameters": [
+      {
+        "keyName": "Format",
+        "value": "Desired output date format (e.g., \"dd/MM/yyyy\")"
+      },
+      {
+        "keyName": "MinAge",
+        "value": " Minimum age of the person."
+      },
+      {
+        "keyName": "MaxAge",
+        "value": "Maximum age of the person."
+      },
+      {
+        "keyName": "Optional",
+        "value": "If parameters are not specified, then, a random format and age within default ranges will be used."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9c3"
+  },
+  "name": "READ_FROM_EXCEL()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "=ReadFromExcel([file-path], [sheet-name], [cell-reference])",
+    "details": "Fetches data from the specified Excel file during test execution. The fetched value is used as test data for the parameter.",
+    "example": "=ReadFromExcel(\"C:\\\\Data\\\\Test.xlsx\", \"Sheet1\", \"A1\")",
+    "parameters": [
+      {
+        "keyName": "File path",
+        "value": "The path to the Excel file. Can be a local file path or a repository path. Supports parameterization."
+      },
+      {
+        "keyName": "Sheet Name",
+        "value": "The name of the sheet in the Excel file to read from. Supports parameterization."
+      },
+      {
+        "keyName": "Cell Reference",
+        "value": "The reference to the cell (e.g., A1, B2) whose value needs to be fetched. Supports parameterization."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9c4"
+  },
+  "name": "ONCE()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "ONCE(Formula)",
+    "details": "Ensures that a dynamic formula is evaluated only once per test case execution. The result remains constant throughout the execution, and a new value is generated on subsequent executions. =ONCE() is invalid for static values (e.g., =ONCE(\"John\")). It supports various dynamic formulas like FIRSTNAME(), LASTNAME(), EMAIL() etc and parameterization with {{...}}.",
+    "example": "=ONCE(=FIRSTNAME(\"India\")) generates a first name once during the test run and retains the value until the test is executed again.",
+    "parameters": [
+      {
+        "keyName": "Formula",
+        "value": "The dynamic formula to be evaluated. Can include functions like FIRSTNAME(), EMAIL(), etc. Supports parameterization with {{...}}."
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d9c5"
+  },
+  "name": "EMAIL_ID()",
+  "type": "DEFAULT",
+  "description": {
+    "name": "EMAIL([prefix], [domain], [format])",
+    "details": "Generates a realistic email address based on prefix, domain & format.",
+    "example": "EMAIL(\"john\", \"example.com\") returns john@example.com.",
+    "parameters": [
+      {
+        "keyName": "Prefix",
+        "value": "String used as the username for email."
+      },
+      {
+        "keyName": "Domain",
+        "value": "Domain name for the email address. (E.g.: simplify3x.com)"
+      }
+    ]
+  },
+  "customerId": 1,
+  "createdAt": "2026-02-25T14:30:00.598Z",
+  "updatedAt": "2026-02-25T14:30:00.598Z"
+}]

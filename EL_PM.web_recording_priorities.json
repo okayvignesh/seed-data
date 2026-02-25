@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "699f07667c1e929eb38b0fd0"
+  },
+  "customerId": 1,
+  "projectId": 1,
+  "attribitePriorities": {
+    "0": "label",
+    "1": "ariaLabel",
+    "2": "name",
+    "3": "placeholder",
+    "4": "ariaPlaceholder",
+    "5": "title",
+    "6": "text",
+    "7": "textContent",
+    "8": "innerText",
+    "9": "alt",
+    "10": "formcontrolname",
+    "11": "tagName"
+  },
+  "attributePrioritiesForAndroid": {
+    "0": "text",
+    "1": "content-desc",
+    "2": "resource-id",
+    "3": "class",
+    "4": "tagname"
+  },
+  "attributePrioritiesForIos": {
+    "0": "label",
+    "1": "value",
+    "2": "name",
+    "3": "placeholderValue",
+    "4": "type",
+    "5": "tagname"
+  }
+}]

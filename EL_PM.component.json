@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b138"
+  },
+  "label": "Epic",
+  "key": "epic",
+  "imgUrl": "/assets/images/Clip path group.svg",
+  "id": 1,
+  "originalLabel": "Epic",
+  "customerId": 1,
+  "enablechildissue": true
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b139"
+  },
+  "label": "Feature",
+  "key": "feature",
+  "imgUrl": "/assets/images/feature-confiq.svg",
+  "id": 2,
+  "originalLabel": "Feature",
+  "customerId": 1,
+  "enablechildissue": true
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b13a"
+  },
+  "label": "Linkages",
+  "key": "linkages",
+  "imgUrl": "/assets/images/linkage-confiq.svg",
+  "id": 10,
+  "originalLabel": "Linkages",
+  "customerId": 1,
+  "enablechildissue": false
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b13b"
+  },
+  "label": "Release",
+  "key": "release",
+  "imgUrl": "/assets/images/linkage-confiq.svg",
+  "id": 11,
+  "originalLabel": "Release",
+  "customerId": 1
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b13c"
+  },
+  "label": "Sprint",
+  "key": "sprint",
+  "imgUrl": "/assets/images/linkage-confiq.svg",
+  "id": 12,
+  "originalLabel": "Sprint",
+  "customerId": 1
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b13f"
+  },
+  "label": "User Story",
+  "key": "userstory",
+  "imgUrl": "/assets/images/userstory-confiq.svg",
+  "id": 3,
+  "originalLabel": "User Story",
+  "customerId": 1,
+  "enablechildissue": true,
+  "projectId": 1
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b140"
+  },
+  "label": "Task",
+  "key": "task",
+  "imgUrl": "/assets/images/task-confiq.svg",
+  "id": 4,
+  "originalLabel": "Task",
+  "customerId": 1,
+  "enablechildissue": false,
+  "projectId": 1
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b141"
+  },
+  "label": "Test Case",
+  "key": "testcase",
+  "imgUrl": "/assets/images/tc-confiq.svg",
+  "id": 5,
+  "originalLabel": "Testcase",
+  "customerId": 1,
+  "enablechildissue": false,
+  "projectId": 1
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b142"
+  },
+  "label": "Function",
+  "key": "function",
+  "imgUrl": "/assets/images/function-confiq.svg",
+  "id": 6,
+  "originalLabel": "Function",
+  "customerId": 1,
+  "enablechildissue": false,
+  "projectId": 1
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b143"
+  },
+  "label": "Suite",
+  "originalLabel": "Suite",
+  "key": "suite",
+  "imgUrl": "/assets/images/su-confiq.svg",
+  "id": 7,
+  "customerId": 1,
+  "enablechildissue": false,
+  "projectId": 1
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b144"
+  },
+  "label": "Environment",
+  "key": "environment",
+  "imgUrl": "/assets/images/Environment-confiq.svg",
+  "id": 8,
+  "originalLabel": "Environment",
+  "customerId": 1,
+  "enablechildissue": false,
+  "projectId": 1
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b145"
+  },
+  "label": "Defect",
+  "key": "defect",
+  "imgUrl": "/assets/images/defect-confiq.svg",
+  "id": 9,
+  "originalLabel": "Defect",
+  "customerId": 1,
+  "enablechildissue": false,
+  "projectId": 1
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b146"
+  },
+  "label": "Sub Projects",
+  "key": "subProject",
+  "imgUrl": "/assets/images/subproject.svg",
+  "id": 13,
+  "originalLabel": "Sub Project",
+  "customerId": 1,
+  "projectId": 1
+}]

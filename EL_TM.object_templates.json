@@ -1,0 +1,1490 @@
+[{
+  "_id": {
+    "$oid": "699f07687c1e929eb38b0fdb"
+  },
+  "customerId": 1,
+  "id": 1,
+  "actionList": [
+    {
+      "action": "longPress",
+      "description": "Long press on [object_name]",
+      "isDefault": false,
+      "actionId": 1,
+      "disName": "Long Press"
+    },
+    {
+      "action": "emulatorEvent",
+      "description": "Perform specified adb action.",
+      "isDefault": false,
+      "actionId": 7,
+      "disName": "Emulator Event"
+    },
+    {
+      "action": "toggleWifi",
+      "description": "Toggle wifi",
+      "isDefault": false,
+      "actionId": 8,
+      "disName": "Toggle Wifi"
+    },
+    {
+      "action": "scrollTillElementPresentAndClick",
+      "description": "Scroll till [object_name] is present and click",
+      "isDefault": false,
+      "actionId": 14,
+      "disName": "Scroll till Element is Present and Click"
+    },
+    {
+      "action": "switchApp",
+      "description": "Switches to [param_name_1]",
+      "isDefault": false,
+      "actionId": 16,
+      "disName": "Switch App"
+    },
+    {
+      "action": "wifiStatus",
+      "description": "Verify wifi status",
+      "isDefault": false,
+      "actionId": 17,
+      "disName": "Verify Wifi Status"
+    },
+    {
+      "action": "elementIsClickable",
+      "description": "Verify if [object_name] is clickable",
+      "isDefault": false,
+      "actionId": 19,
+      "disName": "Element is Clickable"
+    },
+    {
+      "action": "elementIsSelected",
+      "description": "Verify if [object_name] is selected",
+      "isDefault": false,
+      "actionId": 25,
+      "disName": "Element is Selected"
+    },
+    {
+      "action": "scrollToBottom",
+      "description": "Object not required",
+      "isDefault": false,
+      "actionId": 29,
+      "disName": "Scroll to Bottom"
+    },
+    {
+      "action": "scrollTillElementIsNotPresent",
+      "description": "Scroll till [object_name] is not present",
+      "isDefault": false,
+      "actionId": 31,
+      "disName": "Scroll till Element is not Present"
+    },
+    {
+      "action": "waitUntilElementPresent",
+      "description": "Wait till [object_name] is present\n",
+      "isDefault": false,
+      "actionId": 35,
+      "disName": "Wait until Element is Present"
+    },
+    {
+      "action": "clickByText",
+      "description": "Clicks on [object_name] based on  [param_name_1] and [param_name_2].",
+      "isDefault": false,
+      "actionId": 41,
+      "disName": "Click By Text"
+    },
+    {
+      "action": "uninstallApp",
+      "description": "Uninstall [param_name_1]",
+      "isDefault": false,
+      "actionId": 43,
+      "disName": "Uninstall App"
+    },
+    {
+      "action": "Lock",
+      "description": "Lock the screen",
+      "isDefault": false,
+      "actionId": 48,
+      "disName": "Lock"
+    },
+    {
+      "action": "scrollLeft",
+      "description": "Object not required",
+      "isDefault": false,
+      "actionId": 52,
+      "disName": "Scroll Left"
+    },
+    {
+      "action": "internetStatus",
+      "description": "Verify Internet status",
+      "isDefault": false,
+      "actionId": 53,
+      "disName": "Verify Internet Status"
+    },
+    {
+      "action": "installApp",
+      "description": "Install [param_name_1]",
+      "isDefault": false,
+      "actionId": 57,
+      "disName": "Install App"
+    },
+    {
+      "action": "swipeEvent",
+      "description": "Object Required",
+      "isDefault": false,
+      "actionId": 70,
+      "disName": "Swipe Event"
+    },
+    {
+      "action": "enterText",
+      "description": "Type text in [object_name]",
+      "isDefault": false,
+      "actionId": 77,
+      "disName": "Type Text"
+    },
+    {
+      "action": "elementIsNotSelected",
+      "description": "Verify if [object_name] is not selected",
+      "isDefault": false,
+      "actionId": 84,
+      "disName": "Element is not Selected"
+    },
+    {
+      "action": "toggleInternet",
+      "description": "Toggle Internet",
+      "isDefault": false,
+      "actionId": 85,
+      "disName": "Toggle Internet"
+    },
+    {
+      "action": "resetApp",
+      "description": "Reset the App",
+      "isDefault": false,
+      "actionId": 87,
+      "disName": "Reset App"
+    },
+    {
+      "action": "getTextAndStore",
+      "description": "Get text in [object_name] and store in [param_name]",
+      "isDefault": false,
+      "actionId": 98,
+      "disName": "Get Text and Store"
+    },
+    {
+      "action": "elementIsNotChecked",
+      "description": "Verify if [object_name] is not checked",
+      "isDefault": false,
+      "actionId": 99,
+      "disName": "Element is not Checked"
+    },
+    {
+      "action": "clearText",
+      "description": "Clear text in [object_name]",
+      "isDefault": false,
+      "actionId": 104,
+      "disName": "Clear Text"
+    },
+    {
+      "action": "validatePartialText",
+      "description": "Verify text in [object_name] partially",
+      "isDefault": false,
+      "actionId": 109,
+      "disName": "Validate Partial Text"
+    },
+    {
+      "action": "elementIsEnabled",
+      "description": "Verify if [object_name] is enabled",
+      "isDefault": false,
+      "actionId": 112,
+      "disName": "Element is Enabled"
+    },
+    {
+      "action": "scrollTillElementIsPresent",
+      "description": "Scroll till [object_name] is present",
+      "isDefault": false,
+      "actionId": 120,
+      "disName": "Scroll till Element is Present"
+    },
+    {
+      "action": "getAttributeAndStore",
+      "description": "Get attribute value from [object_name] and store in [param_name_1]",
+      "isDefault": false,
+      "actionId": 121,
+      "disName": "Get Attribute and Store"
+    },
+    {
+      "action": "validateText",
+      "description": "Verify text in [object_name]",
+      "isDefault": false,
+      "actionId": 122,
+      "disName": "Validate Text"
+    },
+    {
+      "action": "clickByTextIfTextPresent",
+      "description": "Clicks on [object_name] if present based on  [param_name_1] and [param_name_2].",
+      "isDefault": false,
+      "actionId": 123,
+      "disName": "Click By Text If Text Present"
+    },
+    {
+      "action": "elementIsDisabled",
+      "description": "Verify if [object_name] is disabled",
+      "isDefault": false,
+      "actionId": 128,
+      "disName": "Element is Disabled"
+    },
+    {
+      "action": "bluetoothStatus",
+      "description": "Verify Bluetooth status",
+      "isDefault": false,
+      "actionId": 131,
+      "disName": "Verify Bluetooth Status"
+    },
+    {
+      "action": "scrollRight",
+      "description": "Object not required",
+      "isDefault": false,
+      "actionId": 135,
+      "disName": "Scroll Right"
+    },
+    {
+      "action": "elementIsChecked",
+      "description": "Verify if [object_name] is checked",
+      "isDefault": false,
+      "actionId": 141,
+      "disName": "Element is Checked"
+    },
+    {
+      "action": "unlock",
+      "description": "Unlock the screen",
+      "isDefault": false,
+      "actionId": 144,
+      "disName": "Unlock"
+    },
+    {
+      "action": "waitUntilElementNotPresent",
+      "description": "Wait till [object_name] is not present\n",
+      "isDefault": false,
+      "actionId": 145,
+      "disName": "Wait until Element is not Present"
+    },
+    {
+      "action": "clickIfExist",
+      "description": "Click if [object_name] is present",
+      "isDefault": false,
+      "actionId": 150,
+      "disName": "Click if Element is Present"
+    },
+    {
+      "action": "toggleBluetooth",
+      "description": "Toggle bluetooth",
+      "isDefault": false,
+      "actionId": 160,
+      "disName": "Toggle Bluetooth"
+    },
+    {
+      "action": "isLocked",
+      "description": "Screen Lock Status",
+      "isDefault": false,
+      "actionId": 161,
+      "disName": "Verify Screen Lock Status"
+    },
+    {
+      "action": "airplaneModeStatus",
+      "description": "Object Not Required ",
+      "isDefault": false,
+      "actionId": 162,
+      "disName": "Verify Airplane Mode Status"
+    },
+    {
+      "action": "click",
+      "description": "Click on [object_name]",
+      "isDefault": false,
+      "actionId": 164,
+      "disName": "Click"
+    },
+    {
+      "action": "scrollToTop",
+      "description": "Object not required",
+      "isDefault": false,
+      "actionId": 168,
+      "disName": "Scroll to Top"
+    },
+    {
+      "action": "rotateScreen",
+      "description": "Rotate device screen to [param_name_1] mode.",
+      "isDefault": false,
+      "actionId": 169,
+      "disName": "Rotate Screen"
+    },
+    {
+      "action": "closeApp",
+      "description": "Close [param_name_1]",
+      "isDefault": false,
+      "actionId": 175,
+      "disName": "Close App"
+    },
+    {
+      "action": "startApp",
+      "description": "Start the app",
+      "isDefault": false,
+      "actionId": 178,
+      "disName": "Start App"
+    },
+    {
+      "action": "openNotification",
+      "description": "Open notification panel",
+      "isDefault": false,
+      "actionId": 197,
+      "disName": "Open Notifications"
+    }
+  ],
+  "code": "OT-1",
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.234Z"
+  },
+  "createdBy": 1,
+  "deleted": false,
+  "description": "",
+  "disname": "ANDROID",
+  "name": "ANDROID"
+},
+{
+  "_id": {
+    "$oid": "699f07687c1e929eb38b0fdc"
+  },
+  "customerId": 1,
+  "id": 2,
+  "actionList": [
+    {
+      "action": "insertDocument",
+      "description": "Insert [param_name_2] into [param_name_1].",
+      "isDefault": false,
+      "actionId": 2,
+      "disName": "Insert Document"
+    },
+    {
+      "action": "readDocuments",
+      "description": "Read documents from [param_name_2] based on [param_name_1], [param_name_3] criteria and store the read documents in [param_name_4].",
+      "isDefault": false,
+      "actionId": 27,
+      "disName": "Read Documents"
+    },
+    {
+      "action": "readData",
+      "description": "Read data from a table using [param_name_1] and stores the result set in [param_name_2].",
+      "isDefault": false,
+      "actionId": 28,
+      "disName": "Read Data"
+    },
+    {
+      "action": "insertData",
+      "description": "Insert data [param_name_2] into [param_name_1]and stores the modified row count in [param_name_3].",
+      "isDefault": false,
+      "actionId": 30,
+      "disName": "Insert Data"
+    },
+    {
+      "action": "executeQuery",
+      "description": "Executes a database query with [param_name_1] and stores the result set in [param_name_2].",
+      "isDefault": false,
+      "actionId": 33,
+      "disName": "Execute Query"
+    },
+    {
+      "action": "insertDocument",
+      "description": "Insert [param_name_3] into [param_name_2] and [param_name_1].",
+      "isDefault": false,
+      "actionId": 39,
+      "disName": "Insert Document"
+    },
+    {
+      "action": "update",
+      "description": "Perform an update on the database with [param_name_1].",
+      "isDefault": false,
+      "actionId": 49,
+      "disName": "Update"
+    },
+    {
+      "action": "updateDocuments",
+      "description": "Update documents using [param_name_3] in [param_name_1] based on [param_name_4] and [param_name_2] criteria.",
+      "isDefault": false,
+      "actionId": 69,
+      "disName": "Update Documents"
+    },
+    {
+      "action": "connectToDb",
+      "description": "Establish a connection to [param_name_6] using parameters: [param_name_1], [param_name_2], [param_name_3], [param_name_4], [param_name_5].",
+      "isDefault": false,
+      "actionId": 86,
+      "disName": "Connect to DB"
+    },
+    {
+      "action": "update",
+      "description": "Perform an update operation on the database with [param_name_1] and stores the modified row count in [param_name_2].",
+      "isDefault": false,
+      "actionId": 97,
+      "disName": "Update"
+    },
+    {
+      "action": "executeQuery",
+      "description": "Executes a database query using [param_name_1].",
+      "isDefault": false,
+      "actionId": 149,
+      "disName": "Execute Query"
+    },
+    {
+      "action": "insertData",
+      "description": "Insert data [param_name_2] into a [param_name_1].",
+      "isDefault": false,
+      "actionId": 156,
+      "disName": "Insert Data"
+    },
+    {
+      "action": "connectToMongoDb",
+      "description": "Establish a connection to a MongoDB instance using [param_name_1].",
+      "isDefault": false,
+      "actionId": 159,
+      "disName": "Connect To MongoDb"
+    },
+    {
+      "action": "updateDocuments",
+      "description": "Update documents using [param_name_4] in [param_name_2] based on [param_name_1] , [param_name_5], [param_name_3] criteria and store the count of updated documents in [param_name_6].",
+      "isDefault": false,
+      "actionId": 163,
+      "disName": "Update Documents"
+    },
+    {
+      "action": "readDocuments",
+      "description": "Read documents from [param_name_1] and store the read documents in [param_name_2].",
+      "isDefault": false,
+      "actionId": 172,
+      "disName": "Read Documents"
+    },
+    {
+      "action": "readDocuments",
+      "description": "Read documents from [param_name_2] based on [param_name_1] and store the read documents in [param_name_3].",
+      "isDefault": false,
+      "actionId": 177,
+      "disName": "Read Documents"
+    },
+    {
+      "action": "updateDocuments",
+      "description": "Update documents using [param_name_3] in [param_name_1] based on [param_name_4] , [param_name_2] criteria and store the count of updated documents in [param_name_5].",
+      "isDefault": false,
+      "actionId": 186,
+      "disName": "Update Documents"
+    },
+    {
+      "action": "updateDocuments",
+      "description": "Update documents using [param_name_4] in [param_name_2] based on [param_name_1] , [param_name_5], [param_name_3] criteria.",
+      "isDefault": false,
+      "actionId": 190,
+      "disName": "Update Documents"
+    },
+    {
+      "action": "closeConnection",
+      "description": "Closes an active database connection.",
+      "isDefault": false,
+      "actionId": 191,
+      "disName": "Close Connection"
+    }
+  ],
+  "code": "OT-2",
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.314Z"
+  },
+  "createdBy": 1,
+  "deleted": false,
+  "description": "",
+  "disname": "DATABASE",
+  "name": "DATABASE"
+},
+{
+  "_id": {
+    "$oid": "699f07687c1e929eb38b0fdd"
+  },
+  "customerId": 1,
+  "id": 3,
+  "actionList": [
+    {
+      "action": "clickByTextIfTextPresent",
+      "description": "Clicks on [object_name] if present based on  [param_name_1] and [param_name_2].",
+      "isDefault": false,
+      "actionId": 3,
+      "disName": "Click By Text If Text Present"
+    },
+    {
+      "action": "swipeEvent",
+      "description": "Object  Required",
+      "isDefault": false,
+      "actionId": 4,
+      "disName": "Swipe Event"
+    },
+    {
+      "action": "clearText",
+      "description": "Clear text in [object_name]",
+      "isDefault": false,
+      "actionId": 12,
+      "disName": "Clear Text"
+    },
+    {
+      "action": "scrollTillElementIsPresent",
+      "description": "Scroll till [object_name] is present",
+      "isDefault": false,
+      "actionId": 18,
+      "disName": "Scroll till Element is Present"
+    },
+    {
+      "action": "Lock",
+      "description": "Lock the screen",
+      "isDefault": false,
+      "actionId": 20,
+      "disName": "Lock"
+    },
+    {
+      "action": "uninstallApp",
+      "description": "Uninstall [param_name_1]",
+      "isDefault": false,
+      "actionId": 22,
+      "disName": "Uninstall App"
+    },
+    {
+      "action": "longPress",
+      "description": "Long press on [object_name]",
+      "isDefault": false,
+      "actionId": 40,
+      "disName": "Long Press"
+    },
+    {
+      "action": "rotateScreen",
+      "description": "Rotate device screen to [param_name_1] mode",
+      "isDefault": false,
+      "actionId": 45,
+      "disName": "Rotate Screen"
+    },
+    {
+      "action": "scrollRight",
+      "description": "Object Not Required",
+      "isDefault": false,
+      "actionId": 46,
+      "disName": "Scroll Right"
+    },
+    {
+      "action": "scrollLeft",
+      "description": "Object Not Required",
+      "isDefault": false,
+      "actionId": 60,
+      "disName": "Scroll Left"
+    },
+    {
+      "action": "elementIsEnabled",
+      "description": "Verify if [object_name] is enabled",
+      "isDefault": false,
+      "actionId": 62,
+      "disName": "Element is Enabled"
+    },
+    {
+      "action": "elementIsDisabled",
+      "description": "Verify if [object_name] is disabled",
+      "isDefault": false,
+      "actionId": 64,
+      "disName": "Element is Disabled"
+    },
+    {
+      "action": "clickByText",
+      "description": "Clicks on [object_name] based on  [param_name_1] and [param_name_2].",
+      "isDefault": false,
+      "actionId": 65,
+      "disName": "Click By Text"
+    },
+    {
+      "action": "switchApp",
+      "description": "Switches to [param_name_1]",
+      "isDefault": false,
+      "actionId": 71,
+      "disName": "Switch App"
+    },
+    {
+      "action": "elementIsNotSelected",
+      "description": "Verify if [object_name] is not selected",
+      "isDefault": false,
+      "actionId": 72,
+      "disName": "Element is not Selected"
+    },
+    {
+      "action": "scrollToTop",
+      "description": "Object Not Required",
+      "isDefault": false,
+      "actionId": 74,
+      "disName": "Scroll to Top"
+    },
+    {
+      "action": "click",
+      "description": "Click on [object_name]",
+      "isDefault": false,
+      "actionId": 75,
+      "disName": "Click"
+    },
+    {
+      "action": "elementIsSelected",
+      "description": "Verify if [object_name] is selected",
+      "isDefault": false,
+      "actionId": 88,
+      "disName": "Element is Selected"
+    },
+    {
+      "action": "waitUntilElementPresent",
+      "description": "Wait till [object_name] is present\n",
+      "isDefault": false,
+      "actionId": 94,
+      "disName": "Wait until Element is Present"
+    },
+    {
+      "action": "installApp",
+      "description": "Install [param_name_1]",
+      "isDefault": false,
+      "actionId": 102,
+      "disName": "Install App"
+    },
+    {
+      "action": "scrollTillElementIsNotPresent",
+      "description": "Scroll till [object_name] is not present",
+      "isDefault": false,
+      "actionId": 110,
+      "disName": "Scroll till Element is not Present"
+    },
+    {
+      "action": "waitUntilElementNotPresent",
+      "description": "Wait till [object_name] is present\n",
+      "isDefault": false,
+      "actionId": 113,
+      "disName": "Wait until Element is not Present"
+    },
+    {
+      "action": "getAttributeAndStore",
+      "description": "Get attribute value from [object_name] and store in [param_name]",
+      "isDefault": false,
+      "actionId": 115,
+      "disName": "Get Attribute and Store"
+    },
+    {
+      "action": "validatePartialText",
+      "description": "Verify text in [object_name] partially",
+      "isDefault": false,
+      "actionId": 124,
+      "disName": "Validate Partial Text"
+    },
+    {
+      "action": "closeApp",
+      "description": "CloseApp",
+      "isDefault": false,
+      "actionId": 142,
+      "disName": "Close App"
+    },
+    {
+      "action": "screenLockStatus",
+      "description": "Verify Screen Lock Status",
+      "isDefault": false,
+      "actionId": 143,
+      "disName": "Screen Lock Status"
+    },
+    {
+      "action": "scrollToBottom",
+      "description": "Object Not Required",
+      "isDefault": false,
+      "actionId": 146,
+      "disName": "Scroll to Bottom"
+    },
+    {
+      "action": "StartApp",
+      "description": "StartApp [param_name_1]",
+      "isDefault": false,
+      "actionId": 154,
+      "disName": "Start App"
+    },
+    {
+      "action": "enterText",
+      "description": "Type text in [object_name]",
+      "isDefault": false,
+      "actionId": 173,
+      "disName": "Type Text"
+    },
+    {
+      "action": "getTextAndStore",
+      "description": "Gets text from the iOS element and stores in runtime parameter",
+      "isDefault": false,
+      "actionId": 176,
+      "disName": "Get Text and Store"
+    },
+    {
+      "action": "clickIfExist",
+      "description": "Click if [object_name] is present",
+      "isDefault": false,
+      "actionId": 182,
+      "disName": "Click if Element is Present"
+    },
+    {
+      "action": "validateText",
+      "description": "Verify text in [object_name]",
+      "isDefault": false,
+      "actionId": 199,
+      "disName": "Validate Text"
+    }
+  ],
+  "code": "OT-3",
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.328Z"
+  },
+  "createdBy": 1,
+  "deleted": false,
+  "description": "",
+  "disname": "IOS",
+  "name": "IOS"
+},
+{
+  "_id": {
+    "$oid": "699f07687c1e929eb38b0fde"
+  },
+  "customerId": 1,
+  "id": 4,
+  "actionList": [
+    {
+      "action": "minimumWait",
+      "description": "Pause the execution for 1000 millisecond",
+      "isDefault": false,
+      "actionId": 5,
+      "disName": "Minimum Wait"
+    },
+    {
+      "action": "getCellDataFromCSV",
+      "description": "Get cell data from CSV and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 9,
+      "disName": "Get Cell Data from CSV"
+    },
+    {
+      "action": "downloadFileFromRepo",
+      "description": "Download file from repository and store in [param_name_2]",
+      "isDefault": false,
+      "actionId": 10,
+      "disName": "Download File from Repository"
+    },
+    {
+      "action": "updateCellDataInCSV",
+      "description": "Update cell data in CSV file",
+      "isDefault": false,
+      "actionId": 21,
+      "disName": "Update Cell Data in CSV"
+    },
+    {
+      "action": "concatenateAndStore",
+      "description": "Concatenate all the values and store in [param_name_n]",
+      "isDefault": false,
+      "actionId": 26,
+      "disName": "Concatenate and Store"
+    },
+    {
+      "action": "validate From JSON",
+      "description": "Verify if [param_name_3] is present in JSON in specified key",
+      "isDefault": false,
+      "actionId": 32,
+      "disName": "Validate from JSON"
+    },
+    {
+      "action": "checkIfFileExists",
+      "description": "Verify if file is present in local machine",
+      "isDefault": false,
+      "actionId": 34,
+      "disName": "Verify if File is Present"
+    },
+    {
+      "action": "comparisonOperator",
+      "description": "Compare [param_name_2] with [param_name_1]",
+      "isDefault": false,
+      "actionId": 37,
+      "disName": "Comparison Operator"
+    },
+    {
+      "action": "getDate",
+      "description": "Get date and store in [param_name_3]",
+      "isDefault": false,
+      "actionId": 51,
+      "disName": "Get Date"
+    },
+    {
+      "action": "comparePartialString",
+      "description": "Compare [param_name_2] with [param_name_1] partially",
+      "isDefault": false,
+      "actionId": 55,
+      "disName": "Compare Partial String"
+    },
+    {
+      "action": "getSheetDataFromExcel",
+      "description": "Get sheet data from excel and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 63,
+      "disName": "Get Sheet Data from Excel"
+    },
+    {
+      "action": "executeRestAPI",
+      "description": "Execute REST API - [param_name_2] method",
+      "isDefault": false,
+      "actionId": 66,
+      "disName": "Execute Rest API"
+    },
+    {
+      "action": "randomAlphanumeric",
+      "description": "Generate random alphanumerical value and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 73,
+      "disName": "Generate Random Alphanumeric"
+    },
+    {
+      "action": "replaceAndStore",
+      "description": "Replace [param_name_2] with [param_name_3] and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 76,
+      "disName": "Replace and Store"
+    },
+    {
+      "action": "writeToFile",
+      "description": "Write data in a text file",
+      "isDefault": false,
+      "actionId": 81,
+      "disName": "Write to File"
+    },
+    {
+      "action": "mediumWait",
+      "description": "Pause the execution for 3000 millisecond",
+      "isDefault": false,
+      "actionId": 82,
+      "disName": "Medium Wait"
+    },
+    {
+      "action": "combineRuntime",
+      "description": "Combine values in runtime values and store in [param_name_n]",
+      "isDefault": false,
+      "actionId": 95,
+      "disName": "Combine Runtime"
+    },
+    {
+      "action": "splitAndGetValue",
+      "description": "Split [param_name_1] and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 96,
+      "disName": "Split and Get Value"
+    },
+    {
+      "action": "getColumnDataByColumnReference",
+      "description": "Get data w.r.t., column reference from excel and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 100,
+      "disName": "Get Column Data using Column Reference from Excel"
+    },
+    {
+      "action": "randomNumeric",
+      "description": "Generate random numerical value and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 101,
+      "disName": "Generate Random Numeric"
+    },
+    {
+      "action": "pause",
+      "description": "Pause the execution",
+      "isDefault": false,
+      "actionId": 107,
+      "disName": "Pause"
+    },
+    {
+      "action": "storeFromXML",
+      "description": "Get value from XML and store in [param_name_3]",
+      "isDefault": false,
+      "actionId": 111,
+      "disName": "Store from XML"
+    },
+    {
+      "action": "validateFromXML",
+      "description": "Verify if [param_name_3] is present in XML in specified key",
+      "isDefault": false,
+      "actionId": 116,
+      "disName": "Validate from XML"
+    },
+    {
+      "action": "executeRestAPI",
+      "description": "Execute REST API - [param_name_2] method",
+      "isDefault": false,
+      "actionId": 117,
+      "disName": "Execute Rest API"
+    },
+    {
+      "action": "getColumnDataUsingHeaderFromExcel",
+      "description": "Get data w.r.t., header from excel and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 129,
+      "disName": "Get Column Data using Header from Excel"
+    },
+    {
+      "action": "maximumWait",
+      "description": "Pause the execution for 5000 millisecond",
+      "isDefault": false,
+      "actionId": 130,
+      "disName": "Maximum Wait"
+    },
+    {
+      "action": "randomAlphabets",
+      "description": "Generate random alphabetical value and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 136,
+      "disName": "Generate Random Alphabets"
+    },
+    {
+      "action": "Store from JSON",
+      "description": "Get value from JSON and store in [param_name_3]",
+      "isDefault": false,
+      "actionId": 140,
+      "disName": "Store from JSON"
+    },
+    {
+      "action": "subtractionOfValues",
+      "description": "Subtract values in all parameters and store value in [param_name_n]",
+      "isDefault": false,
+      "actionId": 148,
+      "disName": "Subtraction of Values"
+    },
+    {
+      "action": "additionOfValues",
+      "description": "Add values in all parameters and store value in [param_name_n]",
+      "isDefault": false,
+      "actionId": 151,
+      "disName": "Addition of Values"
+    },
+    {
+      "action": "readFileAndStore",
+      "description": "Read data from text file and store in [param_name_2]",
+      "isDefault": false,
+      "actionId": 152,
+      "disName": "Read File and Store"
+    },
+    {
+      "action": "executeRestAPI",
+      "description": "Execute REST API - [param_name_2] method",
+      "isDefault": false,
+      "actionId": 155,
+      "disName": "Execute Rest API"
+    },
+    {
+      "action": "getTime",
+      "description": "Get time and store in [param_name_3]",
+      "isDefault": false,
+      "actionId": 158,
+      "disName": "Get Time"
+    },
+    {
+      "action": "comparePartialStringByIgnoreChar",
+      "description": "Compare [param_name_2] with [param_name_1] partially by ignoring [param_name_3]",
+      "isDefault": false,
+      "actionId": 166,
+      "disName": "Compare Partial String by Ignore Character"
+    },
+    {
+      "action": "textToSpeech",
+      "description": "simulates - [param_name_1] as Voice",
+      "isDefault": false,
+      "actionId": 170,
+      "disName": "Voice simulator"
+    },
+    {
+      "action": "getISODateAndTime",
+      "description": "Get date and time in ISO format and store in [param_name_3]",
+      "isDefault": false,
+      "actionId": 171,
+      "disName": "Get ISO Date and Time"
+    },
+    {
+      "action": "getCellDataFromExcel",
+      "description": "Get cell data from excel and store in [param_name_4]",
+      "isDefault": false,
+      "actionId": 179,
+      "disName": "Get Cell Data from Excel"
+    },
+    {
+      "action": "verifyAdditionOfValues",
+      "description": "Verify addition of values with expected value",
+      "isDefault": false,
+      "actionId": 185,
+      "disName": "Verify Addition of Values"
+    },
+    {
+      "action": "compareJson",
+      "description": "Compare [param_name_1] with [param_name_2]",
+      "isDefault": false,
+      "actionId": 187,
+      "disName": "Compare Json"
+    },
+    {
+      "action": "generateCustomDateAndTime",
+      "description": "Get custom date and time and store in [param_name_5]",
+      "isDefault": false,
+      "actionId": 188,
+      "disName": "Generate Custom Date and Time"
+    },
+    {
+      "action": "keyboardAction",
+      "description": "Performs keyboard actions.",
+      "isDefault": false,
+      "actionId": 189,
+      "disName": "Keyboard Events"
+    },
+    {
+      "action": "storeToRuntime",
+      "description": "Store value in  [param_name_1] in [param_name_2]",
+      "isDefault": false,
+      "actionId": 198,
+      "disName": "Store to Runtime"
+    }
+  ],
+  "code": "OT-4",
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.342Z"
+  },
+  "createdBy": 1,
+  "deleted": false,
+  "description": "",
+  "disname": "GENERIC",
+  "name": "GENERIC"
+},
+{
+  "_id": {
+    "$oid": "699f07687c1e929eb38b0fdf"
+  },
+  "customerId": 1,
+  "id": 5,
+  "actionList": [
+    {
+      "action": "elementIsEnabled",
+      "description": "Verify if [object_name] is enabled.",
+      "isDefault": false,
+      "actionId": 6,
+      "disName": "Element is Enabled"
+    },
+    {
+      "action": "switchToParentTab",
+      "description": "Switch to parent tab",
+      "isDefault": false,
+      "actionId": 11,
+      "disName": "Switch to Parent Tab"
+    },
+    {
+      "action": "getTitleAndStore",
+      "description": "Get title and store in [param_name_1]",
+      "isDefault": false,
+      "actionId": 13,
+      "disName": "Get Title and Store"
+    },
+    {
+      "action": "rightClick",
+      "description": "Right click on [object_name].",
+      "isDefault": false,
+      "actionId": 15,
+      "disName": "Right Click"
+    },
+    {
+      "action": "longPress",
+      "description": "Press and hold on [object_name].",
+      "isDefault": false,
+      "actionId": 23,
+      "disName": "Long Press"
+    },
+    {
+      "action": "elementIsClickable",
+      "description": "Verify if [object_name] is clickable.",
+      "isDefault": false,
+      "actionId": 24,
+      "disName": "Element is Clickable"
+    },
+    {
+      "action": "getTextAndStore",
+      "description": "Get text in [object_name] and store in [param_name_1].",
+      "isDefault": false,
+      "actionId": 36,
+      "disName": "Get Text and Store"
+    },
+    {
+      "action": "enterTextUsingJS",
+      "description": "Type [param_name_1] in [object_name] using javascript",
+      "isDefault": false,
+      "actionId": 38,
+      "disName": "Type Text using JS "
+    },
+    {
+      "action": "elementIsDisabled",
+      "description": "Verify if [object_name] is disabled.",
+      "isDefault": false,
+      "actionId": 42,
+      "disName": "Element is Disabled"
+    },
+    {
+      "action": "closeTab",
+      "description": "Close tab ID [param_name_1].",
+      "isDefault": false,
+      "actionId": 44,
+      "disName": "Close Tab"
+    },
+    {
+      "action": "elementIsNotDisplayed",
+      "description": "Verify if [object_name] is not displayed.",
+      "isDefault": false,
+      "actionId": 47,
+      "disName": "Element is not Displayed"
+    },
+    {
+      "action": "elementMatchesText",
+      "description": "Verify regex value in [object_name].",
+      "isDefault": false,
+      "actionId": 50,
+      "disName": "Element Matches Text"
+    },
+    {
+      "action": "dismissAlert",
+      "description": "Dismiss browser alert",
+      "isDefault": false,
+      "actionId": 54,
+      "disName": "Dismiss Alert"
+    },
+    {
+      "action": "selectItemsFromDropdown",
+      "description": "Select [param_name_n] from [object_name] dropdown.",
+      "isDefault": false,
+      "actionId": 56,
+      "disName": "Select Items from Dropdown"
+    },
+    {
+      "action": "waitUntilElementNotPresent",
+      "description": "Wait until [object_name] is not Present.",
+      "isDefault": false,
+      "actionId": 58,
+      "disName": "Wait until Element is not Present"
+    },
+    {
+      "action": "elementIsChecked",
+      "description": "Verify if [object_name] is checked.",
+      "isDefault": false,
+      "actionId": 59,
+      "disName": "Element is Checked"
+    },
+    {
+      "action": "refresh",
+      "description": "Refresh current browser window",
+      "isDefault": false,
+      "actionId": 61,
+      "disName": "Refresh"
+    },
+    {
+      "action": "openAndSwitchToNewTab",
+      "description": "Opens a new tab with the specified URL and switches to it",
+      "isDefault": false,
+      "actionId": 67,
+      "disName": "opens and switches to a new tab with the specified URL"
+    },
+    {
+      "action": "scrollToTop",
+      "description": "Scrolls towards the top of the web application.",
+      "isDefault": false,
+      "actionId": 68,
+      "disName": "Scroll to Top"
+    },
+    {
+      "action": "checkIfNotChecked",
+      "description": "Ensure that [object_name] is not checked.",
+      "isDefault": false,
+      "actionId": 78,
+      "disName": "Check if Element is Not Checked"
+    },
+    {
+      "action": "validateText",
+      "description": "Verify [param_name_1] in [object_name].",
+      "isDefault": false,
+      "actionId": 79,
+      "disName": "Validate Text"
+    },
+    {
+      "action": "acceptAlert",
+      "description": "Accept browser alert",
+      "isDefault": false,
+      "actionId": 80,
+      "disName": "Accept Alert"
+    },
+    {
+      "action": "elementIsDisplayed",
+      "description": "Verify if [object_name] is displayed.",
+      "isDefault": false,
+      "actionId": 83,
+      "disName": "Element is Displayed"
+    },
+    {
+      "action": "switchToTab",
+      "description": "Switch to tab ID [param_name_1].",
+      "isDefault": false,
+      "actionId": 89,
+      "disName": "Switch to Tab"
+    },
+    {
+      "action": "doubleClick",
+      "description": "Double click on [object_name].",
+      "isDefault": false,
+      "actionId": 90,
+      "disName": "Double Click"
+    },
+    {
+      "action": "back",
+      "description": "Choose back option in browser",
+      "isDefault": false,
+      "actionId": 91,
+      "disName": "Back"
+    },
+    {
+      "action": "Upload File",
+      "description": "Upload file path in [object_name].",
+      "isDefault": false,
+      "actionId": 92,
+      "disName": "Upload File"
+    },
+    {
+      "action": "getAlertTextAndStore",
+      "description": "Get text from browser alert and store in [param_name_1]",
+      "isDefault": false,
+      "actionId": 93,
+      "disName": "Get Text in Alert and Store"
+    },
+    {
+      "action": "getCurrentURL",
+      "description": "Get URL and store in [param_name_1]",
+      "isDefault": false,
+      "actionId": 103,
+      "disName": "Get Current URL"
+    },
+    {
+      "action": "moveToElement",
+      "description": "Move cursor to [object_name].",
+      "isDefault": false,
+      "actionId": 105,
+      "disName": "Move to Element"
+    },
+    {
+      "action": "enterText",
+      "description": "Type [param_name_1] in [object_name].",
+      "isDefault": false,
+      "actionId": 106,
+      "disName": "Type Text"
+    },
+    {
+      "action": "getAttributeAndStore",
+      "description": "Get [param_name_1] from [object_name] and store in [param_name_2].",
+      "isDefault": false,
+      "actionId": 108,
+      "disName": "Get Attribute and Store"
+    },
+    {
+      "action": "forward",
+      "description": "Choose forward option in browser",
+      "isDefault": false,
+      "actionId": 114,
+      "disName": "Forward"
+    },
+    {
+      "action": "scrollToBottom",
+      "description": "Scrolls towards the bottom of the web application.",
+      "isDefault": false,
+      "actionId": 118,
+      "disName": "Scroll to Bottom"
+    },
+    {
+      "action": "dragAndDrop",
+      "description": "Drags an element from the source location to the specified target element identified by {param_name_1}.",
+      "isDefault": false,
+      "actionId": 119,
+      "disName": "Drag and Drop Element"
+    },
+    {
+      "action": "clearText",
+      "description": "Clear text in [object_name]",
+      "isDefault": false,
+      "actionId": 125,
+      "disName": "Clear Text"
+    },
+    {
+      "action": "switchToParentFrame",
+      "description": "Switch to parent iframe.",
+      "isDefault": false,
+      "actionId": 126,
+      "disName": "Switch to Parent iFrame."
+    },
+    {
+      "action": "waitForAlert",
+      "description": "Wait for browser alert.",
+      "isDefault": false,
+      "actionId": 127,
+      "disName": "Wait for Alert"
+    },
+    {
+      "action": "maximise",
+      "description": "Maximise browser window",
+      "isDefault": false,
+      "actionId": 132,
+      "disName": "Maximise"
+    },
+    {
+      "action": "scrollByCoordinates",
+      "description": "Scroll to [object_name] by co-ordinates [param_name_1],[param_name_2].",
+      "isDefault": false,
+      "actionId": 133,
+      "disName": "Scroll by Co-ordinates"
+    },
+    {
+      "action": "enterTextOnAlert",
+      "description": "Type [param_name_1] in browser alert.",
+      "isDefault": false,
+      "actionId": 134,
+      "disName": "Type Text on Alert"
+    },
+    {
+      "action": "clickIfExist",
+      "description": "Click if [object_name] is present.",
+      "isDefault": false,
+      "actionId": 137,
+      "disName": "Click if Element is Present"
+    },
+    {
+      "action": "scrollIntoElement",
+      "description": "Scroll to [object_name].",
+      "isDefault": false,
+      "actionId": 138,
+      "disName": "Scroll to Element"
+    },
+    {
+      "action": "getElementCSSAndStore",
+      "description": "Get [param_name_1] of [object_name] and store in [param_name_2].",
+      "isDefault": false,
+      "actionId": 139,
+      "disName": "Get Element CSS and Store"
+    },
+    {
+      "action": "minimise",
+      "description": "Minimise browser window",
+      "isDefault": false,
+      "actionId": 147,
+      "disName": "Minimise"
+    },
+    {
+      "action": "launchApplication",
+      "description": "Go to [param_name_1]",
+      "isDefault": false,
+      "actionId": 153,
+      "disName": "Go to URL"
+    },
+    {
+      "action": "waitUntilElementPresent",
+      "description": "Wait until [object_name] is Present.",
+      "isDefault": false,
+      "actionId": 157,
+      "disName": "Wait until Element is Present"
+    },
+    {
+      "action": "getItemsFromDropdownAndStore",
+      "description": "Get items from [object_name] and store to [param_name_1].",
+      "isDefault": false,
+      "actionId": 165,
+      "disName": "Get Items from Dropdown and Store"
+    },
+    {
+      "action": "validateAlertText",
+      "description": "Verify [param_name_1] in browser alert.",
+      "isDefault": false,
+      "actionId": 167,
+      "disName": "Validate Text in Alert"
+    },
+    {
+      "action": "readCookieAndStore",
+      "description": "Reads a cookie from [param_name_1] from the browser and stores its value into [param_name_2].",
+      "isDefault": false,
+      "actionId": 174,
+      "disName": "Read Cookie and Store Value"
+    },
+    {
+      "action": "clickByCoordinates",
+      "description": "Click on [object_name] using co-ordinates [param_name_1],[param_name_2].",
+      "isDefault": false,
+      "actionId": 180,
+      "disName": "Click by Co-ordinates"
+    },
+    {
+      "action": "switchToFrame",
+      "description": "Switch to iframe.",
+      "isDefault": false,
+      "actionId": 181,
+      "disName": "Switch to iFrame"
+    },
+    {
+      "action": "launchApplication",
+      "description": "Go to [param_name_1]",
+      "isDefault": false,
+      "actionId": 183,
+      "disName": "Go to URL"
+    },
+    {
+      "action": "click",
+      "description": "Click on [object_name].",
+      "isDefault": false,
+      "actionId": 184,
+      "disName": "Click"
+    },
+    {
+      "action": "validatePartialText",
+      "description": "Verify [param_name_1] in [object_name] partially.",
+      "isDefault": false,
+      "actionId": 192,
+      "disName": "Validate Partial Text"
+    },
+    {
+      "action": "unCheckIfChecked",
+      "description": "Uncheck [object_name] if it is currently checked.",
+      "isDefault": false,
+      "actionId": 193,
+      "disName": "Uncheck Element if Checked"
+    },
+    {
+      "action": "elementIsNotChecked",
+      "description": "Verify if [object_name] is not checked.",
+      "isDefault": false,
+      "actionId": 194,
+      "disName": "Element is not Checked"
+    },
+    {
+      "action": "leftClick",
+      "description": "Left click on [object_name].",
+      "isDefault": false,
+      "actionId": 195,
+      "disName": "Left Click"
+    },
+    {
+      "action": "clickUsingJS",
+      "description": "Click on [object_name] using JS.",
+      "isDefault": false,
+      "actionId": 196,
+      "disName": "Click Using JS"
+    },
+    {
+      "action": "selectItemFromDropdown",
+      "description": "Select [param_name_1] from [object_name].",
+      "isDefault": false,
+      "actionId": 200,
+      "disName": "Select Item from Dropdown"
+    }
+  ],
+  "code": "OT-5",
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.356Z"
+  },
+  "createdBy": 1,
+  "deleted": false,
+  "description": "",
+  "disname": "WEB",
+  "name": "WEB"
+}]

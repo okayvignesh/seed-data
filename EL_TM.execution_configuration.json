@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d999"
+  },
+  "projectId": 1,
+  "customerId": 1,
+  "userId": 1,
+  "configuration": [
+    {
+      "name": "MINIMUM_WAIT",
+      "value": 1000,
+      "isDefault": true
+    },
+    {
+      "name": "MEDIUM_WAIT",
+      "value": 10000,
+      "isDefault": true
+    },
+    {
+      "name": "LONG_WAIT",
+      "value": "30000",
+      "isDefault": true
+    },
+    {
+      "name": "MAX_TIME_OUT",
+      "value": 90000,
+      "isDefault": true
+    },
+    {
+      "name": "IF_TIME_OUT",
+      "value": 5000,
+      "isDefault": true
+    },
+    {
+      "name": "EXIST_TIME_OUT",
+      "value": "45000",
+      "isDefault": true
+    },
+    {
+      "name": "NOT_EXIST_TIME_OUT",
+      "value": 5000,
+      "isDefault": true
+    },
+    {
+      "name": "DOWNLOAD_PATH",
+      "value": "qwergth",
+      "isDefault": true
+    }
+  ],
+  "id": "debcd8e6-7ebd-4860-8d59-a76f0fc11b85",
+  "deleted": false
+}]

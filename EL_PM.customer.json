@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "699f075e7c1e929eb38b0fc8"
+  },
+  "deleted": false,
+  "id": 1,
+  "adminEmail": "Iamadmin@simplify3x.com",
+  "adminPassword": null,
+  "code": "CU-1",
+  "companyName": "Simplify3x Software Private Limited",
+  "createdAt": {
+    "$date": "2026-02-25T14:29:50.777Z"
+  },
+  "cust_name": "simplify",
+  "customerStatus": "active",
+  "licenseCount": 10,
+  "licenseType": [
+    "web",
+    "android",
+    "ios",
+    "api",
+    "DB"
+  ],
+  "packageList": [
+    {
+      "packageId": 1,
+      "noOfLicense": 100000,
+      "licenseCost": 100,
+      "start_date": "2022-12-31T18:30:00.000Z"
+    }
+  ]
+}]

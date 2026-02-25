@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1c9"
+  },
+  "acknowledged": true,
+  "insertedId": {
+    "$oid": "699f07675cdad1c05ad0b1c8"
+  }
+}]

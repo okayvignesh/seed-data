@@ -1,0 +1,5243 @@
+[{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57369"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 3,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5736b"
+  },
+  "originalLabel": "Owner",
+  "label": "Owner",
+  "key": "ownerId",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 3,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57379"
+  },
+  "originalLabel": "Impacted User Story",
+  "label": "Impacted User Story",
+  "key": "impactedUserStory",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 3,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5737a"
+  },
+  "originalLabel": "Start Date",
+  "label": "Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 18,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5737b"
+  },
+  "originalLabel": "End Date",
+  "label": "End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 19,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5737d"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Effort",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 21,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57380"
+  },
+  "originalLabel": "Planned Deployment Date",
+  "label": "Planned Deployment Date",
+  "key": "plannedDeploymentDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 24,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57381"
+  },
+  "originalLabel": "Actual Deployment Date",
+  "label": "Actual Deployment Date",
+  "key": "actualDeploymentDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 25,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57382"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 3,
+  "seq": 26,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57383"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 3,
+  "seq": 27,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57393"
+  },
+  "originalLabel": "Actual End Date",
+  "label": "Actual End Date",
+  "key": "actualEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57394"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57396"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Efforts",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "width": 235,
+  "filter": true,
+  "sort": true,
+  "sortType": "dsc",
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57399"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 20,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5739e"
+  },
+  "originalLabel": "Pre-Requisites",
+  "label": "Pre-Requisites",
+  "key": "prerequisite",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a0"
+  },
+  "originalLabel": "Module",
+  "label": "Module",
+  "key": "moduleId",
+  "controlType": "MODULE-LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 5,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a6"
+  },
+  "originalLabel": "Defects",
+  "label": "Defects",
+  "multi": true,
+  "key": "defectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 5,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a7"
+  },
+  "originalLabel": "Reviewal/Approval State",
+  "label": "Reviewal/Approval State",
+  "key": "reviewApproveStatus",
+  "controlType": "TEXT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 5,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573ab"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573af"
+  },
+  "originalLabel": "Pre-Requisites",
+  "label": "Pre-Requisites",
+  "key": "prerequisite",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": true,
+  "readOnly": false,
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b3"
+  },
+  "originalLabel": "Function Type",
+  "label": "Function Type",
+  "key": "fnType",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b8"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "parentId": 6,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573bc"
+  },
+  "originalLabel": "Assigned To",
+  "label": "Assigned To",
+  "key": "ownerId",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 9,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573bf"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c4"
+  },
+  "originalLabel": "User Story",
+  "label": "User Story",
+  "key": "userstoryId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 9,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573cf"
+  },
+  "originalLabel": "Closed Date",
+  "label": "Closed Date",
+  "key": "closedDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 22,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d2"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Effort",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 25,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573db"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 7,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": true,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573dd"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 7,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573de"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 7,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5736f"
+  },
+  "originalLabel": "Acceptance Criteria",
+  "label": "Acceptance Criteria",
+  "key": "acceptanceCriteria",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57372"
+  },
+  "originalLabel": "Module",
+  "label": "Module",
+  "key": "moduleId",
+  "controlType": "MODULE-LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 3,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "name",
+  "type": "id",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57373"
+  },
+  "originalLabel": "Epic",
+  "label": "Epic",
+  "key": "epicId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 3,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57375"
+  },
+  "originalLabel": "Release",
+  "label": "Release",
+  "key": "releaseId",
+  "controlType": "RELEASE-SPRINT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 3,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57378"
+  },
+  "originalLabel": "Associated User Story",
+  "label": "Associated User Story",
+  "key": "associatedUserStory",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 3,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5737c"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 20,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57385"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 29,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57387"
+  },
+  "originalLabel": "Name",
+  "label": "Name ",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "parentId": 4,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "minLimit": 3,
+  "maxLimit": 500,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5738a"
+  },
+  "originalLabel": "Priority",
+  "label": "Priority",
+  "key": "priority",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 4,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "HIGH",
+      "value": "High",
+      "isDefault": true,
+      "color": "#CF0505",
+      "archive": false
+    },
+    {
+      "key": "MEDIUM",
+      "value": "Medium",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false
+    },
+    {
+      "key": "LOW",
+      "value": "Low",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5738e"
+  },
+  "originalLabel": "Type",
+  "label": "Type",
+  "key": "type",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 4,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "MEETING",
+      "value": "Meeting",
+      "isDefault": false,
+      "color": "#595858",
+      "archive": false
+    },
+    {
+      "key": "TRAINING",
+      "value": "Training",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false
+    },
+    {
+      "key": "CODING",
+      "value": "Coding",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false
+    },
+    {
+      "key": "TESTING",
+      "value": "Testing",
+      "isDefault": false,
+      "color": "#AD1927",
+      "archive": false
+    },
+    {
+      "key": "REVIEW",
+      "value": "Review",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false
+    },
+    {
+      "key": "RESEARCH & DEV",
+      "value": "Research & Dev",
+      "isDefault": false,
+      "color": "#23386F",
+      "archive": false
+    },
+    {
+      "key": "DISSCUSSION",
+      "value": "Discussion",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false
+    },
+    {
+      "key": "ANALYSIS",
+      "value": "Analysis",
+      "isDefault": false,
+      "color": "#0D00FF",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57390"
+  },
+  "originalLabel": "Planned Start Date",
+  "label": "Planned Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57392"
+  },
+  "originalLabel": "Actual Start Date",
+  "label": "Actual Start Date",
+  "key": "actualStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57398"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 4,
+  "seq": 19,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5739d"
+  },
+  "originalLabel": "Versions",
+  "label": "Versions",
+  "key": "versions",
+  "controlType": "LIST",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 5,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a1"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "tagsId",
+  "parentId": 5,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a5"
+  },
+  "originalLabel": "Suites",
+  "label": "Suites",
+  "key": "suiteId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": true,
+  "parentId": 5,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": true,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b5"
+  },
+  "originalLabel": "Reviewal/Approval State",
+  "label": "Reviewal/Approval State",
+  "key": "reviewApproveStatus",
+  "controlType": "TEXT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 6,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573bb"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c0"
+  },
+  "originalLabel": "Module",
+  "label": "Module",
+  "key": "moduleId",
+  "controlType": "MODULE-LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 9,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c2"
+  },
+  "originalLabel": "Release",
+  "label": "Release",
+  "controlType": "RELEASE-SPRINT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 9,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "key": "releaseId",
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c6"
+  },
+  "originalLabel": "Category",
+  "label": "Category",
+  "key": "category",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "DEFECT",
+      "value": "Defect",
+      "isDefault": false,
+      "color": "#F13A3A",
+      "archive": false
+    },
+    {
+      "key": "ENHANCEMENT",
+      "value": "Enhancement",
+      "isDefault": false,
+      "color": "#AD14FF",
+      "archive": false
+    },
+    {
+      "key": "REQUIRENMENT",
+      "value": "Requirement",
+      "isDefault": false,
+      "color": "#889A14",
+      "archive": false
+    },
+    {
+      "key": "PRODUCTION_DEFECT",
+      "value": "Production Defect",
+      "isDefault": false,
+      "color": "#80010D",
+      "archive": false
+    },
+    {
+      "key": "REGRESSION_DEFECT",
+      "value": "Regression Defect",
+      "isDefault": false,
+      "color": "#04226B",
+      "archive": false
+    },
+    {
+      "key": "HOTFIX",
+      "value": "Hotfix",
+      "isDefault": false,
+      "color": "#FF4500",
+      "archive": false
+    },
+    {
+      "key": "TRIVIAL",
+      "value": "Trivial",
+      "isDefault": false,
+      "color": "#5C5A5A",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c7"
+  },
+  "originalLabel": "Severity",
+  "label": "Severity",
+  "key": "severity",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "CRITICAL",
+      "value": "Critical",
+      "isDefault": false,
+      "color": "#FF6347",
+      "archive": false
+    },
+    {
+      "key": "BLOCKER",
+      "value": "Blocker",
+      "isDefault": false,
+      "color": "#800000",
+      "archive": false
+    },
+    {
+      "key": "MAJOR",
+      "value": "Major",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false
+    },
+    {
+      "key": "MINOR",
+      "value": "Minor",
+      "isDefault": false,
+      "color": "#6D6D0A",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c8"
+  },
+  "originalLabel": "Team",
+  "label": "Team",
+  "key": "teamId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 9,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573ca"
+  },
+  "originalLabel": "Feature",
+  "label": "Feature",
+  "key": "featureId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 9,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d7"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 7,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d8"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 7,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "HEADER"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573da"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 7,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "shownIn": [
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573dc"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 7,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": true,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5736e"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57370"
+  },
+  "originalLabel": "Team",
+  "label": "Team",
+  "key": "teamId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 3,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57371"
+  },
+  "originalLabel": "Type",
+  "label": "Type",
+  "key": "type",
+  "controlType": "LIST",
+  "hasMap": false,
+  "displayKey": {
+    "field": "label"
+  },
+  "parentId": 3,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "value",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57374"
+  },
+  "originalLabel": "Feature",
+  "label": "Feature",
+  "key": "featureId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 3,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57376"
+  },
+  "originalLabel": "Sprint",
+  "label": "Sprint",
+  "key": "iterationId",
+  "controlType": "RELEASE-SPRINT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 3,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57377"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 3,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5737f"
+  },
+  "originalLabel": "Deployment status",
+  "label": "Deployment status",
+  "key": "deploymentStatus",
+  "displayKey": {
+    "field": "label"
+  },
+  "controlType": "LIST",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 23,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "value",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57386"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 4,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57388"
+  },
+  "originalLabel": "Assigned To",
+  "label": "Assigned To",
+  "key": "ownerId",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 4,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5738b"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5738c"
+  },
+  "originalLabel": "User Story",
+  "label": "User Story",
+  "key": "userstoryId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": false,
+  "jsonArrayKey": "",
+  "parentId": 4,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5738f"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "tagsId",
+  "parentId": 4,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57391"
+  },
+  "originalLabel": "Planned End Date",
+  "label": "Planned End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57395"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Efforts",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5739b"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "sort": true,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 5,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5739c"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 3,
+  "maxLimit": 500
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5739f"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a2"
+  },
+  "originalLabel": "Testcase Type",
+  "label": "Testcase Type",
+  "key": "tcType",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a8"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 5,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": true,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a9"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 5,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": true,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573aa"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573ac"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 6,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573ad"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "cellCssClass": "",
+  "deleted": false,
+  "readOnly": false,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 3,
+  "maxLimit": 500
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573ae"
+  },
+  "originalLabel": "Versions",
+  "label": "Versions",
+  "key": "versions",
+  "controlType": "LIST",
+  "multi": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER"
+  ],
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 6,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b0"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b1"
+  },
+  "originalLabel": "Module",
+  "label": "Module",
+  "key": "moduleId",
+  "controlType": "MODULE-LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 6,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b4"
+  },
+  "originalLabel": "Execution Type",
+  "label": "Execution Type",
+  "key": "executionType",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573be"
+  },
+  "originalLabel": "Priority",
+  "label": "Priority",
+  "key": "priority",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "HIGHEST",
+      "value": "Highest",
+      "isDefault": false,
+      "color": "#EF0000",
+      "archive": false
+    },
+    {
+      "key": "HIGH",
+      "value": "High",
+      "isDefault": false,
+      "color": "#CF0505",
+      "archive": false
+    },
+    {
+      "key": "MEDIUM",
+      "value": "Medium",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false
+    },
+    {
+      "key": "LOW",
+      "value": "Low",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false
+    },
+    {
+      "key": "LOWEST",
+      "value": "Lowest",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c1"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 9,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c3"
+  },
+  "originalLabel": "Sprint",
+  "label": "Sprint",
+  "key": "iterationId",
+  "controlType": "RELEASE-SPRINT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 9,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573cd"
+  },
+  "originalLabel": "Start Date",
+  "label": "Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 20,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573ce"
+  },
+  "originalLabel": "End Date",
+  "label": "End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 21,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d3"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 9,
+  "seq": 26,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d4"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 9,
+  "seq": 27,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d5"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 28,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d9"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 7,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "HEADER"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5736a"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 3,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 3,
+  "maxLimit": 500
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5736c"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 3,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "NEEDS_DEFINITION",
+      "value": "Needs Definition",
+      "isDefault": false,
+      "color": "#595858",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "DEFINED",
+      "value": "Defined",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "ACCEPTED",
+      "value": "Accepted",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "REJECTED",
+      "value": "Rejected",
+      "isDefault": false,
+      "color": "#594C4C",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "DEV_IN_PROGRESS",
+      "value": "Dev In Progress",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "QA_IN_PROGRESS",
+      "value": "QA In Progress ",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "COMPLETED",
+      "value": "Completed ",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "RELEASED",
+      "value": "Released ",
+      "isDefault": false,
+      "color": "#0D00FF",
+      "archive": false,
+      "mappedTo": "completed"
+    }
+  ],
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5736d"
+  },
+  "originalLabel": "Priority",
+  "label": "Priority",
+  "key": "priority",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 3,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "HIGH",
+      "value": "High",
+      "isDefault": false,
+      "color": "#CF0505",
+      "archive": false
+    },
+    {
+      "key": "MEDIUM",
+      "value": "Medium",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false
+    },
+    {
+      "key": "LOW",
+      "value": "Low",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5737e"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Effort",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 22,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57384"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 28,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57389"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 4,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "NEW",
+      "value": "New",
+      "isDefault": false,
+      "color": "#0029FF",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "IN_PROGRESS",
+      "value": "In Progress",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "ON_HOLD",
+      "value": "On Hold",
+      "isDefault": false,
+      "color": "#23386F",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "COMPLETED",
+      "value": "Completed",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false,
+      "mappedTo": "completed"
+    }
+  ],
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5738d"
+  },
+  "originalLabel": "Defect",
+  "label": "Defect",
+  "key": "defectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": false,
+  "jsonArrayKey": "",
+  "parentId": 4,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc57397"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 4,
+  "seq": 18,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc5739a"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 21,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a3"
+  },
+  "originalLabel": "Execution Type",
+  "label": "Execution Type",
+  "key": "executionType",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573a4"
+  },
+  "originalLabel": "User Story",
+  "label": "User Story",
+  "key": "userstoryId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 5,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b2"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "tagsId",
+  "parentId": 6,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b6"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 6,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b7"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 6,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573b9"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "parentId": 6,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573ba"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 9,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573bd"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "NEW",
+      "value": "New",
+      "isDefault": false,
+      "color": "#0029FF",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "ASSIGNED",
+      "value": "Assigned",
+      "isDefault": false,
+      "color": "#9C8406",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "RESOLVED",
+      "value": "Resolved",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "FIXED",
+      "value": "Fixed",
+      "isDefault": false,
+      "color": "#00C843",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "CLOSED",
+      "value": "Closed",
+      "isDefault": false,
+      "color": "#000060",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "DUPLICATE",
+      "value": "Duplicate",
+      "isDefault": false,
+      "color": "#626262",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "REJECTED",
+      "value": "Rejected",
+      "isDefault": false,
+      "color": "#D20000",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "DEFERRED",
+      "value": "Deferred",
+      "isDefault": false,
+      "color": "#6A0202",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "NOT_A_DEFECT",
+      "value": "Not a Defect",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "REOPENED",
+      "value": "Reopened",
+      "isDefault": false,
+      "color": "#FF0000",
+      "archive": false,
+      "mappedTo": "pending"
+    }
+  ],
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c5"
+  },
+  "originalLabel": "Test Case",
+  "label": "Test Case",
+  "key": "selectedTestCase",
+  "controlType": "LIST",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "jsonArrayKey": "",
+  "parentId": 9,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573c9"
+  },
+  "originalLabel": "Client",
+  "label": "Client",
+  "key": "clientId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 9,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573cb"
+  },
+  "originalLabel": "Environment",
+  "label": "Environment",
+  "key": "environment",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 18,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573cc"
+  },
+  "originalLabel": "Execution Type",
+  "label": "Execution Type",
+  "key": "executionType",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 19,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d0"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 23,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d1"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Effort",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 24,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "66c3d72b1f7eb98aadc573d6"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 29,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "677d18e1fff9c2e61731ff60"
+  },
+  "originalLabel": "Jira Id",
+  "label": "Jira Id",
+  "key": "jiraIssueKey",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 30,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "jiraIssueKey"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "677d1905fff9c2e61731ff61"
+  },
+  "originalLabel": "Azure Id",
+  "label": "Azure Id",
+  "key": "azureId",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 31,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "azureId"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "677d194bfff9c2e61731ff62"
+  },
+  "originalLabel": "Jira Id",
+  "label": "Jira Id",
+  "key": "jiraIssueKey",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 22,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "jiraIssueKey"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "677d197afff9c2e61731ff63"
+  },
+  "originalLabel": "Azure Id",
+  "label": "Azure Id",
+  "key": "azureId",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 23,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "azureId"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "677d19adfff9c2e61731ff64"
+  },
+  "originalLabel": "Azure Id",
+  "label": "Azure Id",
+  "key": "azureId",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 31,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "azureId"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "677d19c7fff9c2e61731ff65"
+  },
+  "originalLabel": "Jira Id",
+  "label": "Jira Id",
+  "key": "jiraIssueKey",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 30,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "jiraIssueKey"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true
+},
+{
+  "_id": {
+    "$oid": "691faa53722cae4693cdf2e3"
+  },
+  "originalLabel": "Versions",
+  "label": "Version",
+  "key": "versions",
+  "controlType": "LIST",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "versionName"
+  },
+  "jsonArrayKey": "",
+  "parentId": 3,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "versionId",
+  "type": "KEY",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "fbd03ef8-501a-4f20-83a5-69e860988e35",
+  "limit": 0,
+  "updatedBy": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2025-11-20T23:54:59.230Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "691fac2d722cae4693cdfb1f"
+  },
+  "originalLabel": "Sub Project",
+  "label": "Sub Project",
+  "key": "subProjectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "KEY",
+  "keyname": "subProjectId",
+  "values": [],
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "displayKey": {
+    "field": "subProjectName"
+  },
+  "parentComponentId": 13,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2025-11-21T00:02:53.683Z"
+  },
+  "parentId": 3,
+  "seq": 33
+},
+{
+  "_id": {
+    "$oid": "691fac2d722cae4693cdfb20"
+  },
+  "originalLabel": "Sub Project",
+  "label": "Sub Project",
+  "key": "subProjectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "KEY",
+  "keyname": "subProjectId",
+  "values": [],
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "displayKey": {
+    "field": "subProjectName"
+  },
+  "parentComponentId": 13,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2025-11-21T00:02:53.683Z"
+  },
+  "parentId": 4,
+  "seq": 24
+},
+{
+  "_id": {
+    "$oid": "691fac2d722cae4693cdfb21"
+  },
+  "originalLabel": "Sub Project",
+  "label": "Sub Project",
+  "key": "subProjectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "KEY",
+  "keyname": "subProjectId",
+  "values": [],
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "displayKey": {
+    "field": "subProjectName"
+  },
+  "parentComponentId": 13,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2025-11-21T00:02:53.683Z"
+  },
+  "parentId": 9,
+  "seq": 32
+}]

@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "699f075e7c1e929eb38b0fc9"
+  },
+  "customerId": 1,
+  "objectNomenclatureAndroid": {
+    "android.widget.button": "button",
+    "android.view.view": "view",
+    "android.widget.imageview": "image",
+    "android.widget.framelayout": "frame",
+    "android.widget.linearlayout": "layout",
+    "android.view.viewgroup": "group",
+    "androidx.recyclerview.widget.recyclerview": "recycler view",
+    "androidx.compose.ui.platform.composeview": "compose view",
+    "android.widget.edittext": "text",
+    "android.widget.textview": "text"
+  },
+  "objectNomenclatureIos": {
+    "xcuielementtypeapplication": "application",
+    "xcuielementtypeany": "any",
+    "xcuielementtypebutton": "button",
+    "xcuielementtypeimage": "image",
+    "xcuielementtypeother": "other",
+    "xcuielementtypewindow": "window",
+    "xcuielementtypetabbar": "tab bar",
+    "xcuielementtypecell": "type cell",
+    "xcuielementtypestatictext": "text",
+    "xcuielementtypetextfield": "text field",
+    "xcuielementtypesearchfield": "search field"
+  },
+  "objectNomenclatureWeb": {
+    "a": "link text",
+    "label": "label",
+    "input": "text box",
+    "textarea": "text area",
+    "p": "text",
+    "h*": "header",
+    "span": "span text",
+    "svg": "svg",
+    "li": "list item",
+    "select": "dropdown",
+    "img": "image",
+    "ul": "list item"
+  }
+}]

@@ -1,0 +1,214 @@
+[{
+  "_id": {
+    "$oid": "699f07667c1e929eb38b0fcf"
+  },
+  "customerId": 1,
+  "deleted": false,
+  "id": 1,
+  "code": "PR-1",
+  "configObjRecognition": false,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.534Z"
+  },
+  "createdBy": 1,
+  "description": "<p>This is a default project<br></p>",
+  "generalSettings": {
+    "efforts": {
+      "enableHours": true,
+      "enableStoryPoints": false,
+      "hours": 8,
+      "weekdays": 5
+    },
+    "codeEditorConfigurations": {
+      "url": "",
+      "versionControlPlatform": ""
+    },
+    "defectManagement": {
+      "autoDefectFlag": false,
+      "configAutologgedDefect": {
+        "assigneeId": null,
+        "priority": "",
+        "state": "",
+        "lable": []
+      },
+      "defectLogging": {
+        "enableManualExecDefectLog": false,
+        "enableAttachmentForDefect": false
+      }
+    }
+  },
+  "name": "Sandbox",
+  "revAppSettings": {
+    "requirementManagement": {
+      "epic": {
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        }
+      },
+      "feature": {
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        }
+      },
+      "userstory": {
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        }
+      }
+    },
+    "testManagement": {
+      "tcfn": {
+        "enabled": false,
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        }
+      }
+    },
+    "testExecution": {
+      "suite": {
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        }
+      },
+      "executionPlan": {
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false,
+          "restrict_execution": false
+        }
+      },
+      "executionResult": {
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        }
+      },
+      "restrictExecution": false
+    },
+    "reports": {
+      "testcase_report": {
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        }
+      },
+      "suite_report": {
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        }
+      },
+      "execution-plan_report": {
+        "review": {
+          "enabled": false,
+          "reviewalByAll": false,
+          "reviewalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        },
+        "approve": {
+          "enabled": false,
+          "approvalByAll": false,
+          "approvalByAnyone": false,
+          "requireAuthentication": false,
+          "requireSignature": false
+        }
+      }
+    }
+  }
+}]

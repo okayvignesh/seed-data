@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b13d"
+  },
+  "customerId": 1,
+  "deleted": false,
+  "id": 1,
+  "active": true,
+  "code": "UR-1",
+  "createdAt": {
+    "$date": "2026-02-25T14:29:51.231Z"
+  },
+  "email": "Iamadmin@simplify3x.com",
+  "name": "simplify",
+  "password": "NOTSETUP",
+  "passwordChangedOn": {
+    "$date": "2026-02-25T14:29:51.231Z"
+  },
+  "status": "verification-pending",
+  "userType": [
+    "non-admin",
+    "admin"
+  ],
+  "username": "Iamadmin@simplify3x.com"
+}]

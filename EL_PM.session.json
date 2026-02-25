@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "699f07117c1e929eb38b0fc6"
+  },
+  "userId": 1,
+  "customerId": 2,
+  "type": "web",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImN1c3RvbWVySWQiOjIsInR5cGUiOiJ3ZWIiLCJ0b2tlblR5cGUiOiJBQ0NFU1NfVE9LRU4iLCJpYXQiOjE3NzIwMjk5MTAsImV4cCI6MTc3MjAzMTcxMH0.WdgXY_XI9duoUPO5BDEaM_HFNudc0u4182SwTEkbyJA",
+  "accessTokenCreatedAt": {
+    "$date": "2026-02-25T14:31:50.125Z"
+  },
+  "clientIp": null,
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImN1c3RvbWVySWQiOjIsInR5cGUiOiJ3ZWIiLCJ0b2tlblR5cGUiOiJSRUZSRVNIX1RPS0VOIiwiaWF0IjoxNzcyMDI0MTY0LCJleHAiOjE3NzI0NTYxNjR9.Fhi6VzMa6OJIOBBB7nrOezzO9JvevsEAXO0TLCfmhSE",
+  "refreshTokenCreatedAt": {
+    "$date": "2026-02-25T14:31:50.125Z"
+  },
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+}]

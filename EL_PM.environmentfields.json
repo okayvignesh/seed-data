@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b147"
+  },
+  "name": "General",
+  "key": "general",
+  "customerId": 1,
+  "projectId": 1,
+  "parentId": 8,
+  "seq": 1,
+  "fieldType": "environment",
+  "deleted": false,
+  "id": "702d8e6b-5795-40a6-ba7d-9aebd03f1d9c"
+}]

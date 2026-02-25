@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "699f07677c1e929eb38b0fd8"
+  },
+  "customerId": 1,
+  "userId": 1,
+  "activeEnvironment": {
+    "1": "general"
+  },
+  "activeProjectId": 1,
+  "activeRoleId": 1
+}]

@@ -1,0 +1,9578 @@
+[{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0e1"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 1,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "customerId": 1,
+  "id": "c4f54593-e9d3-4f0e-be1b-d1ac7195d1fc"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0e2"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "readOnly": false,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 3,
+  "maxLimit": 500,
+  "customerId": 1,
+  "id": "82bf7330-cc3b-43b8-aedf-d832ca5300ad"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0e3"
+  },
+  "originalLabel": "Owner",
+  "label": "Owner",
+  "key": "ownerId",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 1,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "8b4f0c18-9903-4ef7-a1d8-bbd8cc39d878"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0e4"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 1,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "PROPOSED",
+      "value": "Proposed",
+      "isDefault": false,
+      "color": "#93608E",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "APPROVED",
+      "value": "Approved",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "REJECTED",
+      "value": "Rejected",
+      "isDefault": false,
+      "color": "#594C4C",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "IN_PROGRESS",
+      "value": "In Progress",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "ON_HOLD",
+      "value": "On Hold",
+      "isDefault": false,
+      "color": "#23386F",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "CANCELLED",
+      "value": "Cancelled",
+      "isDefault": false,
+      "color": "#CA0202",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "COMPLETED",
+      "value": "Completed",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false,
+      "mappedTo": "completed"
+    }
+  ],
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "794154d3-18a0-411b-87f8-c5effabc2518"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0e5"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "customerId": 1,
+  "id": "9ddf5989-8b58-4f5f-bc84-2018c9733e9b"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0e6"
+  },
+  "originalLabel": "Projects",
+  "label": "Projects",
+  "key": "projectIds",
+  "controlType": "LIST",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 1,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "7d792ca7-0667-4fe7-8508-73c796e3be71"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0e7"
+  },
+  "originalLabel": "Team",
+  "label": "Team",
+  "key": "teamId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 1,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "facb64c1-2654-4b73-9c72-912904e8b0c3"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0e8"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 1,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "482cf89d-0e20-4efe-8f96-f458e34f5438"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0e9"
+  },
+  "originalLabel": "Planned Start Date",
+  "label": "Planned Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "bde50e3e-71bd-42fb-9413-60280b6ce303"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0ea"
+  },
+  "originalLabel": "Planned End Date",
+  "label": "Planned End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "39f05410-97aa-4ba8-9cee-cb85d7822f1a"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0eb"
+  },
+  "originalLabel": "Actual Start Date",
+  "label": "Actual Start Date",
+  "key": "actualStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "b5496641-c24e-4eb9-aa9c-b0c4249386a7"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0ec"
+  },
+  "originalLabel": "Actual End Date",
+  "label": "Actual End Date",
+  "key": "actualEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "591c2266-f843-4bbe-858e-1a3e50a0244a"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0ed"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "c33482f3-651f-4b5d-a89c-4143849e424f"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0ee"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Effort",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "78387ee6-a975-4bb1-a839-cbe4fe2b9717"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0ef"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Effort",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "c0b653de-03c9-4a34-8302-8bf715208c0a"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f0"
+  },
+  "originalLabel": "Done By User Story Count",
+  "label": "Done By User Story Count",
+  "key": "achievedStoryCount",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 16,
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": true,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "68be45f5-d05b-45ea-a068-db8ebe027832"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f1"
+  },
+  "originalLabel": "Planned Budget",
+  "label": "Planned Budget",
+  "key": "plannedBudget",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "2616677a-01d7-4fd0-b2e0-2d7b5ef5d604"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f2"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 1,
+  "seq": 18,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "650813d2-7d33-409b-9b56-73ab0670430e"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f3"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 1,
+  "seq": 19,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "beb4d025-5149-4d58-b6cb-52d97a3036ab"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f4"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 20,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "b2f73794-8389-4dbe-870e-d2b3f1d89bd3"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f5"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "readOnly": true,
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 21,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "8dcfd117-e4aa-4c28-9c9d-d662d41cc811"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f6"
+  },
+  "originalLabel": "Jira Id",
+  "label": "Jira Id",
+  "key": "jiraIssueKey",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 22,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "jiraIssueKey"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "f23c3e99-3f45-4a4a-9e16-098d6fa72319"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f7"
+  },
+  "originalLabel": "Azure Id",
+  "label": "Azure Id",
+  "key": "azureId",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 1,
+  "seq": 23,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "azureId"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "8d6bb509-6348-4709-b95f-f237591e376b"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f8"
+  },
+  "originalLabel": "Sub Project",
+  "label": "Sub Project",
+  "key": "subProjectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "KEY",
+  "keyname": "subProjectId",
+  "values": [],
+  "seq": 33,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "createdBy": 151,
+  "createdAt": {
+    "$date": "2025-11-20T23:54:59.277Z"
+  },
+  "displayKey": {
+    "field": "subProjectName"
+  },
+  "parentComponentId": 13,
+  "parentId": 1,
+  "customerId": 1,
+  "id": "bb04dc6d-6370-45ea-a453-823b99c5d6bb"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0f9"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 2,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "64647ad8-9988-463b-9784-b45fd18df4bd"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0fa"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 2,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name",
+    "field1": "USER"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "b5d6a425-5d64-4d53-9595-7281510c539d"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0fb"
+  },
+  "originalLabel": "Owner",
+  "label": "Owner",
+  "key": "ownerId",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 2,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "0fd19362-8014-450f-bb44-624a5d7f5665"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0fc"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 2,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "PROPOSED",
+      "value": "Proposed",
+      "isDefault": false,
+      "color": "#93608E",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "APPROVED",
+      "value": "Approved",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "REJECTED",
+      "value": "Rejected",
+      "isDefault": false,
+      "color": "#594C4C",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "ON_HOLD",
+      "value": "On Hold",
+      "isDefault": false,
+      "color": "#23386F",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "IN_PROGRESS",
+      "value": "In Progress",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "CANCELLED",
+      "value": "Cancelled",
+      "isDefault": false,
+      "color": "#CA0202",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "COMPLETED",
+      "value": "Completed",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "RELEASED",
+      "value": "Released",
+      "isDefault": false,
+      "color": "#0D00FF",
+      "archive": false,
+      "mappedTo": "completed"
+    }
+  ],
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "62723819-47fd-4393-a25e-8cb7208c833e"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0fd"
+  },
+  "originalLabel": "Priority",
+  "label": "Priority",
+  "key": "priority",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 2,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "HIGH",
+      "value": "High",
+      "isDefault": false,
+      "color": "#CF0505",
+      "archive": false
+    },
+    {
+      "key": "MEDIUM",
+      "value": "Medium",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false
+    },
+    {
+      "key": "LOW",
+      "value": "Low",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "5d067e7c-ee85-4ed6-95ee-55e8c74c7999"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0fe"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "customerId": 1,
+  "id": "71aa0d7d-b484-4802-a834-16aebcf6bade"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b0ff"
+  },
+  "originalLabel": "Projects",
+  "label": "Projects",
+  "key": "projectIds",
+  "controlType": "LIST",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 2,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "4ec4e439-0cbc-4742-9e38-739d875f5b75"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b100"
+  },
+  "originalLabel": "Team",
+  "label": "Team",
+  "key": "teamId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 2,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "2600743f-bf62-4b4b-a304-59b4f7403dcf"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b101"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "tagsId",
+  "parentId": 2,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "e9b78525-4fad-4425-89cb-5a3b4e7a7c98"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b102"
+  },
+  "originalLabel": "Epic",
+  "label": "Epic",
+  "key": "epicId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 2,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "1efd78e4-c734-4fe3-b138-9cc477def7a6"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b103"
+  },
+  "originalLabel": "Planned Start Date",
+  "label": "Planned Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "2cc31ae1-a5f8-4012-b7d1-f4a02e381d6e"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b104"
+  },
+  "originalLabel": "Planned End Date",
+  "label": "Planned End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "6c708a93-2340-40da-a51e-ace70a1f49f5"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b105"
+  },
+  "originalLabel": "Actual Start Date",
+  "label": "Actual Start Date",
+  "key": "actualStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "da2d0f90-770f-4be6-baa7-3e2fcf5c5a62"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b106"
+  },
+  "originalLabel": "Actual End Date",
+  "label": "Actual End Date",
+  "key": "actualEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "9111f47a-0b0d-43e0-a5c3-3be6ab3bf196"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b107"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "97a2f055-ab7d-488a-b7e6-301bd8860277"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b108"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Effort",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "216b2c39-9311-4334-abd4-4f629d1104ab"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b109"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Effort",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "b301f6e6-7d5f-479b-8155-d84164467c23"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b10a"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 2,
+  "seq": 18,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 0,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "88ac6b24-c4ba-4ae0-9abb-acef21a90d8b"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b10b"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 2,
+  "seq": 19,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "cd6cc9ab-d066-4963-91b7-55371b873d87"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b10c"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 20,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "ec38ed53-b350-4ac5-b9e4-dee93700d1a2"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b10d"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 21,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "02a98a40-9193-4e85-a391-c449335ffef6"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b10e"
+  },
+  "originalLabel": "Jira Id",
+  "label": "Jira Id",
+  "key": "jiraIssueKey",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 22,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "jiraIssueKey"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "41809a97-61f3-42dd-90d0-d997acb8d1e0"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b10f"
+  },
+  "originalLabel": "Azure Id",
+  "label": "Azure Id",
+  "key": "azureId",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 2,
+  "seq": 23,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "azureId"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "64ffe644-ba59-4947-9218-c4665a480342"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b110"
+  },
+  "originalLabel": "Sub Project",
+  "label": "Sub Project",
+  "key": "subProjectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "KEY",
+  "keyname": "subProjectId",
+  "values": [],
+  "seq": 33,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "createdBy": 151,
+  "createdAt": {
+    "$date": "2025-11-20T23:54:59.277Z"
+  },
+  "displayKey": {
+    "field": "subProjectName"
+  },
+  "parentComponentId": 13,
+  "parentId": 2,
+  "customerId": 1,
+  "id": "4c3c5223-21e9-4cff-bce5-153304f436a8"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b111"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [
+    "TABLE"
+  ],
+  "parentId": 11,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "customerId": 1,
+  "id": "be995119-95d7-44b4-8248-b4e43a2bd59a"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b112"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 2,
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 3,
+  "maxLimit": 500,
+  "customerId": 1,
+  "id": "7f4c2480-2729-4f57-8fc1-3d7f1dc85bc8"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b113"
+  },
+  "originalLabel": "Owner",
+  "label": "Owner",
+  "key": "ownerIds",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 11,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "multi": true,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "7ec4eae7-8297-4dcb-ab40-90b2dfd84258"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b114"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 11,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "New",
+      "value": "New",
+      "isDefault": false,
+      "color": "#0029FF",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "In-progress",
+      "value": "In-progress",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "Completed",
+      "value": "Completed",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "Released",
+      "value": "Released ",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false,
+      "mappedTo": "completed"
+    }
+  ],
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "b21620ed-f3a5-4f3a-93bb-417272f72a52"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b115"
+  },
+  "originalLabel": "Projects",
+  "label": "Projects",
+  "key": "projectIds",
+  "controlType": "LIST",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 11,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "9bdfebc2-c4f2-4c64-a83b-411acecaf4ab"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b116"
+  },
+  "originalLabel": "Planned Start Date",
+  "label": "Planned Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "a19c5bd4-3ed8-41d4-8f7d-222af1fbe6c2"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b117"
+  },
+  "originalLabel": "Planned End Date",
+  "label": "Planned End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "9c25c66f-409b-4f87-9797-870efa2b1a2c"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b118"
+  },
+  "originalLabel": "Actual Start Date",
+  "label": "Actual Start Date",
+  "key": "actualStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "a449f245-9f2c-4983-8f15-5385454dff47"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b119"
+  },
+  "originalLabel": "Actual End Date",
+  "label": "Actual End Date",
+  "key": "actualEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "154083e6-48af-4e90-ba5d-9af70ef85c30"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b11a"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "10a34a1f-6933-479b-ad87-9d07a93a5e9a"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b11b"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Effort",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "25171243-4a44-47bc-9c21-92acfdd4cce2"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b11c"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Effort",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "2cf93f49-7fcb-42ec-9151-da9a89887ef3"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b11d"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 11,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "94b32fd9-2f10-4681-a6ee-aaa4b690fb1c"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b11e"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 11,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "c0c05f95-2e99-4b8d-ac82-7440b53eac84"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b11f"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "0fd37845-e0b6-4d31-be5a-f6c96b76c2dc"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b120"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "6f2337b4-84e7-48ab-8057-6d39acb88b71"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b121"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 11,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "customerId": 1,
+  "id": "d9853442-a6df-4f93-863a-95fee8e78b72"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b122"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [
+    "TABLE"
+  ],
+  "parentId": 12,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "customerId": 1,
+  "id": "9c16d5c8-c6a7-4dcc-ab32-392271d4539a"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b123"
+  },
+  "originalLabel": "Sprint Name",
+  "label": "Sprint Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 2,
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 3,
+  "maxLimit": 500,
+  "customerId": 1,
+  "id": "c1aa7068-e4ac-45c0-8832-55784b6b1056"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b124"
+  },
+  "originalLabel": "Release",
+  "label": "Release",
+  "key": "releaseId",
+  "controlType": "RELEASE-SPRINT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 12,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [],
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "4631e6bb-ed9e-4577-94e8-f160e1c11a84"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b125"
+  },
+  "originalLabel": "Owner",
+  "label": "Owner",
+  "key": "ownerIds",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 12,
+  "seq": 4,
+  "multi": true,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "e6d095e4-7331-48b5-99fe-8a51161f6a4a"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b126"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 12,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "New",
+      "value": "New",
+      "isDefault": false,
+      "color": "#0029FF",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "In-progress",
+      "value": "In-progress",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "Completed",
+      "value": "Completed ",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false,
+      "mappedTo": "completed"
+    }
+  ],
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "060bd99c-7f8a-4ed1-bbd5-dcc269ee65e6"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b127"
+  },
+  "originalLabel": "Planned Start Date",
+  "label": "Planned Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "85bbe744-d910-45f0-87e4-9b59f5ed7e53"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b128"
+  },
+  "originalLabel": "Planned End Date",
+  "label": "Planned End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "102f95f4-c866-4d27-b8ad-5f6de092e04c"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b129"
+  },
+  "originalLabel": "Actual Start Date",
+  "label": "Actual Start Date",
+  "key": "actualStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "e9049fb8-d082-4191-88dc-241b49a44c50"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b12a"
+  },
+  "originalLabel": "Actual End Date",
+  "label": "Actual End Date",
+  "key": "actualEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "83fe3b47-0d14-4943-a397-3c4840bf3605"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b12b"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "4116ea6d-6f2b-4973-9de6-de405f05c3ec"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b12c"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Effort",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "11a56e25-9e8a-4f46-8c4a-200308a20874"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b12d"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Effort",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "8add92cf-d437-4bc1-b22a-d7a1d22286fb"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b12e"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 12,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "c3356c97-93f5-4b1f-b2be-0d24d5d8d191"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b12f"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 12,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "c5a15e1f-eadf-488f-9f9f-82e10dd12209"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b130"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "802226d0-0e6f-47a8-9b27-314753ec8e3f"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b131"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "customerId": 1,
+  "id": "fd610f07-02e3-4003-91c3-4a725db8027a"
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b132"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 12,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "CREATE",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "customerId": 1,
+  "id": "e055268e-72cc-42a8-96c3-b37b677a6086"
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b148"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 3,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "id": "54300bf1-fc83-4006-978d-4798c99fb59b",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b149"
+  },
+  "originalLabel": "Owner",
+  "label": "Owner",
+  "key": "ownerId",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 3,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "7def39ba-1cf0-4e87-a01a-36850ef010a4",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.851Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b14a"
+  },
+  "originalLabel": "Impacted User Story",
+  "label": "Impacted User Story",
+  "key": "impactedUserStory",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 3,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "12584895-da5c-4434-ac9d-a8faa8fb7f95",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.857Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b14b"
+  },
+  "originalLabel": "Start Date",
+  "label": "Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 18,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "8eeffdc2-a9c9-46f0-b4e8-cf1641aeb7c6",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.861Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b14c"
+  },
+  "originalLabel": "End Date",
+  "label": "End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 19,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "d2ef49f0-3a02-419d-9b0d-36e4c7a6aa5e",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.865Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b14d"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Effort",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 21,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "02e5c192-bff5-471e-aa03-7ff789c29246",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.869Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b14e"
+  },
+  "originalLabel": "Planned Deployment Date",
+  "label": "Planned Deployment Date",
+  "key": "plannedDeploymentDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 24,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "6bf39d8f-aede-467a-b173-a5ab3129c465",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b14f"
+  },
+  "originalLabel": "Actual Deployment Date",
+  "label": "Actual Deployment Date",
+  "key": "actualDeploymentDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 25,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "b8dd21b6-6d0c-4f44-8019-7cfcab79cfde",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.907Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b150"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 3,
+  "seq": 26,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "1d72d1d9-6af6-4c94-ab61-26b44eb3483e",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b151"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 3,
+  "seq": 27,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "6dc7c5b6-19a4-474b-b3e8-17489f0f2b60",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.910Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b152"
+  },
+  "originalLabel": "Actual End Date",
+  "label": "Actual End Date",
+  "key": "actualEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "f7d15c0d-a7e5-4d26-a0d1-ef89c10c84ae",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.911Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b153"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "e0b6bbd5-2fc5-4fcd-96a4-5c798effd63b",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.912Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b154"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Efforts",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "width": 235,
+  "filter": true,
+  "sort": true,
+  "sortType": "dsc",
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "bcef772a-057d-49f6-a0ff-2b8ad29dbb28",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.912Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b155"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 20,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "572efbef-b4e6-442a-ac5b-287b3d69c25d",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.913Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b156"
+  },
+  "originalLabel": "Pre-Requisites",
+  "label": "Pre-Requisites",
+  "key": "prerequisite",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "f0e02265-9415-449b-843a-a22c20c64d8f",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.914Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b157"
+  },
+  "originalLabel": "Module",
+  "label": "Module",
+  "key": "moduleId",
+  "controlType": "MODULE-LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 5,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "263f2994-5030-441a-98a0-99856fcbc3ab",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.915Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b158"
+  },
+  "originalLabel": "Defects",
+  "label": "Defects",
+  "multi": true,
+  "key": "defectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 5,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "0ec0c5c4-2217-4894-b2fe-e567150f0792",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.917Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b159"
+  },
+  "originalLabel": "Reviewal/Approval State",
+  "label": "Reviewal/Approval State",
+  "key": "reviewApproveStatus",
+  "controlType": "TEXT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 5,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "dcff35b1-09cb-49b5-acf5-e822d69052c4",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.918Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b15a"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "9988b18a-849a-43ee-a634-efc8b2ce3697",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.919Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b15b"
+  },
+  "originalLabel": "Pre-Requisites",
+  "label": "Pre-Requisites",
+  "key": "prerequisite",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": true,
+  "readOnly": false,
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "d618e42b-58d5-4fce-ac58-79c15c0ae0eb",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.920Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b15c"
+  },
+  "originalLabel": "Function Type",
+  "label": "Function Type",
+  "key": "fnType",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "f7dd1b3c-0a0c-402b-8839-6992bef603b5",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.921Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b15d"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "parentId": 6,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "84e43ba7-1a3c-4dfa-8ee6-29bab419bce1",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.922Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b15e"
+  },
+  "originalLabel": "Assigned To",
+  "label": "Assigned To",
+  "key": "ownerId",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 9,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "8ed74678-0a73-4800-9095-7f9e1b17beae",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.922Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b15f"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "7b4dfc6d-2c0d-4ebb-83f4-e6555f24b7ee",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b160"
+  },
+  "originalLabel": "User Story",
+  "label": "User Story",
+  "key": "userstoryId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 9,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "b7ca8bb6-25ad-4d08-b5bb-68b0f4521037",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.925Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b161"
+  },
+  "originalLabel": "Closed Date",
+  "label": "Closed Date",
+  "key": "closedDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 22,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "9a8bfcc2-267a-4552-99dd-6a7cb6ca5150",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.928Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b162"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Effort",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 25,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "92071a48-9e39-4578-b6aa-470eb3735271",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.931Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b163"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 7,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": true,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false,
+  "id": "347685ec-b653-4904-b7e2-efa9ae06473d",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.935Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b164"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 7,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false,
+  "id": "d44105d5-51e0-4a7b-9da0-397f45965680",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.938Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b165"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 7,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false,
+  "id": "815f8d22-a6ee-495e-bdbb-bcafa8bcf9a0",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.941Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b166"
+  },
+  "originalLabel": "Acceptance Criteria",
+  "label": "Acceptance Criteria",
+  "key": "acceptanceCriteria",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "621acbac-b7af-459b-969e-c336cbde4da1",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.944Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b167"
+  },
+  "originalLabel": "Module",
+  "label": "Module",
+  "key": "moduleId",
+  "controlType": "MODULE-LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 3,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "name",
+  "type": "id",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "b509f7c8-9482-40b9-8b0e-de375b2c1d56",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.948Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b168"
+  },
+  "originalLabel": "Epic",
+  "label": "Epic",
+  "key": "epicId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 3,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "8288cf1c-5eb2-4aa5-a839-438d54756ada",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.951Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b169"
+  },
+  "originalLabel": "Release",
+  "label": "Release",
+  "key": "releaseId",
+  "controlType": "RELEASE-SPRINT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 3,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "7ecb402f-2c0a-4279-9fe5-262bef6ae3ba",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.955Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b16a"
+  },
+  "originalLabel": "Associated User Story",
+  "label": "Associated User Story",
+  "key": "associatedUserStory",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 3,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "c241da8e-ba86-4fa4-a797-1940e6903704",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.958Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b16b"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 20,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "2ffd40a4-8993-4132-b2e0-dede9dfbea67",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.962Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b16c"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 29,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "3255e45a-a0b1-496d-ac86-899def140d87",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.965Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b16d"
+  },
+  "originalLabel": "Name",
+  "label": "Name ",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "parentId": 4,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "minLimit": 3,
+  "maxLimit": 500,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "963c6e16-4ea4-407f-80b2-abc6c93b86e9",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.968Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b16e"
+  },
+  "originalLabel": "Priority",
+  "label": "Priority",
+  "key": "priority",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 4,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "HIGH",
+      "value": "High",
+      "isDefault": true,
+      "color": "#CF0505",
+      "archive": false
+    },
+    {
+      "key": "MEDIUM",
+      "value": "Medium",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false
+    },
+    {
+      "key": "LOW",
+      "value": "Low",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "b284aea0-9a32-4a0e-b962-a267a8a168ab",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.972Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b16f"
+  },
+  "originalLabel": "Type",
+  "label": "Type",
+  "key": "type",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 4,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "MEETING",
+      "value": "Meeting",
+      "isDefault": false,
+      "color": "#595858",
+      "archive": false
+    },
+    {
+      "key": "TRAINING",
+      "value": "Training",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false
+    },
+    {
+      "key": "CODING",
+      "value": "Coding",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false
+    },
+    {
+      "key": "TESTING",
+      "value": "Testing",
+      "isDefault": false,
+      "color": "#AD1927",
+      "archive": false
+    },
+    {
+      "key": "REVIEW",
+      "value": "Review",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false
+    },
+    {
+      "key": "RESEARCH & DEV",
+      "value": "Research & Dev",
+      "isDefault": false,
+      "color": "#23386F",
+      "archive": false
+    },
+    {
+      "key": "DISSCUSSION",
+      "value": "Discussion",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false
+    },
+    {
+      "key": "ANALYSIS",
+      "value": "Analysis",
+      "isDefault": false,
+      "color": "#0D00FF",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "cf9ec877-22de-4dca-8406-00ea1b9d497e",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.975Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b170"
+  },
+  "originalLabel": "Planned Start Date",
+  "label": "Planned Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "6d7b7800-c876-4d02-b7ef-7d2971892652",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.979Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b171"
+  },
+  "originalLabel": "Actual Start Date",
+  "label": "Actual Start Date",
+  "key": "actualStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "e874b5f0-3827-4ef4-b0bd-b5dfa53c10a8",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.982Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b172"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 4,
+  "seq": 19,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "3bcdf506-e340-419c-a1e0-86f6b154da13",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.985Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b173"
+  },
+  "originalLabel": "Versions",
+  "label": "Versions",
+  "key": "versions",
+  "controlType": "LIST",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 5,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "a03747cf-fca7-443e-8dab-0f7970d8dd6d",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b174"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "tagsId",
+  "parentId": 5,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "0cb1daa8-323a-44f8-9f6c-df4da8cda267",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.995Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07665cdad1c05ad0b175"
+  },
+  "originalLabel": "Suites",
+  "label": "Suites",
+  "key": "suiteId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": true,
+  "parentId": 5,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": true,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "f00552d8-4750-41fb-975a-4829c4dea554",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:58.998Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b176"
+  },
+  "originalLabel": "Reviewal/Approval State",
+  "label": "Reviewal/Approval State",
+  "key": "reviewApproveStatus",
+  "controlType": "TEXT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 6,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "e1280c36-56a6-481c-9137-f36b0771bed6",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.002Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b177"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "13827d29-8e40-473d-a73a-cd9a5e3f8df9",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.006Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b178"
+  },
+  "originalLabel": "Module",
+  "label": "Module",
+  "key": "moduleId",
+  "controlType": "MODULE-LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 9,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "67c987c4-030c-4d7b-92e6-8e6298a9ba5a",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.010Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b179"
+  },
+  "originalLabel": "Release",
+  "label": "Release",
+  "controlType": "RELEASE-SPRINT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 9,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "key": "releaseId",
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "ef078a26-311d-4b44-a51d-4468c86f310e",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.014Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b17a"
+  },
+  "originalLabel": "Category",
+  "label": "Category",
+  "key": "category",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 13,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "DEFECT",
+      "value": "Defect",
+      "isDefault": false,
+      "color": "#F13A3A",
+      "archive": false
+    },
+    {
+      "key": "ENHANCEMENT",
+      "value": "Enhancement",
+      "isDefault": false,
+      "color": "#AD14FF",
+      "archive": false
+    },
+    {
+      "key": "REQUIRENMENT",
+      "value": "Requirement",
+      "isDefault": false,
+      "color": "#889A14",
+      "archive": false
+    },
+    {
+      "key": "PRODUCTION_DEFECT",
+      "value": "Production Defect",
+      "isDefault": false,
+      "color": "#80010D",
+      "archive": false
+    },
+    {
+      "key": "REGRESSION_DEFECT",
+      "value": "Regression Defect",
+      "isDefault": false,
+      "color": "#04226B",
+      "archive": false
+    },
+    {
+      "key": "HOTFIX",
+      "value": "Hotfix",
+      "isDefault": false,
+      "color": "#FF4500",
+      "archive": false
+    },
+    {
+      "key": "TRIVIAL",
+      "value": "Trivial",
+      "isDefault": false,
+      "color": "#5C5A5A",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "52fb38c5-ef4f-4c7a-aa47-ef36b8131673",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.017Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b17b"
+  },
+  "originalLabel": "Severity",
+  "label": "Severity",
+  "key": "severity",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "CRITICAL",
+      "value": "Critical",
+      "isDefault": false,
+      "color": "#FF6347",
+      "archive": false
+    },
+    {
+      "key": "BLOCKER",
+      "value": "Blocker",
+      "isDefault": false,
+      "color": "#800000",
+      "archive": false
+    },
+    {
+      "key": "MAJOR",
+      "value": "Major",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false
+    },
+    {
+      "key": "MINOR",
+      "value": "Minor",
+      "isDefault": false,
+      "color": "#6D6D0A",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "1f0e56a9-39c6-4281-8ef0-1311a66b983a",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.021Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b17c"
+  },
+  "originalLabel": "Team",
+  "label": "Team",
+  "key": "teamId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 9,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "99e6cf38-b2c9-4451-bfb4-b4db3f899990",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.026Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b17d"
+  },
+  "originalLabel": "Feature",
+  "label": "Feature",
+  "key": "featureId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 9,
+  "seq": 17,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "d9a576bf-d16e-4c30-963a-3cd2cec63bd2",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b17e"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 7,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false,
+  "id": "aeb855dd-d3e5-4107-84d3-8b263f0008dc",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.036Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b17f"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 7,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "HEADER"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false,
+  "id": "33a1d725-6b8c-4539-8256-c1af9f7f6eb7",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.043Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b180"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 7,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "shownIn": [
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false,
+  "id": "c6514e0f-be4e-4d8b-b02b-eb58b61e3687",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b181"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 7,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": true,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false,
+  "id": "51043045-f343-4595-9bcd-1e3021039c3d",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.054Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b182"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "79bb44dd-a595-4a13-a34e-ee62e4cd5fe2",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.061Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b183"
+  },
+  "originalLabel": "Team",
+  "label": "Team",
+  "key": "teamId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "multi": true,
+  "jsonArrayKey": "",
+  "parentId": 3,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "b3022eed-1219-4153-b68f-4ed815b2693e",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.065Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b184"
+  },
+  "originalLabel": "Type",
+  "label": "Type",
+  "key": "type",
+  "controlType": "LIST",
+  "hasMap": false,
+  "displayKey": {
+    "field": "label"
+  },
+  "parentId": 3,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "value",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "61df685b-9787-4322-9e66-b6692cb087aa",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.069Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b185"
+  },
+  "originalLabel": "Feature",
+  "label": "Feature",
+  "key": "featureId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 3,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "eeed3c5c-32e1-4951-b791-247ecb5fa9bc",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.076Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b186"
+  },
+  "originalLabel": "Sprint",
+  "label": "Sprint",
+  "key": "iterationId",
+  "controlType": "RELEASE-SPRINT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 3,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "f5ae4472-e37f-4f7a-99b5-45d3a127b7c2",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.081Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b187"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 3,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "1cf1e35b-cafe-4f0e-8c32-3076ad918e99",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.088Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b188"
+  },
+  "originalLabel": "Deployment status",
+  "label": "Deployment status",
+  "key": "deploymentStatus",
+  "displayKey": {
+    "field": "label"
+  },
+  "controlType": "LIST",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 23,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "value",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "c204728c-8f59-4e6a-83b6-24684ebf24aa",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.092Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b189"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 4,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "2fd674f5-c1fa-484a-a753-08dc0c5879b9",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.097Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b18a"
+  },
+  "originalLabel": "Assigned To",
+  "label": "Assigned To",
+  "key": "ownerId",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 4,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "216d7429-82db-43ba-86dc-3a5ede41e6ca",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.101Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b18b"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "d523538c-39db-4afb-82fb-49f2ac93c3bd",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.105Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b18c"
+  },
+  "originalLabel": "User Story",
+  "label": "User Story",
+  "key": "userstoryId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": false,
+  "jsonArrayKey": "",
+  "parentId": 4,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "5a5c5b24-76ea-45f8-b060-683a6bde0d1f",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.108Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b18d"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "tagsId",
+  "parentId": 4,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "3b6a94d6-d850-447e-bb97-cabb93272e3e",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.110Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b18e"
+  },
+  "originalLabel": "Planned End Date",
+  "label": "Planned End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "8f577563-f13e-4843-9a9b-46934e4ad5fe",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.111Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b18f"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Efforts",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "12c39e5b-ebd1-415a-afae-43d43826ced6",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.112Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b190"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "sort": true,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 5,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "c10ae988-893e-4669-a901-316d0b90602b",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.113Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b191"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 3,
+  "maxLimit": 500,
+  "id": "b5de28a9-3d68-4439-a164-e0cc667286b1",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.114Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b192"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "990f476e-2745-4d97-9c39-2decc19abf59",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.115Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b193"
+  },
+  "originalLabel": "Testcase Type",
+  "label": "Testcase Type",
+  "key": "tcType",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "f521480e-5ccb-42e9-ae5d-c0eaad48486f",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.117Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b194"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 5,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": true,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "99e9db17-e845-4857-a9fb-4c66d2e5776b",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.119Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b195"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 5,
+  "seq": 15,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": true,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "7afb313f-db07-4d18-b109-bd49ed2f84a3",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.120Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b196"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "b380d20f-3e32-4656-8a69-ee34b1fb315e",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.121Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b197"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 6,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "1e4e5a70-fe8f-4af7-8b67-ac491437d0d0",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.122Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b198"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "cellCssClass": "",
+  "deleted": false,
+  "readOnly": false,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 3,
+  "maxLimit": 500,
+  "id": "9732bb2f-f438-49eb-ae9b-d29ea3d41b6f",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.123Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b199"
+  },
+  "originalLabel": "Versions",
+  "label": "Versions",
+  "key": "versions",
+  "controlType": "LIST",
+  "multi": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER"
+  ],
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 6,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "589f96fe-1500-4606-8bd4-67ac462291f4",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.124Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b19a"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "3a3f9896-4c02-4b2a-ab1e-94b0ca715a42",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b19b"
+  },
+  "originalLabel": "Module",
+  "label": "Module",
+  "key": "moduleId",
+  "controlType": "MODULE-LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 6,
+  "seq": 6,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "f32ce30f-9d91-488b-a414-953fc8857eac",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.130Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b19c"
+  },
+  "originalLabel": "Execution Type",
+  "label": "Execution Type",
+  "key": "executionType",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 6,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "b98c2d49-e3c4-436a-878d-277037878006",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.131Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b19d"
+  },
+  "originalLabel": "Priority",
+  "label": "Priority",
+  "key": "priority",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "HIGHEST",
+      "value": "Highest",
+      "isDefault": false,
+      "color": "#EF0000",
+      "archive": false
+    },
+    {
+      "key": "HIGH",
+      "value": "High",
+      "isDefault": false,
+      "color": "#CF0505",
+      "archive": false
+    },
+    {
+      "key": "MEDIUM",
+      "value": "Medium",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false
+    },
+    {
+      "key": "LOW",
+      "value": "Low",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false
+    },
+    {
+      "key": "LOWEST",
+      "value": "Lowest",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "e05775bc-0428-484c-9952-3bd36e8a21db",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.132Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b19e"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "",
+  "parentId": 9,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "48d943ef-5082-4ba8-8573-6f353cbfb527",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.134Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b19f"
+  },
+  "originalLabel": "Sprint",
+  "label": "Sprint",
+  "key": "iterationId",
+  "controlType": "RELEASE-SPRINT",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "parentId": 9,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "e828d975-f5de-43ba-89c9-6e1440dc02cb",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.136Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a0"
+  },
+  "originalLabel": "Start Date",
+  "label": "Start Date",
+  "key": "plannedStartDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 20,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "baa55abd-96ff-4e45-80d6-2ba47bbf2142",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.138Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a1"
+  },
+  "originalLabel": "End Date",
+  "label": "End Date",
+  "key": "plannedEndDate",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 21,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "7e6ac545-2205-414d-85ab-73d40ffce223",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.139Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a2"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 9,
+  "seq": 26,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "09930e2e-7615-48af-ae02-bedc9d72ca49",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.140Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a3"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 9,
+  "seq": 27,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "e10a02e4-01b1-4e18-be07-a0ffe1b426de",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.142Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a4"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 28,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "5893599a-5de3-4b65-9ed9-f3b1e7323e86",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.144Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a5"
+  },
+  "originalLabel": "Description",
+  "label": "Description",
+  "key": "description",
+  "controlType": "TEXT-EDITOR",
+  "hasMap": false,
+  "parentId": 7,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "HEADER"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": false,
+  "enableColumnSearch": false,
+  "id": "ce64036c-90fb-4a3e-a64b-1829e89bbf81",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.146Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a6"
+  },
+  "originalLabel": "Name",
+  "label": "Name",
+  "key": "name",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 3,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "seq": 2,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "minLimit": 3,
+  "maxLimit": 500,
+  "id": "afc113e5-addc-4e4e-8940-7eb5dccf5036",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.150Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a7"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 3,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "NEEDS_DEFINITION",
+      "value": "Needs Definition",
+      "isDefault": false,
+      "color": "#595858",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "DEFINED",
+      "value": "Defined",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "ACCEPTED",
+      "value": "Accepted",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "REJECTED",
+      "value": "Rejected",
+      "isDefault": false,
+      "color": "#594C4C",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "DEV_IN_PROGRESS",
+      "value": "Dev In Progress",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "QA_IN_PROGRESS",
+      "value": "QA In Progress ",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "COMPLETED",
+      "value": "Completed ",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "RELEASED",
+      "value": "Released ",
+      "isDefault": false,
+      "color": "#0D00FF",
+      "archive": false,
+      "mappedTo": "completed"
+    }
+  ],
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "f709e961-e068-49cb-af54-31722a2ef389",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.153Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a8"
+  },
+  "originalLabel": "Priority",
+  "label": "Priority",
+  "key": "priority",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 3,
+  "seq": 5,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "values": [
+    {
+      "key": "HIGH",
+      "value": "High",
+      "isDefault": false,
+      "color": "#CF0505",
+      "archive": false
+    },
+    {
+      "key": "MEDIUM",
+      "value": "Medium",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false
+    },
+    {
+      "key": "LOW",
+      "value": "Low",
+      "isDefault": false,
+      "color": "#8DAB06",
+      "archive": false
+    }
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "16a48b97-8726-442b-b42e-7ed387c73e3b",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.156Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1a9"
+  },
+  "originalLabel": "Remaining Effort",
+  "label": "Remaining Effort",
+  "key": "remainingEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 22,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "ec76547f-a1c8-4ffb-a2b0-d81265c6b9e7",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1aa"
+  },
+  "originalLabel": "Created On",
+  "label": "Created On",
+  "key": "createdAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 28,
+  "fieldType": "defaultFld",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "f0fd0466-2e01-403a-b16d-9f2e54f5dee7",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.162Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1ab"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 4,
+  "seq": 3,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "NEW",
+      "value": "New",
+      "isDefault": false,
+      "color": "#0029FF",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "IN_PROGRESS",
+      "value": "In Progress",
+      "isDefault": false,
+      "color": "#FF9B3A",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "ON_HOLD",
+      "value": "On Hold",
+      "isDefault": false,
+      "color": "#23386F",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "COMPLETED",
+      "value": "Completed",
+      "isDefault": false,
+      "color": "#3AA322",
+      "archive": false,
+      "mappedTo": "completed"
+    }
+  ],
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "0d9a2979-a8e4-4746-b587-fb507daad417",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.164Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1ac"
+  },
+  "originalLabel": "Defect",
+  "label": "Defect",
+  "key": "defectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "multi": false,
+  "jsonArrayKey": "",
+  "parentId": 4,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "0717cb7c-ed62-4337-bae0-656f62be198d",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.167Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1ad"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 4,
+  "seq": 18,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "8c134ad6-a418-4ecc-8c56-7d5ccad05d4a",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1ae"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 21,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "bb15fb91-1fe0-49b8-bf9b-2e3801ffc8e0",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.173Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1af"
+  },
+  "originalLabel": "Execution Type",
+  "label": "Execution Type",
+  "key": "executionType",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 5,
+  "seq": 9,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "minLimit": 3,
+  "maxLimit": 500,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "e487ba09-875f-484c-9518-637b0697a011",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.176Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b0"
+  },
+  "originalLabel": "User Story",
+  "label": "User Story",
+  "key": "userstoryId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 5,
+  "seq": 10,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "697a8ca4-65cc-4e5e-8862-318fe4d4a2c1",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b1"
+  },
+  "originalLabel": "Labels",
+  "label": "Labels",
+  "key": "tags",
+  "controlType": "LABEL",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name"
+  },
+  "jsonArrayKey": "tagsId",
+  "parentId": 6,
+  "seq": 7,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "eec12917-75c5-4ab5-9351-f29e95fc7a7c",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b2"
+  },
+  "originalLabel": "Created By",
+  "label": "Created By",
+  "key": "createdBy",
+  "controlType": "USER",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 6,
+  "seq": 11,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "077bfc91-4b37-4bff-9c0b-f097f59ba31c",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.183Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b3"
+  },
+  "originalLabel": "Updated By",
+  "label": "Updated By",
+  "key": "updatedBy",
+  "controlType": "USER",
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field1": "user"
+  },
+  "parentId": 6,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "cellCssClass": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "b359fdb9-e1b8-404c-bc9f-587460d95af6",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.185Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b4"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "parentId": 6,
+  "seq": 14,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "d5e7ad7f-6310-4200-a345-2e960c57fe3d",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.188Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b5"
+  },
+  "originalLabel": "Id",
+  "label": "ID",
+  "key": "code",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "",
+  "keyname": "",
+  "values": [],
+  "parentId": 9,
+  "seq": 1,
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "7458d2e5-761f-4514-8b4f-5b9a817c41ca",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.191Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b6"
+  },
+  "originalLabel": "State",
+  "label": "State",
+  "key": "state",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 4,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "values": [
+    {
+      "key": "NEW",
+      "value": "New",
+      "isDefault": false,
+      "color": "#0029FF",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "ASSIGNED",
+      "value": "Assigned",
+      "isDefault": false,
+      "color": "#9C8406",
+      "archive": false,
+      "mappedTo": "new"
+    },
+    {
+      "key": "RESOLVED",
+      "value": "Resolved",
+      "isDefault": false,
+      "color": "#FFA500",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "FIXED",
+      "value": "Fixed",
+      "isDefault": false,
+      "color": "#00C843",
+      "archive": false,
+      "mappedTo": "pending"
+    },
+    {
+      "key": "CLOSED",
+      "value": "Closed",
+      "isDefault": false,
+      "color": "#000060",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "DUPLICATE",
+      "value": "Duplicate",
+      "isDefault": false,
+      "color": "#626262",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "REJECTED",
+      "value": "Rejected",
+      "isDefault": false,
+      "color": "#D20000",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "DEFERRED",
+      "value": "Deferred",
+      "isDefault": false,
+      "color": "#6A0202",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "NOT_A_DEFECT",
+      "value": "Not a Defect",
+      "isDefault": false,
+      "color": "#099F9F",
+      "archive": false,
+      "mappedTo": "completed"
+    },
+    {
+      "key": "REOPENED",
+      "value": "Reopened",
+      "isDefault": false,
+      "color": "#FF0000",
+      "archive": false,
+      "mappedTo": "pending"
+    }
+  ],
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "4995746c-29b4-4cca-a279-2fdc0e43d8ed",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.194Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b7"
+  },
+  "originalLabel": "Test Case",
+  "label": "Test Case",
+  "key": "selectedTestCase",
+  "controlType": "LIST",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "jsonArrayKey": "",
+  "parentId": 9,
+  "seq": 12,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "ARRAYKEYS",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "4affe843-8379-4fd1-b2ab-61e296a43b89",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.197Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b8"
+  },
+  "originalLabel": "Client",
+  "label": "Client",
+  "key": "clientId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "name",
+    "field2": "code"
+  },
+  "parentId": 9,
+  "seq": 16,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "id",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "ae80d5b1-e45c-42ae-aba2-dfb1eb811bb0",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.199Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1b9"
+  },
+  "originalLabel": "Environment",
+  "label": "Environment",
+  "key": "environment",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 18,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "03df71b1-7bd3-4aa2-bf3a-ee6efb326955",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.203Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1ba"
+  },
+  "originalLabel": "Execution Type",
+  "label": "Execution Type",
+  "key": "executionType",
+  "controlType": "LIST",
+  "hasMap": true,
+  "displayKey": {
+    "field": "value"
+  },
+  "parentId": 9,
+  "seq": 19,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "key",
+  "type": "KEY",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "bcaedef9-b502-4795-b1a2-49d018fe5d0f",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.206Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1bb"
+  },
+  "originalLabel": "Estimated Effort",
+  "label": "Estimated Effort",
+  "key": "estimatedEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 23,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE",
+    "IMPORT"
+  ],
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "2485ddb1-f71b-4768-b2c7-2a581b347e34",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.209Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1bc"
+  },
+  "originalLabel": "Actual Effort",
+  "label": "Actual Effort",
+  "key": "actualEffort",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 24,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "baa8325b-6cd2-46d2-877d-7919454b8c87",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.213Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1bd"
+  },
+  "originalLabel": "Updated On",
+  "label": "Updated On",
+  "key": "updatedAt",
+  "controlType": "DATE",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 29,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "deleted": false,
+  "readOnly": true,
+  "shownIn": [
+    "TABLE",
+    "EDIT"
+  ],
+  "cellCssClass": "",
+  "filter": true,
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "name"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": false,
+  "jsonArrayKey": "",
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "8a2c7d76-0ab5-40d2-9882-3aa764c91966",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.216Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1be"
+  },
+  "originalLabel": "Jira Id",
+  "label": "Jira Id",
+  "key": "jiraIssueKey",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 30,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "jiraIssueKey"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "cfd5d1af-e7eb-40cf-a791-cd7ccea487d8",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.220Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1bf"
+  },
+  "originalLabel": "Azure Id",
+  "label": "Azure Id",
+  "key": "azureId",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 3,
+  "seq": 31,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "azureId"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "45f32f54-dc4e-4334-9900-8491b5fe9f87",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.224Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1c0"
+  },
+  "originalLabel": "Jira Id",
+  "label": "Jira Id",
+  "key": "jiraIssueKey",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 22,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "jiraIssueKey"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "cede107f-55c7-47bd-b23c-4e0f759bfbc2",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.228Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1c1"
+  },
+  "originalLabel": "Azure Id",
+  "label": "Azure Id",
+  "key": "azureId",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 4,
+  "seq": 23,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "azureId"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "14e332ab-f2df-40ef-ab82-64cadf5229dd",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.233Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1c2"
+  },
+  "originalLabel": "Azure Id",
+  "label": "Azure Id",
+  "key": "azureId",
+  "controlType": "NUMBER",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 31,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "azureId"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "9c00b233-dae1-4c3f-a7a3-f62f7eb1c515",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.237Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1c3"
+  },
+  "originalLabel": "Jira Id",
+  "label": "Jira Id",
+  "key": "jiraIssueKey",
+  "controlType": "TEXT",
+  "hasMap": false,
+  "parentId": 9,
+  "seq": 30,
+  "fieldType": "defaultFld",
+  "mandatory": false,
+  "readOnly": true,
+  "deleted": false,
+  "cellCssClass": "",
+  "filter": true,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "EDIT"
+  ],
+  "showProfileIcon": false,
+  "sort": true,
+  "sortType": "dsc",
+  "width": 235,
+  "displayKey": {
+    "field": "jiraIssueKey"
+  },
+  "keyname": "",
+  "type": "",
+  "isDefault": true,
+  "jsonArrayKey": "",
+  "enableInlineEdit": true,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "id": "c71bc641-dfe7-4f01-bbe3-5a8a6d927142",
+  "projectId": 1,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.242Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1c4"
+  },
+  "originalLabel": "Versions",
+  "label": "Version",
+  "key": "versions",
+  "controlType": "LIST",
+  "multi": true,
+  "hasMap": true,
+  "displayKey": {
+    "field": "versionName"
+  },
+  "jsonArrayKey": "",
+  "parentId": 3,
+  "seq": 8,
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "deleted": false,
+  "readOnly": false,
+  "cellCssClass": "",
+  "filter": false,
+  "showProfileIcon": false,
+  "sort": false,
+  "sortType": "dsc",
+  "width": 235,
+  "keyname": "versionId",
+  "type": "KEY",
+  "isDefault": false,
+  "shownIn": [
+    "TABLE",
+    "HEADER",
+    "IMPORT",
+    "EDIT"
+  ],
+  "enableInlineEdit": false,
+  "enableColumnDrag": true,
+  "enableColumnSearch": false,
+  "id": "ebe52d6a-9637-43a1-a879-ecb14fa6b48b",
+  "limit": 0,
+  "updatedBy": 1,
+  "createdBy": 1,
+  "projectId": 1,
+  "customerId": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.246Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1c5"
+  },
+  "originalLabel": "Sub Project",
+  "label": "Sub Project",
+  "key": "subProjectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "KEY",
+  "keyname": "subProjectId",
+  "values": [],
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "displayKey": {
+    "field": "subProjectName"
+  },
+  "parentComponentId": 13,
+  "createdBy": 1,
+  "parentId": 3,
+  "seq": 33,
+  "id": "30f5a553-5217-4f0a-bf11-9c1e6c5444fd",
+  "projectId": 1,
+  "customerId": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.250Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1c6"
+  },
+  "originalLabel": "Sub Project",
+  "label": "Sub Project",
+  "key": "subProjectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "KEY",
+  "keyname": "subProjectId",
+  "values": [],
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "displayKey": {
+    "field": "subProjectName"
+  },
+  "parentComponentId": 13,
+  "createdBy": 1,
+  "parentId": 4,
+  "seq": 24,
+  "id": "5a5fdfc7-f5df-43c0-8c3f-178abbbd2b38",
+  "projectId": 1,
+  "customerId": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.255Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "699f07675cdad1c05ad0b1c7"
+  },
+  "originalLabel": "Sub Project",
+  "label": "Sub Project",
+  "key": "subProjectId",
+  "controlType": "LIST",
+  "hasMap": true,
+  "cellCssClass": "badge-id",
+  "width": 175,
+  "deleted": false,
+  "shownIn": [
+    "TABLE",
+    "EDIT",
+    "CREATE"
+  ],
+  "sort": true,
+  "sortType": "dsc",
+  "showProfileIcon": false,
+  "filter": true,
+  "type": "KEY",
+  "keyname": "subProjectId",
+  "values": [],
+  "jsonArrayKey": "",
+  "fieldType": "defaultFld",
+  "mandatory": true,
+  "readOnly": false,
+  "multi": false,
+  "isDefault": true,
+  "minLimit": 0,
+  "maxLimit": 0,
+  "enableColumnDrag": true,
+  "enableColumnSearch": true,
+  "enableInlineEdit": false,
+  "displayKey": {
+    "field": "subProjectName"
+  },
+  "parentComponentId": 13,
+  "createdBy": 1,
+  "parentId": 9,
+  "seq": 32,
+  "id": "aac61c55-b597-4766-8db1-77900e4db778",
+  "projectId": 1,
+  "customerId": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.259Z"
+  }
+}]

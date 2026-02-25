@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b133"
+  },
+  "customerId": 1,
+  "deleted": false,
+  "id": "de2b111b-7914-44b9-8dec-e83a38595d7a",
+  "createdBy": 0,
+  "fieldType": "linkages",
+  "inwardType": {
+    "value": "clones",
+    "key": "CloneInward"
+  },
+  "key": "Clone12",
+  "name": "CLONE",
+  "outwardType": {
+    "value": "is cloned by",
+    "key": "ClonebyOutward"
+  },
+  "parentFieldId": "",
+  "parentId": 10,
+  "updatedBy": 0
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b134"
+  },
+  "customerId": 1,
+  "deleted": false,
+  "id": "56ea949e-2e8a-4973-99f1-75eec1f07fed",
+  "createdBy": 0,
+  "fieldType": "linkages",
+  "inwardType": {
+    "value": "blocks",
+    "key": "blocksInward"
+  },
+  "key": "block12",
+  "name": "BLOCK",
+  "outwardType": {
+    "value": "is blocked by",
+    "key": "blockedbyOutward"
+  },
+  "parentFieldId": "",
+  "parentId": 10,
+  "updatedBy": 0
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b135"
+  },
+  "customerId": 1,
+  "deleted": false,
+  "id": "e7b7d98a-d705-4695-a132-252562344ef4",
+  "createdBy": 0,
+  "fieldType": "linkages",
+  "inwardType": {
+    "value": "duplicates",
+    "key": "duplicateInward"
+  },
+  "key": "duplicate12",
+  "name": "DUPLICATE",
+  "outwardType": {
+    "value": "is duplicated by",
+    "key": "duplicateOutward"
+  },
+  "parentFieldId": "",
+  "parentId": 10,
+  "updatedBy": 0
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b136"
+  },
+  "customerId": 1,
+  "deleted": false,
+  "id": "b90661aa-210d-4a74-8ff9-28ad83d4a1fe",
+  "createdBy": 0,
+  "fieldType": "linkages",
+  "inwardType": {
+    "value": "relates to",
+    "key": "relatesInward"
+  },
+  "key": "relates12",
+  "name": "RELATES",
+  "outwardType": {
+    "value": "relates to",
+    "key": "relatesdOutward"
+  },
+  "parentFieldId": "",
+  "parentId": 10,
+  "updatedBy": 0
+},
+{
+  "_id": {
+    "$oid": "699f075f5cdad1c05ad0b137"
+  },
+  "deleted": false,
+  "id": "6e3cdda1-bae8-4705-915e-dccc0825c90d",
+  "createdBy": 1,
+  "fieldType": "linkages",
+  "inwardType": {
+    "value": "Split From",
+    "key": "Split From"
+  },
+  "isAzureLinkage": false,
+  "key": "Split",
+  "name": "Split",
+  "outwardType": {
+    "value": "Split To",
+    "key": "Split To"
+  },
+  "parentFieldId": "",
+  "parentId": 10,
+  "createdAt": {
+    "$date": "2025-11-21T00:02:16.473Z"
+  },
+  "customerId": 1
+}]

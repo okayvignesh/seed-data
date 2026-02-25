@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "699f07677c1e929eb38b0fd7"
+  },
+  "id": 1,
+  "projectId": 1,
+  "customerId": 1,
+  "deleted": false,
+  "childIds": [],
+  "code": "MD-1",
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.269Z"
+  },
+  "createdBy": 1,
+  "description": "<p>Default module<br></p>",
+  "isRoot": true,
+  "name": "Default module"
+}]

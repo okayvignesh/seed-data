@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "699f075e7c1e929eb38b0fc7"
+  },
+  "collectionName": "customer",
+  "seq": 1
+},
+{
+  "_id": {
+    "$oid": "699f075f7c1e929eb38b0fca"
+  },
+  "customerId": 1,
+  "collectionName": "passwordsetting",
+  "seq": 1
+},
+{
+  "_id": {
+    "$oid": "699f075f7c1e929eb38b0fcc"
+  },
+  "customerId": 1,
+  "collectionName": "user",
+  "seq": 1
+},
+{
+  "_id": {
+    "$oid": "699f07667c1e929eb38b0fce"
+  },
+  "customerId": 1,
+  "collectionName": "project",
+  "seq": 1
+},
+{
+  "_id": {
+    "$oid": "699f07667c1e929eb38b0fd1"
+  },
+  "customerId": 1,
+  "collectionName": "roles",
+  "seq": 4
+},
+{
+  "_id": {
+    "$oid": "699f07677c1e929eb38b0fd6"
+  },
+  "collectionName": "module",
+  "customerId": 1,
+  "seq": 1
+}]

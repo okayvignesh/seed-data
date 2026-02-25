@@ -1,0 +1,6610 @@
+[{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8d1"
+  },
+  "id": 1,
+  "code": "AC-1",
+  "name": "longPress",
+  "description": "Performs long press on specified object.",
+  "disname": "Long Press",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Duration",
+      "type": "Int",
+      "param_description": "Duration to perform long press on specified object.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-30",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.513Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8d2"
+  },
+  "id": 2,
+  "code": "AC-2",
+  "name": "insertDocument",
+  "description": "Inserts a document into the specified collection.",
+  "disname": "Insert Document",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Collection Name",
+      "type": "String",
+      "param_description": "The name of the collection where the document is to be inserted.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Document",
+      "type": "String",
+      "param_description": "The document data to be inserted.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-9",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.514Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8d3"
+  },
+  "id": 3,
+  "code": "AC-3",
+  "name": "clickByTextIfTextPresent",
+  "description": "Click on the element if the text is visible in the image; if the text is not visible, scroll until it appears.",
+  "disname": "Click By Text If Text Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-32",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Click",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.517Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8d4"
+  },
+  "id": 4,
+  "code": "AC-4",
+  "name": "swipeEvent",
+  "description": "Performs swipe action on the ios device",
+  "disname": "Swipe Event",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-17",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.519Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8d5"
+  },
+  "id": 5,
+  "code": "AC-5",
+  "name": "minimumWait",
+  "description": "Pauses the execution for 1000 millisecond",
+  "disname": "Minimum Wait",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "generic-20",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.521Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8d6"
+  },
+  "id": 6,
+  "code": "AC-6",
+  "name": "elementIsEnabled",
+  "description": "Verifies if element is enabled. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is Enabled",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-27",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.523Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8d7"
+  },
+  "id": 7,
+  "code": "AC-7",
+  "name": "emulatorEvent",
+  "description": "Performs ADB actions on the specified device.",
+  "disname": "Emulator Event",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Emulator Event",
+      "type": "String",
+      "param_description": "Parameter to perform the emulator Event",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-36",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.526Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8d8"
+  },
+  "id": 8,
+  "code": "AC-8",
+  "name": "toggleWifi",
+  "description": "Toggles wifi to a specified mode.",
+  "disname": "Toggle Wifi",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Wifi Status",
+      "type": "String",
+      "param_description": "Value to this parameter would be 'TRUE' or 'FALSE' \nTRUE - turns on wifi\nFALSE - turns of wifi\nIf TRUE is used but already wifi is ON, it would just return true without performing anything.\nIf FALSE is used but already wifi is OFF, it would just return false without performing anything. ",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-41",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.527Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8d9"
+  },
+  "id": 9,
+  "code": "AC-9",
+  "name": "getCellDataFromCSV",
+  "description": "Gets data from the specified cell from a CSV file and stored in runtime parameter  in JSON format",
+  "disname": "Get Cell Data from CSV",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filepath",
+      "type": "String",
+      "param_description": "Filepath of a CSV file",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Row ID",
+      "type": "String",
+      "param_description": "Row ID is the name of the row",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Column ID",
+      "type": "String",
+      "param_description": "Column ID is the name of the column",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the fetched value",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-5",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.531Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8da"
+  },
+  "id": 10,
+  "code": "AC-10",
+  "name": "downloadFileFromRepo",
+  "description": "Downloads file from file repository and stores the link to the file in runtime parameter",
+  "disname": "Download File from Repository",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filename",
+      "type": "String",
+      "param_description": "Name of the file that needs to be downloaded from repo",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name in which URL of the file would be stored",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-10",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.534Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8db"
+  },
+  "id": 11,
+  "code": "AC-11",
+  "name": "switchToParentTab",
+  "description": "Switches the control to the parent tab.",
+  "disname": "Switch to Parent Tab",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-16",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.538Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8dc"
+  },
+  "id": 12,
+  "code": "AC-12",
+  "name": "clearText",
+  "description": "Clears text in an input box in ios app.",
+  "disname": "Clear Text",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-3",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Clear",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.540Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8dd"
+  },
+  "id": 13,
+  "code": "AC-13",
+  "name": "getTitleAndStore",
+  "description": "Gets the title of the current browser tab and stores the fetched value in runtime parameter.",
+  "disname": "Get Title and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Runtime Parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the browser title",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "web-3",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.541Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8de"
+  },
+  "id": 14,
+  "code": "AC-14",
+  "name": "scrollTillElementPresentAndClick",
+  "description": "Scrolls to the element until the element is present and click",
+  "disname": "Scroll till Element is Present and Click",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "SQAObject",
+      "type": "Runtime",
+      "param_description": "Object till the element needs to be scrolled and clicked",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-16",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.542Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8df"
+  },
+  "id": 15,
+  "code": "AC-15",
+  "name": "rightClick",
+  "description": "Performs right click of the mouse on the specified element.",
+  "disname": "Right Click",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-52",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Mouse Events",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.544Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e0"
+  },
+  "id": 16,
+  "code": "AC-16",
+  "name": "switchApp",
+  "description": "Switches to the specified app which is already open.",
+  "disname": "Switch App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Package Name",
+      "type": "String",
+      "param_description": "Package name of the Application.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-9",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.545Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e1"
+  },
+  "id": 17,
+  "code": "AC-17",
+  "name": "wifiStatus",
+  "description": "Verifies the status of the WiFi (enabled/disabled). Returns true if wifi is enabled, otherwise returns false. If true is returned, the step is considered passed; else, it fails.\n",
+  "disname": "Verify Wifi Status",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-42",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.546Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e2"
+  },
+  "id": 18,
+  "code": "AC-18",
+  "name": "scrollTillElementIsPresent",
+  "description": "Scrolls to the element until the element is present",
+  "disname": "Scroll till Element is Present",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "SQAObject",
+      "type": "String",
+      "param_description": "Object till the element needs to be scrolled",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-26",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.548Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e3"
+  },
+  "id": 19,
+  "code": "AC-19",
+  "name": "elementIsClickable",
+  "description": "Verifies if element is clickable. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is Clickable",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-25",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.549Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e4"
+  },
+  "id": 20,
+  "code": "AC-20",
+  "name": "Lock",
+  "description": "Locks the ios device screen",
+  "disname": "Lock",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-16",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.552Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e5"
+  },
+  "id": 21,
+  "code": "AC-21",
+  "name": "updateCellDataInCSV",
+  "description": "Updates data in a specified cell in a CSV file Note: This action updates the data, it would not write to an empty cell",
+  "disname": "Update Cell Data in CSV",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filepath",
+      "type": "String",
+      "param_description": "Filepath of a CSV file",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Row ID",
+      "type": "String",
+      "param_description": "Row ID is the name of the row",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Column ID",
+      "type": "String",
+      "param_description": "Column ID is the name of the column",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Value to replace",
+      "type": "String",
+      "param_description": "Value to replace in the specified cell",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-6",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.553Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e6"
+  },
+  "id": 22,
+  "code": "AC-22",
+  "name": "uninstallApp",
+  "description": "Uninstalls the specified app from the ios device",
+  "disname": "Uninstall App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "packageName",
+      "type": "String",
+      "param_description": "Package Name of the application that needs to be uninstalled",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-13",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.555Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e7"
+  },
+  "id": 23,
+  "code": "AC-23",
+  "name": "longPress",
+  "description": "Press and holds for -- on specified element.",
+  "disname": "Long Press",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-50",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Mouse Events",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.560Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e8"
+  },
+  "id": 24,
+  "code": "AC-24",
+  "name": "elementIsClickable",
+  "description": "Verifies if element is clickable. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is Clickable",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-30",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.564Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8e9"
+  },
+  "id": 25,
+  "code": "AC-25",
+  "name": "elementIsSelected",
+  "description": "Verifies if radio button is selected.",
+  "disname": "Element is Selected",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-23",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.568Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8ea"
+  },
+  "id": 26,
+  "code": "AC-26",
+  "name": "concatenateAndStore",
+  "description": "Concatenates the data of the specified parameters and stores in runtime parameterparameter n - n number of parameters can be added parameter n-1 - The last parameter would be the runtime parameter to store the final value",
+  "disname": "Concatenate and Store",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "generic-23",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.571Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8eb"
+  },
+  "id": 27,
+  "code": "AC-27",
+  "name": "readDocuments",
+  "description": "Reads documents from the specified collection and database according to the filter criteria, then stores the list of documents.",
+  "disname": "Read Documents",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Database Name",
+      "type": "String",
+      "param_description": "The name of the database where the documents are to be read from.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Collection Name",
+      "type": "String",
+      "param_description": "The name of the collection where the documents are to be read from.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Filter",
+      "type": "String",
+      "param_description": "A filter to apply while reading documents (e.g., conditions to match).",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "Runtime",
+      "param_description": "Stores the list of documents read from the specified collection and database.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-17",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Retrieval",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.576Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8ec"
+  },
+  "id": 28,
+  "code": "AC-28",
+  "name": "readData",
+  "description": "Reads and stores data from the database.",
+  "disname": "Read Data",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Table",
+      "type": "String",
+      "param_description": "The name of the table from which data is to be read.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "Runtime",
+      "param_description": "Stores the result set from the table.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-6",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Retrieval",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.578Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8ed"
+  },
+  "id": 29,
+  "code": "AC-29",
+  "name": "scrollToBottom",
+  "description": "Scrolls towards bottom of the android device.",
+  "disname": "Scroll to Bottom",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-13",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.580Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8ee"
+  },
+  "id": 30,
+  "code": "AC-30",
+  "name": "insertData",
+  "description": "Inserts values to the specified table and stores the modified rows.",
+  "disname": "Insert Data",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Table",
+      "type": "String",
+      "param_description": "The name of the table where data is to be inserted.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Values",
+      "type": "String",
+      "param_description": "The values or data to be inserted.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "Runtime",
+      "param_description": "Stores the number of modified rows.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-7",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.582Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8ef"
+  },
+  "id": 31,
+  "code": "AC-31",
+  "name": "scrollTillElementIsNotPresent",
+  "description": "Scrolls to the element until the element is not present",
+  "disname": "Scroll till Element is not Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-18",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.584Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f0"
+  },
+  "id": 32,
+  "code": "AC-32",
+  "name": "validate From JSON",
+  "description": "Verifies if the value in the JSON of a specified key with expected value added in test dataActual value would be the value of the specified key in th JSON Expected value would be the value added in test data",
+  "disname": "Validate from JSON",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Json",
+      "type": "String",
+      "param_description": "JSON which needs to be verified",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Key",
+      "type": "String",
+      "param_description": "Key is the JSON path for a particular key in the JSON for which value needs to be verified",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Expected Value",
+      "type": "String",
+      "param_description": "Expected value to verify against actual value fetched from the JSON",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-19",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.587Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f1"
+  },
+  "id": 33,
+  "code": "AC-33",
+  "name": "executeQuery",
+  "description": "Executes a given query on the connected database and stores the response.",
+  "disname": "Execute Query",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Query",
+      "type": "String",
+      "param_description": "Database query that needs to be executed.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "Runtime",
+      "param_description": "Stores the result set of executed query.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-3",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Query Execution",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.590Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f2"
+  },
+  "id": 34,
+  "code": "AC-34",
+  "name": "checkIfFileExists",
+  "description": "Verifies if the specified file is present in the local machine",
+  "disname": "Verify if File is Present",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filepath",
+      "type": "String",
+      "param_description": "Filepath of a file that needs to be verified",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-9",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.591Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f3"
+  },
+  "id": 35,
+  "code": "AC-35",
+  "name": "waitUntilElementPresent",
+  "description": "Waits for the element until the element is present on the screen \n Maxtimeout to stop waiting would be 'exist_timeout'\n",
+  "disname": "Wait until Element is Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-38",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.593Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f4"
+  },
+  "id": 36,
+  "code": "AC-36",
+  "name": "getTextAndStore",
+  "description": "Gets text from the browser element and stores in runtime parameter.",
+  "disname": "Get Text and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Runtime Parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the text in web element.",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "web-24",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.596Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f5"
+  },
+  "id": 37,
+  "code": "AC-37",
+  "name": "comparisonOperator",
+  "description": "The operator compares values and returns true or false. If true is returned, step passes; otherwise, step fails.The operators include: Equal to, Not Equal to, Greater than, Greater than Equal to, Lesser than, Lesser than Equal to, Contains, Not Contains.",
+  "disname": "Comparison Operator",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "actualValue",
+      "type": "String",
+      "param_description": "Enter actual value to be validated.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "operator",
+      "type": "String",
+      "param_description": "Selected operator compares the values and returns true or false.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "expectedValue",
+      "type": "String",
+      "param_description": "Enter value to be validated against actual value.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-29",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.599Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f6"
+  },
+  "id": 38,
+  "code": "AC-38",
+  "name": "enterTextUsingJS",
+  "description": "Types text using javascript in an web element.",
+  "disname": "Type Text using JS ",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Value to enter",
+      "type": "String",
+      "param_description": "Value to enter in the input box.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-36",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Type Text using JS",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.604Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f7"
+  },
+  "id": 39,
+  "code": "AC-39",
+  "name": "insertDocument",
+  "description": "Inserts a document into the specified collection and database.",
+  "disname": "Insert Document",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Database Name",
+      "type": "String",
+      "param_description": "The name of the database where the documents are to be inserted.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Collection Name",
+      "type": "String",
+      "param_description": "The name of the collection where the documents are to be inserted.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Document",
+      "type": "String",
+      "param_description": "The document data to be inserted.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-10",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.607Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f8"
+  },
+  "id": 40,
+  "code": "AC-40",
+  "name": "longPress",
+  "description": "Performs long press on an ios element.",
+  "disname": "Long Press",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Duration",
+      "type": "String",
+      "param_description": "Duration for Long Press",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-4",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.611Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8f9"
+  },
+  "id": 41,
+  "code": "AC-41",
+  "name": "clickByText",
+  "description": "Click on the element corresponding to the text in the image. ",
+  "disname": "Click By Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Text",
+      "type": "String",
+      "param_description": "The specific string of text to search for within the UI element.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Index",
+      "type": "String",
+      "param_description": "The position of the element in a list that matches the specified text, allowing for interactions with multiple elements that may share the same text.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-54",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Click",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.613Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8fa"
+  },
+  "id": 42,
+  "code": "AC-42",
+  "name": "elementIsDisabled",
+  "description": "Verifies if element is disabled. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is Disabled",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-28",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.615Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8fb"
+  },
+  "id": 43,
+  "code": "AC-43",
+  "name": "uninstallApp",
+  "description": "Uninstalls the specified app from the android device.",
+  "disname": "Uninstall App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "packageName",
+      "type": "String",
+      "param_description": "Package Name of the application that needs to be uninstalled.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-8",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.620Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8fc"
+  },
+  "id": 44,
+  "code": "AC-44",
+  "name": "closeTab",
+  "description": "Closes the current browser tab.",
+  "disname": "Close Tab",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "tabNameOrId",
+      "type": "String",
+      "param_description": "Index of the browser tab",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-17",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.623Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8fd"
+  },
+  "id": 45,
+  "code": "AC-45",
+  "name": "rotateScreen",
+  "description": "Rotates the screen to the specified mode",
+  "disname": "Rotate Screen",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Orientation",
+      "type": "String",
+      "param_description": "orientation to which the device needs to be rotated",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-24",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.626Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8fe"
+  },
+  "id": 46,
+  "code": "AC-46",
+  "name": "scrollRight",
+  "description": "Scrolls towards right hand side of the ios device",
+  "disname": "Scroll Right",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-21",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.628Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d8ff"
+  },
+  "id": 47,
+  "code": "AC-47",
+  "name": "elementIsNotDisplayed",
+  "description": "Verifies if element is not displayed. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is not Displayed",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-26",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.635Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d900"
+  },
+  "id": 48,
+  "code": "AC-48",
+  "name": "Lock",
+  "description": "Locks the android device screen",
+  "disname": "Lock",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-31",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.638Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d901"
+  },
+  "id": 49,
+  "code": "AC-49",
+  "name": "update",
+  "description": "Performs an update operation on the database.",
+  "disname": "Update",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Query",
+      "type": "String",
+      "param_description": "Database query that needs to be executed.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-4",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.640Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d902"
+  },
+  "id": 50,
+  "code": "AC-50",
+  "name": "elementMatchesText",
+  "description": "Verifies if the text in the element matches the regex. Regular expression should be passed in the Test Data.",
+  "disname": "Element Matches Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Expected Text",
+      "type": "String",
+      "param_description": "Expected regex to verify the value in a web element.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-34",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.643Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d903"
+  },
+  "id": 51,
+  "code": "AC-51",
+  "name": "getDate",
+  "description": " Gets date in specified date format and stores the value in runtime parameter",
+  "disname": "Get Date",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Date",
+      "type": "String",
+      "param_description": "Data for this parameter would be as follows: \\n\n'today' - gets today's date 'today+1' - gets tomorrow's date 'today-1' - gets yesterday's date Similarly, 'today+n','today-n' would get the respective date",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Date format",
+      "type": "String",
+      "param_description": "Date format would be the format in which date needs to be generated",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the date and time generated ",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-34",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Date Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.645Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d904"
+  },
+  "id": 52,
+  "code": "AC-52",
+  "name": "scrollLeft",
+  "description": "Scrolls towards left hand side of the android device.",
+  "disname": "Scroll Left",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-14",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.647Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d905"
+  },
+  "id": 53,
+  "code": "AC-53",
+  "name": "internetStatus",
+  "description": "Verifies the status of the Internet (enabled/disabled). Returns true if wifi is enabled, otherwise returns false. If true is returned, the step is considered passed; else, it fails.",
+  "disname": "Verify Internet Status",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-52",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.648Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d906"
+  },
+  "id": 54,
+  "code": "AC-54",
+  "name": "dismissAlert",
+  "description": "Selects 'Cancel' on the browser alert.",
+  "disname": "Dismiss Alert",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-10",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Alert Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.651Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d907"
+  },
+  "id": 55,
+  "code": "AC-55",
+  "name": "comparePartialString",
+  "description": "Compares actual value with the expected value partially. If actual value contains expected value then the step passes/returns true",
+  "disname": "Compare Partial String",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Base string",
+      "type": "String",
+      "param_description": "Base string in which expected value needs to be partially compared",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Value to validate",
+      "type": "String",
+      "param_description": "Expected value that needs to be verified in base string",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-27",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.654Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d908"
+  },
+  "id": 56,
+  "code": "AC-56",
+  "name": "selectItemsFromDropdown",
+  "description": "Selects multiple items from dropdown. Values to be selected should be added as test data.For Ex: If 3 values to be selected from dropdown, 3 parameters should be added and test data for each of these parameters should be added respectively.",
+  "disname": "Select Items from Dropdown",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Values to select",
+      "type": "Varargs",
+      "param_description": "The number of parameters to be added for this action should match the number of values to be chosen from the dropdown.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-29",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Dropdown",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.657Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d909"
+  },
+  "id": 57,
+  "code": "AC-57",
+  "name": "installApp",
+  "description": "Installs app in the android device.",
+  "disname": "Install App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "App File Path",
+      "type": "String",
+      "param_description": "File path of the application that needs to be installed",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-7",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.659Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d90a"
+  },
+  "id": 58,
+  "code": "AC-58",
+  "name": "waitUntilElementNotPresent",
+  "description": "Waits for the element until the element is not present on the screen.Max timeout to stop waiting would be 'exist_timeout'.",
+  "disname": "Wait until Element is not Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-45",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.660Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d90b"
+  },
+  "id": 59,
+  "code": "AC-59",
+  "name": "elementIsChecked",
+  "description": "Verifies if element is checked.",
+  "disname": "Element is Checked",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-48",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.664Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d90c"
+  },
+  "id": 60,
+  "code": "AC-60",
+  "name": "scrollLeft",
+  "description": "Scrolls towards left hand side of the ios device",
+  "disname": "Scroll Left",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-20",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.665Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d90d"
+  },
+  "id": 61,
+  "code": "AC-61",
+  "name": "refresh",
+  "description": "Refreshes the current browser tab.",
+  "disname": "Refresh",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-8",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.668Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d90e"
+  },
+  "id": 62,
+  "code": "AC-62",
+  "name": "elementIsEnabled",
+  "description": "Verifies if element is enabled. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is Enabled",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-5",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.670Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d90f"
+  },
+  "id": 63,
+  "code": "AC-63",
+  "name": "getSheetDataFromExcel",
+  "description": "Read entire data from the specified sheet and stores in runtime parameter  in JSON format",
+  "disname": "Get Sheet Data from Excel",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filepath",
+      "type": "String",
+      "param_description": "Filepath of an excel file",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Sheetname",
+      "type": "String",
+      "param_description": "Name of the sheet",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter to store the fetched value",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-4",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.672Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d910"
+  },
+  "id": 64,
+  "code": "AC-64",
+  "name": "elementIsDisabled",
+  "description": "Verifies if element is disabled. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is Disabled",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-6",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.674Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d911"
+  },
+  "id": 65,
+  "code": "AC-65",
+  "name": "clickByText",
+  "description": "Click on the element corresponding to the text in the image. ",
+  "disname": "Click By Text",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-31",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Click",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.676Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d912"
+  },
+  "id": 66,
+  "code": "AC-66",
+  "name": "executeRestAPI",
+  "description": " Executes REST API for request body type 'Form-data'",
+  "disname": "Execute Rest API",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Base URI",
+      "type": "String",
+      "param_description": "Endpoint URI of the REST API ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Method",
+      "type": "String",
+      "param_description": "HTTP method of the REST API",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Header",
+      "type": "String",
+      "param_description": "Request header needs to be added in JSON format in a parameter of type JSON ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Query params",
+      "type": "String",
+      "param_description": "Query params needs to be added in JSON format in a parameter of type JSON",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Form data type",
+      "type": "String",
+      "param_description": "Form data type to be specified in a parameter",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Form data",
+      "type": "String",
+      "param_description": "Form data needs to be added in JSON format in a parameter of type JSON",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter 1",
+      "type": "String",
+      "param_description": "Runtime parameter 1 is to store the response body in JSON format",
+      "runtimeParameter": true
+    },
+    {
+      "name": "Runtime parameter 2",
+      "type": "String",
+      "param_description": "Runtime parameter 2 is to store the response code",
+      "runtimeParameter": true
+    },
+    {
+      "name": "Runtime parameter 3",
+      "type": "String",
+      "param_description": "Runtime parameter 3 is to store the response message",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-38",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Deprecated",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.677Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d913"
+  },
+  "id": 67,
+  "code": "AC-67",
+  "name": "openAndSwitchToNewTab",
+  "description": "Opens a new tab with the specified URL and switches to it",
+  "disname": "opens and switches to a new tab with the specified URL",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "URL",
+      "type": "String",
+      "param_description": "URL of the web application",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-57",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.680Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d914"
+  },
+  "id": 68,
+  "code": "AC-68",
+  "name": "scrollToTop",
+  "description": "Scrolls towards the top of the web application.",
+  "disname": "Scroll to Top",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-42",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.683Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d915"
+  },
+  "id": 69,
+  "code": "AC-69",
+  "name": "updateDocuments",
+  "description": "Updates documents to the specified collection based on the provided filter and update type criteria.",
+  "disname": "Update Documents",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Collection Name",
+      "type": "String",
+      "param_description": "The name of the collection where the documents are to be updated.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Filter",
+      "type": "String",
+      "param_description": "The filter criteria to identify which document to update.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Update",
+      "type": "String",
+      "param_description": "The document that needs to be updated in the specified collection within the given database and filter criteria.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Update Type",
+      "type": "String",
+      "param_description": "Specifies the type of update (i.e., ONE/MANY).",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-11",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.686Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d916"
+  },
+  "id": 70,
+  "code": "AC-70",
+  "name": "swipeEvent",
+  "description": "Performs swipe action on the android device",
+  "disname": "Swipe Event",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-11",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.688Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d917"
+  },
+  "id": 71,
+  "code": "AC-71",
+  "name": "switchApp",
+  "description": "Switches to the specified app which is already open",
+  "disname": "Switch App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "bundleId",
+      "type": "String",
+      "param_description": "BundleId of the Application.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-15",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.690Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d918"
+  },
+  "id": 72,
+  "code": "AC-72",
+  "name": "elementIsNotSelected",
+  "description": "Verifies if radio button is not selected.",
+  "disname": "Element is not Selected",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-8",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.692Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d919"
+  },
+  "id": 73,
+  "code": "AC-73",
+  "name": "randomAlphanumeric",
+  "description": "Generates random alphanumerical string and stores the generated value in runtime parameter",
+  "disname": "Generate Random Alphanumeric",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Count",
+      "type": "String",
+      "param_description": "Count of characters that needs to be generated",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Prefix",
+      "type": "String",
+      "param_description": "Prefix that needs to be concatenated with the generated data",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Suffix",
+      "type": "String",
+      "param_description": "Suffix that needs to be concatenated with the generated data",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name in which generated data would be stored",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-11",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.694Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d91a"
+  },
+  "id": 74,
+  "code": "AC-74",
+  "name": "scrollToTop",
+  "description": "Scrolls upwards of the ios device",
+  "disname": "Scroll to Top",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-18",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.697Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d91b"
+  },
+  "id": 75,
+  "code": "AC-75",
+  "name": "click",
+  "description": "Clicks on an element",
+  "disname": "Click",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-1",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Click",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.699Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d91c"
+  },
+  "id": 76,
+  "code": "AC-76",
+  "name": "replaceAndStore",
+  "description": "Replaces the specified value in base string and stores the final string in runtime parameter",
+  "disname": "Replace and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Base String",
+      "type": "String",
+      "param_description": "Base String in which value needs to be replaced",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Replace String",
+      "type": "String",
+      "param_description": "String which needs to be replaced",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Replace Value",
+      "type": "String",
+      "param_description": "Value to be replaced in the base string",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the final value",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-14",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.701Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d91d"
+  },
+  "id": 77,
+  "code": "AC-77",
+  "name": "enterText",
+  "description": "Types text in an android element",
+  "disname": "Type Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Value to enter",
+      "type": "String",
+      "param_description": "Value to enter in the input box",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-5",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Type Text",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.703Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d91e"
+  },
+  "id": 78,
+  "code": "AC-78",
+  "name": "checkIfNotChecked",
+  "description": "Checks if the element is unchecked and if not, passes the check.",
+  "disname": "Check if Element is Not Checked",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-59",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.705Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d91f"
+  },
+  "id": 79,
+  "code": "AC-79",
+  "name": "validateText",
+  "description": "Verifies text in an element with expected value. Actual value would be the value fetched from the web application. Expected value can be a local( which should be added in test data) or runtime parameter.",
+  "disname": "Validate Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Expected value",
+      "type": "String",
+      "param_description": "Expected value to verify against actual value fetched from the web element.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-31",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.707Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d920"
+  },
+  "id": 80,
+  "code": "AC-80",
+  "name": "acceptAlert",
+  "description": "Selects 'OK' on the browser alert.",
+  "disname": "Accept Alert",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-9",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Alert Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.709Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d921"
+  },
+  "id": 81,
+  "code": "AC-81",
+  "name": "writeToFile",
+  "description": "Writes data in a text file",
+  "disname": "Write to File",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filepath",
+      "type": "String",
+      "param_description": "Filepath of a text file from which data needs to be stored",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Value to enter",
+      "type": "String",
+      "param_description": "Value to enter",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-8",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.711Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d922"
+  },
+  "id": 82,
+  "code": "AC-82",
+  "name": "mediumWait",
+  "description": "Pauses the execution for 3000 millisecond",
+  "disname": "Medium Wait",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "generic-21",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.713Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d923"
+  },
+  "id": 83,
+  "code": "AC-83",
+  "name": "elementIsDisplayed",
+  "description": "Verifies if element is displayed. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is Displayed",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-46",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.715Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d924"
+  },
+  "id": 84,
+  "code": "AC-84",
+  "name": "elementIsNotSelected",
+  "description": "Verifies if radio button is not selected.",
+  "disname": "Element is not Selected",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-24",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.717Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d925"
+  },
+  "id": 85,
+  "code": "AC-85",
+  "name": "toggleInternet",
+  "description": "Toggles internet to a specified mode.",
+  "disname": "Toggle Internet",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Internet Status",
+      "type": "String",
+      "param_description": "\nValue to this parameter would be 'TRUE' or 'FALSE' \nTRUE - turns on internet\nFALSE - turns of internet\nIf TRUE is used but already internet is ON, it would just return true without performing anything.\nIf FALSE is used but already internet is OFF, it would just return false without performing anything. ",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-51",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.719Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d926"
+  },
+  "id": 86,
+  "code": "AC-86",
+  "name": "connectToDb",
+  "description": "Establishes a connection to the specified database.",
+  "disname": "Connect to DB",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Database Type",
+      "type": "String",
+      "param_description": "The type of the database (e.g., MySQL, PostgreSQL).",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Host",
+      "type": "String",
+      "param_description": "The server address where the database is hosted.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Port",
+      "type": "String",
+      "param_description": "The port number to connect to the database.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "User",
+      "type": "String",
+      "param_description": "The username for authentication.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Password",
+      "type": "String",
+      "param_description": "The password for authentication.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Database Name",
+      "type": "String",
+      "param_description": "The name of the database to connect to.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-1",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Database Connection",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.721Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d927"
+  },
+  "id": 87,
+  "code": "AC-87",
+  "name": "resetApp",
+  "description": "Resets the Android application back to its initial state.",
+  "disname": "Reset App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Package Name",
+      "type": "String",
+      "param_description": "Package name of the Application.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Activity Name",
+      "type": "String",
+      "param_description": "Activity name of the Application.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-2",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.723Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d928"
+  },
+  "id": 88,
+  "code": "AC-88",
+  "name": "elementIsSelected",
+  "description": "Verifies if radio button is selected.",
+  "disname": "Element is Selected",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-7",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.726Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d929"
+  },
+  "id": 89,
+  "code": "AC-89",
+  "name": "switchToTab",
+  "description": "Switches the control to the specified tab. Tab Index or ID should be added in test data.",
+  "disname": "Switch to Tab",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Tab Index or ID",
+      "type": "String",
+      "param_description": "Index or ID of the browser tab.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-15",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.729Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d92a"
+  },
+  "id": 90,
+  "code": "AC-90",
+  "name": "doubleClick",
+  "description": "Performs double click on the specified element.",
+  "disname": "Double Click",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-53",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Mouse Events",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.732Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d92b"
+  },
+  "id": 91,
+  "code": "AC-91",
+  "name": "back",
+  "description": "Chooses browser back option.",
+  "disname": "Back",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-4",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.734Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d92c"
+  },
+  "id": 92,
+  "code": "AC-92",
+  "name": "Upload File",
+  "description": "Uploads file in the web application.",
+  "disname": "Upload File",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "File Path",
+      "type": "String",
+      "param_description": "Enter the file path to upload in web application.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-55",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.736Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d92d"
+  },
+  "id": 93,
+  "code": "AC-93",
+  "name": "getAlertTextAndStore",
+  "description": "Gets text from the browser alert/prompt and store the fetched value in runtime parameter.",
+  "disname": "Get Text in Alert and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the text in alert",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "web-11",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Alert Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.738Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d92e"
+  },
+  "id": 94,
+  "code": "AC-94",
+  "name": "waitUntilElementPresent",
+  "description": "Waits for the element until the element is present on the screen \n Maxtimeout to stop waiting would be 'exist_timeout'\n",
+  "disname": "Wait until Element is Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-23",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.740Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d92f"
+  },
+  "id": 95,
+  "code": "AC-95",
+  "name": "combineRuntime",
+  "description": "Combines runtime parameters by concatenating '!##' and stores the final value in runtime parameterparameter n - n number of parameters can be added parameter n-1 - The last parameter would be the runtime parameter name to store the final value ",
+  "disname": "Combine Runtime",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": " Param n-1 Param n",
+      "type": "Varargs",
+      "param_description": " n-1 number of parameters can be added parameter nth or last parameter would be the runtime parameter name to store the final value ",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-26",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.744Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d930"
+  },
+  "id": 96,
+  "code": "AC-96",
+  "name": "splitAndGetValue",
+  "description": "Splits the base string by the specified delimiter and stores the final value in runtime parameter",
+  "disname": "Split and Get Value",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Base String",
+      "type": "String",
+      "param_description": "Base String in which value needs to be split",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Delimiter",
+      "type": "String",
+      "param_description": "Delimiter is a character using which the base string needs to be split",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Index",
+      "type": "String",
+      "param_description": "Index is the array index of the split value that needs to be stored",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the final split value in the specified array index",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-17",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.747Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d931"
+  },
+  "id": 97,
+  "code": "AC-97",
+  "name": "update",
+  "description": "Performs an update operation on the database and stores the response.",
+  "disname": "Update",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Query",
+      "type": "String",
+      "param_description": "Database query that needs to be executed.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "Runtime",
+      "param_description": "Stores the number of modified rows.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-5",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.751Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d932"
+  },
+  "id": 98,
+  "code": "AC-98",
+  "name": "getTextAndStore",
+  "description": "Gets text from the android element and stores in runtime parameter",
+  "disname": "Get Text and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Runtime parameter",
+      "type": "Runtime",
+      "param_description": "Runtime parameter name to store the text in android element",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-34",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.754Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d933"
+  },
+  "id": 99,
+  "code": "AC-99",
+  "name": "elementIsNotChecked",
+  "description": "Verifies if checkbox is not checked.",
+  "disname": "Element is not Checked",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-27",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.758Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d934"
+  },
+  "id": 100,
+  "code": "AC-100",
+  "name": "getColumnDataByColumnReference",
+  "description": "Gets data from the specified column reference in an excel and stores in runtime parameter in JSON format",
+  "disname": "Get Column Data using Column Reference from Excel",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filepath",
+      "type": "String",
+      "param_description": "Filepath of an excel file",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Sheetname",
+      "type": "String",
+      "param_description": "Name of the sheet",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Column reference",
+      "type": "String",
+      "param_description": "Column reference from which value needs to be fetched. For Ex: A, M, etc",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter to store the fetched value",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-2",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.761Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d935"
+  },
+  "id": 101,
+  "code": "AC-101",
+  "name": "randomNumeric",
+  "description": "Generates random numerical string and stores the generated value in runtime parameter",
+  "disname": "Generate Random Numeric",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Count",
+      "type": "String",
+      "param_description": "Count of numbers that needs to be generated",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Prefix",
+      "type": "String",
+      "param_description": "Prefix that needs to be concatenated with the generated data",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Suffix",
+      "type": "String",
+      "param_description": "Suffix that needs to be concatenated with the generated data",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name in which generated data would be stored",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-12",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.763Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d936"
+  },
+  "id": 102,
+  "code": "AC-102",
+  "name": "installApp",
+  "description": "Installs app in the ios device",
+  "disname": "Install App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "FilePath",
+      "type": "String",
+      "param_description": "File path of the application that needs to be installed",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-12",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.766Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d937"
+  },
+  "id": 103,
+  "code": "AC-103",
+  "name": "getCurrentURL",
+  "description": "Gets the URL of the current browser tab and stores the fetched value in runtime parameter.",
+  "disname": "Get Current URL",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Runtime Parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the URL",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "web-2",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.774Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d938"
+  },
+  "id": 104,
+  "code": "AC-104",
+  "name": "clearText",
+  "description": "Clears text in an input box in android app.",
+  "disname": "Clear Text",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-6",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Clear",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.779Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d939"
+  },
+  "id": 105,
+  "code": "AC-105",
+  "name": "moveToElement",
+  "description": "Cursor moves to the specified element.",
+  "disname": "Move to Element",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-49",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Mouse Events",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.784Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d93a"
+  },
+  "id": 106,
+  "code": "AC-106",
+  "name": "enterText",
+  "description": "Types text in an web element.",
+  "disname": "Type Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "value To Enter",
+      "type": "String",
+      "param_description": "Value to enter in the input box.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-25",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Type Text",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.790Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d93b"
+  },
+  "id": 107,
+  "code": "AC-107",
+  "name": "pause",
+  "description": "Pauses the execution for the specified time",
+  "disname": "Pause",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Timeout",
+      "type": "Long",
+      "param_description": "Timeout to be added in milliseconds",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-39",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.796Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d93c"
+  },
+  "id": 108,
+  "code": "AC-108",
+  "name": "getAttributeAndStore",
+  "description": "Gets attribute value and store in runtime parameter. Attribute name should be added in test data.",
+  "disname": "Get Attribute and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Attribute Name",
+      "type": "String",
+      "param_description": "Name of the attribute",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the attribute value.",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "web-21",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.803Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d93d"
+  },
+  "id": 109,
+  "code": "AC-109",
+  "name": "validatePartialText",
+  "description": "Verifies text with expected value partially. \\n Actual value would be the value fetched from the android application. \\n Expected value can be a local,global( which should be added in test data) or runtime parameter\n",
+  "disname": "Validate Partial Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Expected value",
+      "type": "String",
+      "param_description": "Expected value to verify against actual value fetched from the web element",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-22",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.811Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d93e"
+  },
+  "id": 110,
+  "code": "AC-110",
+  "name": "scrollTillElementIsNotPresent",
+  "description": "Scrolls to the element until the element is not present",
+  "disname": "Scroll till Element is not Present",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "SQAObject",
+      "type": "String",
+      "param_description": "Object till the element needs to be scrolled",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-27",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.816Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d93f"
+  },
+  "id": 111,
+  "code": "AC-111",
+  "name": "storeFromXML",
+  "description": " Gets value of the specified key in XML and store the value in runtime parameter.",
+  "disname": "Store from XML",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "XML",
+      "type": "String",
+      "param_description": "Base XML in which value needs to be fetched",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Key",
+      "type": "String",
+      "param_description": "Key is the XML path for a particular key in the XML for which value needs to be fetched",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the value from XML",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-31",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.822Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d940"
+  },
+  "id": 112,
+  "code": "AC-112",
+  "name": "elementIsEnabled",
+  "description": "Verifies if element is enabled. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is Enabled",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-28",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.830Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d941"
+  },
+  "id": 113,
+  "code": "AC-113",
+  "name": "waitUntilElementNotPresent",
+  "description": "Waits for the element until the element is present on the screen \n Maxtimeout to stop waiting would be 'exist_timeout'\n",
+  "disname": "Wait until Element is not Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-22",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.844Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d942"
+  },
+  "id": 114,
+  "code": "AC-114",
+  "name": "forward",
+  "description": "Chooses browser forward option.",
+  "disname": "Forward",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-5",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.848Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d943"
+  },
+  "id": 115,
+  "code": "AC-115",
+  "name": "getAttributeAndStore",
+  "description": "Gets attribute value and store in runtime parameter. Attribute name should be added in test data.",
+  "disname": "Get Attribute and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Attribute name",
+      "type": "String",
+      "param_description": "Name of the attribute",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "Runtime",
+      "param_description": "Runtime parameter name to store the attribute value",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-29",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.859Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d944"
+  },
+  "id": 116,
+  "code": "AC-116",
+  "name": "validateFromXML",
+  "description": " Verifies if the value in the XML of a specified key with expected value added in test data Actual value would be the value of the specified key in th XML Expected value would be the value added in test data ",
+  "disname": "Validate from XML",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "XML",
+      "type": "String",
+      "param_description": "XML which needs to be verified",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Key",
+      "type": "String",
+      "param_description": "Key is the XML path for a particular key in the XML for which value needs to be verified",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Expected value",
+      "type": "String",
+      "param_description": "Expected value to verify against actual value fetched from the XML",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-30",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.864Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d945"
+  },
+  "id": 117,
+  "code": "AC-117",
+  "name": "executeRestAPI",
+  "description": " Executes REST API for authorisation type 'Token'",
+  "disname": "Execute Rest API",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Base URI",
+      "type": "String",
+      "param_description": "Endpoint URI of the REST API ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Method",
+      "type": "String",
+      "param_description": "HTTP method of the REST API",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Header",
+      "type": "String",
+      "param_description": "Request header needs to be added in JSON format in a parameter of type JSON ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Query params",
+      "type": "String",
+      "param_description": "Query params needs to be added in JSON format in a parameter of type JSON",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Request body",
+      "type": "String",
+      "param_description": "Request body needs to be added in JSON format in a parameter of type JSON. If request body is of XML can be added as a text in test data ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter 1",
+      "type": "String",
+      "param_description": "Runtime parameter 1 is to store the response body in JSON format",
+      "runtimeParameter": true
+    },
+    {
+      "name": "Runtime parameter 2",
+      "type": "String",
+      "param_description": "Runtime parameter 2 is to store the response code",
+      "runtimeParameter": true
+    },
+    {
+      "name": "Runtime parameter 3",
+      "type": "String",
+      "param_description": "Runtime parameter 3 is to store the response message",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-36",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Deprecated",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.874Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d946"
+  },
+  "id": 118,
+  "code": "AC-118",
+  "name": "scrollToBottom",
+  "description": "Scrolls towards the bottom of the web application.",
+  "disname": "Scroll to Bottom",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-41",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.880Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d947"
+  },
+  "id": 119,
+  "code": "AC-119",
+  "name": "dragAndDrop",
+  "description": "Drags an element from the source location and drops it at the specified target location.",
+  "disname": "Drag and Drop Element",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "targetXpath",
+      "type": "String",
+      "param_description": "The XPath locator of the target element where the dragged item should be dropped.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-61",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Drag and Drop",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.884Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d948"
+  },
+  "id": 120,
+  "code": "AC-120",
+  "name": "scrollTillElementIsPresent",
+  "description": "Scrolls to the element until the element is present.",
+  "disname": "Scroll till Element is Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-17",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.892Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d949"
+  },
+  "id": 121,
+  "code": "AC-121",
+  "name": "getAttributeAndStore",
+  "description": "Gets attribute value and store in runtime parameter. Attribute name should be added in test data.",
+  "disname": "Get Attribute and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Attribute name",
+      "type": "String",
+      "param_description": "Name of the attribute",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "Runtime",
+      "param_description": "Runtime parameter name to store the attribute value",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-35",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.897Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d94a"
+  },
+  "id": 122,
+  "code": "AC-122",
+  "name": "validateText",
+  "description": "Verifes text with expected value. \\n Actual value would be the value fetched from the web application. \\n Expected value can be a local, global( which should be added in test data) or runtime parameter\n",
+  "disname": "Validate Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Expected value",
+      "type": "String",
+      "param_description": "Expected value to verify against actual value fetched from the android element",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-21",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.904Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d94b"
+  },
+  "id": 123,
+  "code": "AC-123",
+  "name": "clickByTextIfTextPresent",
+  "description": "Clicks on an element if present based on the provided [param_name_1] and [param_name_2] .",
+  "disname": "Click By Text If Text Present",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Text",
+      "type": "String",
+      "param_description": "The specific string of text to search for within the UI element.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Index",
+      "type": "String",
+      "param_description": "The position of the element in a list that matches the specified text, allowing for interactions with multiple elements that may share the same text.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-53",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Click",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.909Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d94c"
+  },
+  "id": 124,
+  "code": "AC-124",
+  "name": "validatePartialText",
+  "description": "Verifes text with expected value partially. \\n Actual value would be the value fetched from the ios application. \\n Expected value can be a local,global( which should be added in test data) or runtime parameter\n",
+  "disname": "Validate Partial Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Expected value",
+      "type": "String",
+      "param_description": "Expected value to verify against actual value fetched from the web element",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-10",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.915Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d94d"
+  },
+  "id": 125,
+  "code": "AC-125",
+  "name": "clearText",
+  "description": "Clears text in an input box.",
+  "disname": "Clear Text",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-19",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Clear Text",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.924Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d94e"
+  },
+  "id": 126,
+  "code": "AC-126",
+  "name": "switchToParentFrame",
+  "description": "Switches to the parent iFrame",
+  "disname": "Switch to Parent iFrame.",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-18",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.930Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d94f"
+  },
+  "id": 127,
+  "code": "AC-127",
+  "name": "waitForAlert",
+  "description": "Waits for the alert to appear in browser. Timeout to wait for alert would be the 'max_timeout' set in user preference or test case settings.",
+  "disname": "Wait for Alert",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-14",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Alert Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.932Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d950"
+  },
+  "id": 128,
+  "code": "AC-128",
+  "name": "elementIsDisabled",
+  "description": "Verifies if element is disabled. Timeout to wait for the element would be 'exist_timeout' which is set in user preference or test case settings.",
+  "disname": "Element is Disabled",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-29",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.935Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d951"
+  },
+  "id": 129,
+  "code": "AC-129",
+  "name": "getColumnDataUsingHeaderFromExcel",
+  "description": "Gets data from the specified column header in an excel and stores in runtime parameter in JSON format",
+  "disname": "Get Column Data using Header from Excel",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filepath",
+      "type": "String",
+      "param_description": "Filepath of an excel file",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Sheetname",
+      "type": "String",
+      "param_description": "Name of the sheet",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Header name",
+      "type": "String",
+      "param_description": "Header name from which value needs to be fetched",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter to store the fetched value",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-3",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.938Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d952"
+  },
+  "id": 130,
+  "code": "AC-130",
+  "name": "maximumWait",
+  "description": "Pauses the execution for 5000 millisecond",
+  "disname": "Maximum Wait",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "generic-22",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.941Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d953"
+  },
+  "id": 131,
+  "code": "AC-131",
+  "name": "bluetoothStatus",
+  "description": "Verifies the status of the Bluetooth (enabled/disabled). Returns true if bluetooth is enabled, otherwise returns false. If true is returned, the step is considered passed; else, it fails.\n",
+  "disname": "Verify Bluetooth Status",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-50",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.943Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d954"
+  },
+  "id": 132,
+  "code": "AC-132",
+  "name": "maximise",
+  "description": "Maximises the browser window.",
+  "disname": "Maximise",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-7",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.944Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d955"
+  },
+  "id": 133,
+  "code": "AC-133",
+  "name": "scrollByCoordinates",
+  "description": "Scrolls to the specified x and y co-ordinates.",
+  "disname": "Scroll by Co-ordinates",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "x",
+      "type": "Int",
+      "param_description": "x co-ordinates",
+      "runtimeParameter": false
+    },
+    {
+      "name": "y",
+      "type": "Int",
+      "param_description": "y co-ordinates",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-43",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.946Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d956"
+  },
+  "id": 134,
+  "code": "AC-134",
+  "name": "enterTextOnAlert",
+  "description": "Types text in browser alert.",
+  "disname": "Type Text on Alert",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Value to enter",
+      "type": "String",
+      "param_description": "Value to enter in the alert input box",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-12",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Alert Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.948Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d957"
+  },
+  "id": 135,
+  "code": "AC-135",
+  "name": "scrollRight",
+  "description": "Scrolls towards right hand side of the android device.",
+  "disname": "Scroll Right",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-15",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.951Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d958"
+  },
+  "id": 136,
+  "code": "AC-136",
+  "name": "randomAlphabets",
+  "description": "Generates random alphabetical string and stores the generated value in runtime parameter",
+  "disname": "Generate Random Alphabets",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Count",
+      "type": "String",
+      "param_description": "Count of characters that needs to be generated",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Prefix",
+      "type": "String",
+      "param_description": "Prefix that needs to be concatenated with the generated data",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Suffix",
+      "type": "String",
+      "param_description": "Suffix that needs to be concatenated with the generated data",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name in which generated data would be stored",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-13",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.953Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d959"
+  },
+  "id": 137,
+  "code": "AC-137",
+  "name": "clickIfExist",
+  "description": "Clicks on an element if the element is present. If element is not present, then the timeout would be 'exist_timeout' set in user preference or test case settings.",
+  "disname": "Click if Element is Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-23",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.955Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d95a"
+  },
+  "id": 138,
+  "code": "AC-138",
+  "name": "scrollIntoElement",
+  "description": "Scrolls to a web element.",
+  "disname": "Scroll to Element",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-40",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.956Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d95b"
+  },
+  "id": 139,
+  "code": "AC-139",
+  "name": "getElementCSSAndStore",
+  "description": "Gets CSS of an element and stores the fetched value in runtime parameter.",
+  "disname": "Get Element CSS and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Property Name",
+      "type": "String",
+      "param_description": "Property name to store the CSS of web element.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the CSS of web element.",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "web-20",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.959Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d95c"
+  },
+  "id": 140,
+  "code": "AC-140",
+  "name": "Store from JSON",
+  "description": "Gets value of the specified key in JSON and store the value in runtime parameter",
+  "disname": "Store from JSON",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Json",
+      "type": "String",
+      "param_description": "Base JSON in which value needs to be fetched",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Key",
+      "type": "String",
+      "param_description": "Key is the JSON path for a particular key in the JSON for which value needs to be fetched",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the value from JSON",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-18",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.961Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d95d"
+  },
+  "id": 141,
+  "code": "AC-141",
+  "name": "elementIsChecked",
+  "description": "Verifies if element is checked.",
+  "disname": "Element is Checked",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-26",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.963Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d95e"
+  },
+  "id": 142,
+  "code": "AC-142",
+  "name": "closeApp",
+  "description": "Closes the ios App",
+  "disname": "Close App",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-14",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.964Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d95f"
+  },
+  "id": 143,
+  "code": "AC-143",
+  "name": "screenLockStatus",
+  "description": "Locks the ios device screen",
+  "disname": "Screen Lock Status",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-30",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.966Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d960"
+  },
+  "id": 144,
+  "code": "AC-144",
+  "name": "unlock",
+  "description": "Unlocks the android device screen",
+  "disname": "Unlock",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Type",
+      "type": "String",
+      "param_description": "Type of lock that is used",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Password",
+      "type": "String",
+      "param_description": "Actual password of the device",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-32",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.968Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d961"
+  },
+  "id": 145,
+  "code": "AC-145",
+  "name": "waitUntilElementNotPresent",
+  "description": "Waits for the element until the element is not present on the screen \n Maxtimeout to stop waiting would be 'exist_timeout'\n",
+  "disname": "Wait until Element is not Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-39",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.971Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d962"
+  },
+  "id": 146,
+  "code": "AC-146",
+  "name": "scrollToBottom",
+  "description": "Scrolls towards bottom of the ios device",
+  "disname": "Scroll to Bottom",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-19",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.973Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d963"
+  },
+  "id": 147,
+  "code": "AC-147",
+  "name": "minimise",
+  "description": "Minimises the browser window.",
+  "disname": "Minimise",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-6",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.974Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d964"
+  },
+  "id": 148,
+  "code": "AC-148",
+  "name": "subtractionOfValues",
+  "description": "Performs subtraction of values and stores the final value in runtime parameter. parameter n - n number of parameters can be added parameter n-1 - The last parameter would be the expected value ",
+  "disname": "Subtraction of Values",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Param n-1, Param n",
+      "type": "Varargs",
+      "param_description": "n-1 number of parameters that needs to subtracted nth or last parameter would be the runtime parameter name to store the final value ",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-15",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Arithmetic Operations",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.978Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d965"
+  },
+  "id": 149,
+  "code": "AC-149",
+  "name": "executeQuery",
+  "description": "Executes a given query on the connected database.",
+  "disname": "Execute Query",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Query",
+      "type": "String",
+      "param_description": "Database query that needs to be executed.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-2",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Query Execution",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.979Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d966"
+  },
+  "id": 150,
+  "code": "AC-150",
+  "name": "clickIfExist",
+  "description": "Clicks on an element if the element is present. \\n If element is not present, then the timeout would be 'exist_timeout' set in user preference or test case settings.",
+  "disname": "Click if Element is Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-4",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.981Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d967"
+  },
+  "id": 151,
+  "code": "AC-151",
+  "name": "additionOfValues",
+  "description": "Performs addition of values and stores the final value in runtime parameter parameter n - n number of parameters can be added parameter n-1 - The last parameter would be the expected value ",
+  "disname": "Addition of Values",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Param n-1, Param n",
+      "type": "Varargs",
+      "param_description": "n-1 number of parameters that needs to summed nth or last parameter would be the runtime parameter name to store the final value ",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-16",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Arithmetic Operations",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.982Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d968"
+  },
+  "id": 152,
+  "code": "AC-152",
+  "name": "readFileAndStore",
+  "description": "Read data from a text file and store the data in runtime parameter",
+  "disname": "Read File and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filepath",
+      "type": "String",
+      "param_description": "Filepath of a text file from which data needs to be stored",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name in which data needs to be stored",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-7",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.985Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d969"
+  },
+  "id": 153,
+  "code": "AC-153",
+  "name": "launchApplication",
+  "description": "Launches the browser with specified URL and specified browser capabilities ",
+  "disname": "Go to URL",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "URL",
+      "type": "String",
+      "param_description": "URL of the web application",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Capabilities",
+      "type": "String",
+      "param_description": "Browser capabilities in JSON format",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-56",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.987Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d96a"
+  },
+  "id": 154,
+  "code": "AC-154",
+  "name": "StartApp",
+  "description": "Starts the application in ios device",
+  "disname": "Start App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Bundle Id",
+      "type": "String",
+      "param_description": "Bundle Name of the application that needs to be launched",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-11",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.988Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d96b"
+  },
+  "id": 155,
+  "code": "AC-155",
+  "name": "executeRestAPI",
+  "description": " Executes REST API for authorisation type 'Basic Auth'",
+  "disname": "Execute Rest API",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Base URI",
+      "type": "String",
+      "param_description": "Endpoint URI of the REST API ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Method",
+      "type": "String",
+      "param_description": "HTTP method of the REST API",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Header",
+      "type": "String",
+      "param_description": "Request header needs to be added in JSON format in a parameter of type JSON ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Query params",
+      "type": "String",
+      "param_description": "Query params needs to be added in JSON format in a parameter of type JSON",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Request body",
+      "type": "String",
+      "param_description": "Request body needs to be added in JSON format in a parameter of type JSON. If request body is of XML can be added as a text in test data ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Username",
+      "type": "String",
+      "param_description": "Username to be specified in a parameter",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Password",
+      "type": "String",
+      "param_description": "Password to be specified in a parameter",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter 1",
+      "type": "String",
+      "param_description": "Runtime parameter 1 is to store the response body in JSON format",
+      "runtimeParameter": true
+    },
+    {
+      "name": "Runtime parameter 2",
+      "type": "String",
+      "param_description": "Runtime parameter 2 is to store the response code",
+      "runtimeParameter": true
+    },
+    {
+      "name": "Runtime parameter 3",
+      "type": "String",
+      "param_description": "Runtime parameter 3 is to store the response message",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-37",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Deprecated",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.990Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d96c"
+  },
+  "id": 156,
+  "code": "AC-156",
+  "name": "insertData",
+  "description": "Inserts values to the specified table.",
+  "disname": "Insert Data",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Table",
+      "type": "String",
+      "param_description": "The name of the table where data is to be inserted.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Values",
+      "type": "String",
+      "param_description": "The values or data to be inserted.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-8",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.991Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d96d"
+  },
+  "id": 157,
+  "code": "AC-157",
+  "name": "waitUntilElementPresent",
+  "description": "Waits for the element until the element is present on the screen.Max timeout to stop waiting would be 'exist_timeout'.",
+  "disname": "Wait until Element is Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-44",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Waits",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.993Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d96e"
+  },
+  "id": 158,
+  "code": "AC-158",
+  "name": "getTime",
+  "description": " Gets time in specified time format and stores the value in runtime parameter",
+  "disname": "Get Time",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Time",
+      "type": "String",
+      "param_description": "Data for this parameter would be as follows: 'now' - gets current time 'now+1' - gets 1 hour from now Similarly, 'now+n','now-n' would get the respective time",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Time format",
+      "type": "String",
+      "param_description": "Time format would be the format in which time needs to be generated ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Meridiem",
+      "type": "String",
+      "param_description": "Meridiem that needs to be concatenated with the generated time as suffix to be added in this parameter ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the date and time generated",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-35",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Date Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.994Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d96f"
+  },
+  "id": 159,
+  "code": "AC-159",
+  "name": "connectToMongoDb",
+  "description": "Establishes a connection to a MongoDB instance using the provided connection string.",
+  "disname": "Connect To MongoDb",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Connection String",
+      "type": "String",
+      "param_description": "The string required to establish a connection to a MongoDB instance.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-19",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Database Connection",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.996Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d970"
+  },
+  "id": 160,
+  "code": "AC-160",
+  "name": "toggleBluetooth",
+  "description": "Toggles bluetooth to a specified mode.",
+  "disname": "Toggle Bluetooth",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Bluetooth Status",
+      "type": "String",
+      "param_description": "\nValue to this parameter would be 'TRUE' or 'FALSE' \nTRUE - turns on bluetooth\nFALSE - turns of bluetooth\nIf TRUE is used but already bluetooth is ON, it would just return true without performing anything.\nIf FALSE is used but already bluetooth is OFF, it would just return false without performing anything. ",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-48",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.997Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d971"
+  },
+  "id": 161,
+  "code": "AC-161",
+  "name": "isLocked",
+  "description": "Verifies if the device is locked. Returns true if device is locked, otherwise returns false. If true is returned, the step is considered passed; else, it fails.",
+  "disname": "Verify Screen Lock Status",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-43",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:29:59.999Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d972"
+  },
+  "id": 162,
+  "code": "AC-162",
+  "name": "airplaneModeStatus",
+  "description": "Verifies the status of the Airplane Mode(enabled/disabled). Returns true if airplane mode is enabled, otherwise returns false. If true is returned, the step is considered passed; else, it fails.\n",
+  "disname": "Verify Airplane Mode Status",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-40",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.000Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d973"
+  },
+  "id": 163,
+  "code": "AC-163",
+  "name": "updateDocuments",
+  "description": "Updates documents in a specified collection and database according to the given filter and update criteria, then stores the number of documents that were updated.",
+  "disname": "Update Documents",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Database Name",
+      "type": "String",
+      "param_description": "The name of the database where the documents are to be updated.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Collection Name",
+      "type": "String",
+      "param_description": "The name of the collection where the documents are to be updated.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Filter",
+      "type": "String",
+      "param_description": "The filter criteria to identify which documents to update.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Update",
+      "type": "String",
+      "param_description": "The document that needs to be updated in the specified collection within the given database and filter criteria.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Update Type",
+      "type": "String",
+      "param_description": "Specifies the type of update (i.e., ONE/MANY).",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "Runtime",
+      "param_description": "Stores the count of documents updated.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-14",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.003Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d974"
+  },
+  "id": 164,
+  "code": "AC-164",
+  "name": "click",
+  "description": "Clicks on an element",
+  "disname": "Click",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-3",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Click",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.005Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d975"
+  },
+  "id": 165,
+  "code": "AC-165",
+  "name": "getItemsFromDropdownAndStore",
+  "description": "Gets all the items from the dropdown and stores the fetched value as comma separated values in runtime parameter.",
+  "disname": "Get Items from Dropdown and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the values in dropdown.",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "web-39",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Dropdown",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.007Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d976"
+  },
+  "id": 166,
+  "code": "AC-166",
+  "name": "comparePartialStringByIgnoreChar",
+  "description": "Compares actual value with the expected value partially by ignoring the specified string. If actual value contains expected value then the step passes/returns true ",
+  "disname": "Compare Partial String by Ignore Character",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Base string",
+      "type": "String",
+      "param_description": "Base string in which expected value needs to be partially compared",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Value to validate",
+      "type": "String",
+      "param_description": "Expected value that needs to be verified in base string",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Ignore character",
+      "type": "String",
+      "param_description": "Character that needs to be ignored while comparing base string and expected value",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-28",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.010Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d977"
+  },
+  "id": 167,
+  "code": "AC-167",
+  "name": "validateAlertText",
+  "description": "Verifies text in browser alert with the expected value. Actual value would be the value fetched from the alert. Expected value can be a local( which should be added in test data) or runtime parameter.",
+  "disname": "Validate Text in Alert",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Expected value",
+      "type": "String",
+      "param_description": "Expected value to verify against actual value fetched from the web element.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-13",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Alert Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.014Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d978"
+  },
+  "id": 168,
+  "code": "AC-168",
+  "name": "scrollToTop",
+  "description": "Scrolls towards the top of the android device.",
+  "disname": "Scroll to Top",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-12",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Scroll",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.017Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d979"
+  },
+  "id": 169,
+  "code": "AC-169",
+  "name": "rotateScreen",
+  "description": "Rotates the screen to the specified mode.",
+  "disname": "Rotate Screen",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Orientation",
+      "type": "String",
+      "param_description": "orientation to which the device needs to be rotated",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-37",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.023Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d97a"
+  },
+  "id": 170,
+  "code": "AC-170",
+  "name": "textToSpeech",
+  "description": " This action simulates the boice for the given text",
+  "disname": "Voice simulator",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Voice",
+      "type": "String",
+      "param_description": "Text to simulate the voice",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-40",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Deprecated",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.030Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d97b"
+  },
+  "id": 171,
+  "code": "AC-171",
+  "name": "getISODateAndTime",
+  "description": " Gets date and time in ISO format and stores the value in runtime parameter",
+  "disname": "Get ISO Date and Time",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Date",
+      "type": "String",
+      "param_description": "Data for this parameter would be as follows: 'today' - gets today's date 'today+1' - gets tomorrow's date 'today-1' - gets yesterday's date Similarly, 'today+n','today-n' would get the respective date",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Time",
+      "type": "String",
+      "param_description": "Data for this parameter would be as follows:  'now' - gets current time 'now+1' - gets 1 hour from now Similarly, 'now+n','now-n' would get the respective time",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the date and time generated",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-33",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Date Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.034Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d97c"
+  },
+  "id": 172,
+  "code": "AC-172",
+  "name": "readDocuments",
+  "description": "Reads documents from the specified collection and stores the list of documents.",
+  "disname": "Read Documents",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Collection Name",
+      "type": "String",
+      "param_description": "The name of the collection where the documents are to be read from.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "Runtime",
+      "param_description": "Stores the list of documents read from the specified collection.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-15",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Retrieval",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.036Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d97d"
+  },
+  "id": 173,
+  "code": "AC-173",
+  "name": "enterText",
+  "description": "Types text in an ios element",
+  "disname": "Type Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Value to enter",
+      "type": "String",
+      "param_description": "Value to enter in the input box",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-2",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Type Text",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.042Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d97e"
+  },
+  "id": 174,
+  "code": "AC-174",
+  "name": "readCookieAndStore",
+  "description": "Reads a cookie from [param_name_1] from the browser and stores its value into [param_name_2].",
+  "disname": "Read Cookie and Store Value",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "cookieName",
+      "type": "String",
+      "param_description": "The name of the cookie that is to be retrieved from the browser.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "runtimeParameter",
+      "type": "Runtime",
+      "param_description": "Stores the retrieved cookie value",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-58",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.051Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d97f"
+  },
+  "id": 175,
+  "code": "AC-175",
+  "name": "closeApp",
+  "description": "Closes the android app.",
+  "disname": "Close App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Package Name",
+      "type": "String",
+      "param_description": "Package Name of the application that needs to be closed.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-10",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.060Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d980"
+  },
+  "id": 176,
+  "code": "AC-176",
+  "name": "getTextAndStore",
+  "description": "Gets attribute value and store in runtime parameter. Attribute name should be added in test data.",
+  "disname": "Get Text and Store",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Attribute name",
+      "type": "String",
+      "param_description": "Get Text and Store",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-28",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.063Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d981"
+  },
+  "id": 177,
+  "code": "AC-177",
+  "name": "readDocuments",
+  "description": "Reads documents from the specified collection and database, then stores the list of documents.",
+  "disname": "Read Documents",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Database Name",
+      "type": "String",
+      "param_description": "The name of the database where the documents are to be read from.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Collection Name",
+      "type": "String",
+      "param_description": "The name of the collection where the documents are to be read from.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "Runtime",
+      "param_description": "Stores the list of documents read from the specified collection and database.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-16",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Retrieval",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.069Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d982"
+  },
+  "id": 178,
+  "code": "AC-178",
+  "name": "startApp",
+  "description": "Starts the application in the same state as in android device.",
+  "disname": "Start App",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Param n-1, Param n",
+      "type": "Varargs",
+      "param_description": "if n=2 means local Executionif n=3 means cloud Execution",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "android-1",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.074Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d983"
+  },
+  "id": 179,
+  "code": "AC-179",
+  "name": "getCellDataFromExcel",
+  "description": "Gets value from the specified cell in an excel and stores in runtime parameter",
+  "disname": "Get Cell Data from Excel",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Filepath",
+      "type": "String",
+      "param_description": "Filepath of an excel file ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Sheetname",
+      "type": "String",
+      "param_description": "Name of the sheet",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Cell reference",
+      "type": "String",
+      "param_description": "Cell reference from which value needs to be fetched. For Ex: A10, M2, etc",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter to store the fetched value",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-1",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "File Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.080Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d984"
+  },
+  "id": 180,
+  "code": "AC-180",
+  "name": "clickByCoordinates",
+  "description": "Clicks on an element by x and y co-ordinates.",
+  "disname": "Click by Co-ordinates",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "x",
+      "type": "Int",
+      "param_description": "x co-ordinates",
+      "runtimeParameter": false
+    },
+    {
+      "name": "y",
+      "type": "Int",
+      "param_description": "y co-ordinates",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-37",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Click",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.085Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d985"
+  },
+  "id": 181,
+  "code": "AC-181",
+  "name": "switchToFrame",
+  "description": "Switches to the specified iFrame. iFrame should be added as an object properties.",
+  "disname": "Switch to iFrame",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-47",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.090Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d986"
+  },
+  "id": 182,
+  "code": "AC-182",
+  "name": "clickIfExist",
+  "description": "Clicks on an element if the element is present. \\n If element is not present, then the timeout would be 'exist_timeout' set in user preference or test case settings.",
+  "disname": "Click if Element is Present",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "ios-25",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.095Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d987"
+  },
+  "id": 183,
+  "code": "AC-183",
+  "name": "launchApplication",
+  "description": "Launches the browser with specified URL",
+  "disname": "Go to URL",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "URL",
+      "type": "String",
+      "param_description": "URL of the web application",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-1",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Browser Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.097Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d988"
+  },
+  "id": 184,
+  "code": "AC-184",
+  "name": "click",
+  "description": "Clicks on an element.",
+  "disname": "Click",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-22",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Click",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.102Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d989"
+  },
+  "id": 185,
+  "code": "AC-185",
+  "name": "verifyAdditionOfValues",
+  "description": "Verifies addition of values.parameter n - n number of parameters can be added parameter n-1 - The last parameter would be the expected value ",
+  "disname": "Verify Addition of Values",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Param n-1 Param n ",
+      "type": "Varargs",
+      "param_description": "n-1 number of parameters that needs to summed nth or last parameter would be the expected value that needs to be verified with the actual valueExpected value = param1+param2+…+param (n-1)",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-25",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.108Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d98a"
+  },
+  "id": 186,
+  "code": "AC-186",
+  "name": "updateDocuments",
+  "description": "Updates documents in a specified collection and database according to the given filter and update criteria, then stores the number of documents that were updated.",
+  "disname": "Update Documents",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Collection Name",
+      "type": "String",
+      "param_description": "The name of the collection where the documents are to be updated.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Filter",
+      "type": "String",
+      "param_description": "The filter criteria to identify which documents to update.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Update",
+      "type": "String",
+      "param_description": "The document that needs to be updated in the specified collection within the given database and filter criteria.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Update Type",
+      "type": "String",
+      "param_description": "Specifies the type of update (i.e., ONE/MANY).",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime Parameter",
+      "type": "Runtime",
+      "param_description": "Stores the count of documents updated.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-12",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.111Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d98b"
+  },
+  "id": 187,
+  "code": "AC-187",
+  "name": "compareJson",
+  "description": "Compares the two specified JSON objects.",
+  "disname": "Compare Json",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Actual",
+      "type": "String",
+      "param_description": "The actual JSON object that is being compared with the expected JSON object.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Expected",
+      "type": "String",
+      "param_description": "The expected JSON object that is compared with the actual JSON object.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-41",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.117Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d98c"
+  },
+  "id": 188,
+  "code": "AC-188",
+  "name": "generateCustomDateAndTime",
+  "description": " Gets custom date and time w.r.t., date, time and date-time format and stores the value in runtime parameter",
+  "disname": "Generate Custom Date and Time",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Date",
+      "type": "String",
+      "param_description": "Data for this parameter would be as follows: 'today' - gets today's date 'today+1' - gets tomorrow's date 'today-1' - gets yesterday's date Similarly, 'today+n','today-n' would get the respective date",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Date format",
+      "type": "String",
+      "param_description": "Date format would be the format in which date needs to be generated ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Time",
+      "type": "String",
+      "param_description": "Data for this parameter would be as follows: 'now' - gets current time 'now+1' - gets 1 hour from now Similarly, 'now+n','now-n' would get the respective time",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Meridiem",
+      "type": "String",
+      "param_description": "Meridiem that needs to be concatenated with the generated time as suffix to be added in this parameter ",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Runtime parameter",
+      "type": "String",
+      "param_description": "Runtime parameter name to store the date and time generated",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-32",
+  "objectRequired": false,
+  "deprecated": true,
+  "groupName": "Date Handlers",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.129Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d98d"
+  },
+  "id": 189,
+  "code": "AC-189",
+  "name": "keyboardAction",
+  "description": "Actions to simulate interactions with an application through the keyboard.",
+  "disname": "Keyboard Events",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Keys",
+      "type": "Varargs",
+      "param_description": "A sequence of keyboard keys to perform. Keys should be provided as strings and are case-insensitive.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "generic-54",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Keyboard Events",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.137Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d98e"
+  },
+  "id": 190,
+  "code": "AC-190",
+  "name": "updateDocuments",
+  "description": "Updates documents in a specified collection and database based on the provided filter and update type criteria.",
+  "disname": "Update Documents",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Database Name",
+      "type": "String",
+      "param_description": "The name of the database where the documents are to be updated.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Collection Name",
+      "type": "String",
+      "param_description": "The name of the collection where the documents are to be updated.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Filter",
+      "type": "String",
+      "param_description": "The filter criteria to identify which documents to update.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Update",
+      "type": "String",
+      "param_description": "The document that needs to be updated in the specified collection within the given database and filter criteria.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Update Type",
+      "type": "String",
+      "param_description": "Specifies the type of update (i.e., ONE/MANY).",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "db-13",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Data Manipulation",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.143Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d98f"
+  },
+  "id": 191,
+  "code": "AC-191",
+  "name": "closeConnection",
+  "description": "Closes the connection to the database.",
+  "disname": "Close Connection",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "db-18",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Database Connection",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.149Z"
+  },
+  "deleted": false,
+  "objectTemplate": 2,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d990"
+  },
+  "id": 192,
+  "code": "AC-192",
+  "name": "validatePartialText",
+  "description": "Verifies text with expected value partially. Actual value would be the value fetched from the web application. Expected value can be a local, global( which should be added in test data) or runtime parameter",
+  "disname": "Validate Partial Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Expected value",
+      "type": "String",
+      "param_description": "Expected value to verify against actual value fetched from a web element.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-33",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.158Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d991"
+  },
+  "id": 193,
+  "code": "AC-193",
+  "name": "unCheckIfChecked",
+  "description": "Unchecks the element if it is currently checked.",
+  "disname": "Uncheck Element if Checked",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-60",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.162Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d992"
+  },
+  "id": 194,
+  "code": "AC-194",
+  "name": "elementIsNotChecked",
+  "description": "Verifies if element is not checked.",
+  "disname": "Element is not Checked",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-32",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.165Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d993"
+  },
+  "id": 195,
+  "code": "AC-195",
+  "name": "leftClick",
+  "description": "Performs left click of the mouse on the specified element.",
+  "disname": "Left Click",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-51",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Mouse Events",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.172Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d994"
+  },
+  "id": 196,
+  "code": "AC-196",
+  "name": "clickUsingJS",
+  "description": "Clicks on an element using javascript.",
+  "disname": "Click Using JS",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "web-35",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Click",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.177Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d995"
+  },
+  "id": 197,
+  "code": "AC-197",
+  "name": "openNotification",
+  "description": "Opens notifications panel in the android device",
+  "disname": "Open Notifications",
+  "type": "FRAMEWORK",
+  "parameters": [],
+  "uniqueId": "android-33",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Device Ops",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.183Z"
+  },
+  "deleted": false,
+  "objectTemplate": 1,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d996"
+  },
+  "id": 198,
+  "code": "AC-198",
+  "name": "storeToRuntime",
+  "description": "Stores the specific value in runtime parameter",
+  "disname": "Store to Runtime",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Value",
+      "type": "String",
+      "param_description": "Value to be stored in runtime parameter.",
+      "runtimeParameter": false
+    },
+    {
+      "name": "Key",
+      "type": "String",
+      "param_description": "Key is a runtime parameter key against which value needs to be stored.",
+      "runtimeParameter": true
+    }
+  ],
+  "uniqueId": "generic-24",
+  "objectRequired": false,
+  "deprecated": false,
+  "groupName": "Get and Store",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.202Z"
+  },
+  "deleted": false,
+  "objectTemplate": 4,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d997"
+  },
+  "id": 199,
+  "code": "AC-199",
+  "name": "validateText",
+  "description": "Verifes text with expected value. \\n Actual value would be the value fetched from the web application. \\n Expected value can be a local, global( which should be added in test data) or runtime parameter\n",
+  "disname": "Validate Text",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Expected value",
+      "type": "String",
+      "param_description": "Expected value to verify against actual value fetched from the ios element",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "ios-9",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Assertions",
+  "doubleShiftEnabled": false,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.221Z"
+  },
+  "deleted": false,
+  "objectTemplate": 3,
+  "projectId": 0
+},
+{
+  "_id": {
+    "$oid": "699f076827ba6dd0a797d998"
+  },
+  "id": 200,
+  "code": "AC-200",
+  "name": "selectItemFromDropdown",
+  "description": "Selects item from dropdown. Value to select should be added in test data.",
+  "disname": "Select Item from Dropdown",
+  "type": "FRAMEWORK",
+  "parameters": [
+    {
+      "name": "Value to select",
+      "type": "String",
+      "param_description": "Value to select from the dropdown.",
+      "runtimeParameter": false
+    }
+  ],
+  "uniqueId": "web-38",
+  "objectRequired": true,
+  "deprecated": false,
+  "groupName": "Dropdown",
+  "doubleShiftEnabled": true,
+  "customerId": 1,
+  "createdBy": 1,
+  "createdAt": {
+    "$date": "2026-02-25T14:30:00.232Z"
+  },
+  "deleted": false,
+  "objectTemplate": 5,
+  "projectId": 0
+}]

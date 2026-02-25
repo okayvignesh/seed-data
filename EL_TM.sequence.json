@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "699f07677c1e929eb38b0fd9"
+  },
+  "customerId": 1,
+  "collectionName": "action",
+  "seq": 200
+},
+{
+  "_id": {
+    "$oid": "699f07687c1e929eb38b0fda"
+  },
+  "customerId": 1,
+  "collectionName": "object_templates",
+  "seq": 5
+}]
